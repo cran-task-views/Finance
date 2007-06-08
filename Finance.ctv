@@ -1,0 +1,195 @@
+<CRANTaskView>
+
+  <name>Finance</name>
+  <topic>Empirical Finance</topic>
+  <maintainer>Dirk Eddelbuettel</maintainer>
+  
+  <info>
+    <p>
+    This CRAN Task View contains a list of packages useful for
+    empirical work in Finance, grouped by topic. 
+    </p>
+    <p>
+    Besides these packages, a very wide variety of functions suitable for
+    empirical work in Finance is provided by both the basic R 
+    system (and its set of recommended core packages), and a number of
+    other packages on the Comprehensive R Archive Network (CRAN). 
+    Consequently, several of the other CRAN Task Views may contain suitable
+    packages, in particular the <view>Econometrics</view> Task View.
+    </p>
+    <p>
+    Please send suggestions for additions and extensions for this task
+    view to the 
+    <a href="mailto:Dirk.Eddelbuettel@R-project.org">task view maintainer</a>.
+    </p>
+   
+    <ul>
+      <li><b>Standard regression models</b>: 
+          Linear models such as ordinary least squares (OLS) can be estimated
+          by <tt>lm()</tt>
+          (from by the stats package contained in the basic R
+          distribution). Maximum Likelihood (ML) estimation can be undertaken
+          with the <tt>optim()</tt> function. Non-linear least squares can
+	  be estimated with the <tt>nls()</tt> function, as well as with
+	  <tt>nlme()</tt> from the <pkg>nlme</pkg> package. For the
+	  linear model, a
+          variety of regression diagnostic tests 
+          are provided by the <pkg>car</pkg>, <pkg>lmtest</pkg>,
+          <pkg>strucchange</pkg>, <pkg>urca</pkg>, <pkg>uroot</pkg>,
+	  and <pkg>sandwich</pkg> packages. The <pkg>Rcmdr</pkg> and 
+          <pkg>Zelig</pkg> packages provide user interfaces that may be of
+          interest as well.</li>
+      <li><b>Time series</b>: Classical time series functionality is provided
+          by the <tt>arima()</tt> and <tt>KalmanLike()</tt>commands in the
+          basic R distribution.  
+	  The <pkg>dse</pkg> packages provides a variety of more
+	  advanced estimation methods; <pkg>fracdiff</pkg> can
+	  estimate fractionally integrated series; <pkg>longmemo</pkg> covers
+	  related material; <pkg>FracSim</pkg> simulates fractional Levy
+          series. For volatily 
+	  modeling, the standard GARCH(1,1) model can be estimated with the 
+	  <tt>garch()</tt> function in the <pkg>tseries</pkg> package. Unit
+          root and cointegration tests are provided by <pkg>tseries</pkg>,
+	  <pkg>urca</pkg> and <pkg>uroot</pkg>.
+	  The Rmetrics packages <pkg>fSeries</pkg> and
+          <pkg>fMultivar</pkg> contain a number of estimation functions for 
+          ARMA, GARCH, long memory models, unit roots and more. 
+	  The <pkg>ArDec</pkg> implements autoregressive time series 
+	  decomposition in a Bayesian framework; <pkg>MSBVAR</pkg> provides 
+	  Bayesian estimation of vector autoregressive models.  
+	  The <pkg>vars</pkg> package offer estimation, diagnostics,
+	  forecasting and error decomposition of VAR and SVAR model in a
+          classical framework.
+          The <pkg>dyn</pkg> and 
+	  <pkg>dynlm</pkg> are suitable for dynamic (linear) regression models.
+      	  Several packages provide wavelet analysis 
+	  functionality: <pkg>rwt</pkg>, <pkg>wavelets</pkg>, 
+          <pkg>waveslim</pkg>, <pkg>wavethresh</pkg>. Some methods from chaos 
+          theory are provided by the package <pkg>tseriesChaos</pkg>, and
+          <pkg>tsDyn</pkg> adds time-series analysis based on dynamical
+          systems therory. 
+	  The <pkg>forecasting</pkg> bundle adds functions and dataset for
+          forecasting problems.
+          </li> 
+      <li><b>Finance:</b>The Rmetrics bundle comprised of the
+          <pkg>fBasics</pkg>, <pkg>fCalendar</pkg>, <pkg>fSeries</pkg>, 
+          <pkg>fMultivar</pkg>, <pkg>fPortfolio</pkg>, <pkg>fOptions</pkg>
+          and <pkg>fExtremes</pkg> packages contains a very large number of 
+          relevant functions for different aspect of empirical and
+          computational finance.  The <pkg>RQuantLib</pkg> package
+          provides several option-pricing functions as well as some 
+          fixed-income functionality from the QuantLib project to R.
+          The <pkg>portfolio</pkg> package contains classes for equity 
+	  portfolio management; the <pkg>portfolioSim</pkg> builds a 
+	  related simulation framework. 
+          The <pkg>backtest</pkg> offers tools to  
+	  explore portfollio-based hypotheses about financial instruments.
+ 	  The <pkg>financial</pkg> package can compute present values, cash
+	  flows and other simple finance calculations.
+          </li>
+      <li><b>Risk Management:</b>The <pkg>VaR</pkg> package estimates
+          Value-at-Risk, and several packages provide functionality for 
+          Extreme Value Theory models: <pkg>evd</pkg>, <pkg>evdbayes</pkg>, 
+          <pkg>evir</pkg>, <pkg>extRremes</pkg>, <pkg>ismec</pkg>, 
+          <pkg>POT</pkg>.  The <pkg>CreditMetrics</pkg> package provides 
+	  functions for Credit Risk modeling.
+          The <pkg>mvtnorm</pkg> 
+          package provides code for multivariate Normal and t-distributions.
+          The Rmetrics packages <pkg>fPortfolio</pkg> and 
+          <pkg>fExtremes</pkg> also contain a number of relevant functions.
+	  The <pkg>copula</pkg> and <pkg>fgac</pkg> packages cover 
+          multivariate dependency structures using copula methods.
+	  The <pkg>actuar</pkg> package provides an actuarial
+	  perspective to risk management
+          </li>
+      <li><b>Data and Date Management:</b>The <pkg>its</pkg>,
+          <pkg>zoo</pkg> and
+          <pkg>fCalendar</pkg> (part of Rmetrics) packages provide support for
+          irregularly-spaced time series. <pkg>fCalendar</pkg> also addresses
+          calendar issues such as recurring holidays for a large number of
+          financial centers, and provides code for high-frequency data sets.
+	  The <pkg>RBloomberg</pkg> package can access Bloomberg data (but
+	  requires a Bloomberg installations on a Windows PC).
+          </li>
+    </ul>
+    <p>
+    <small>Last updated on $Date: 2006/12/10 19:10:52 $.</small>
+    </p>
+  </info>
+
+  <packagelist>
+    <pkg>actuar</pkg>
+    <pkg>ArDec</pkg>
+    <pkg>backtest</pkg>
+    <pkg>car</pkg>
+    <pkg>copula</pkg>
+    <pkg>CreditMetrics</pkg>
+    <pkg>dse</pkg>
+    <pkg>dyn</pkg>
+    <pkg>dynlm</pkg>
+    <pkg>evd</pkg>
+    <pkg>evdbayes</pkg>
+    <pkg>evir</pkg>
+    <pkg>extRemes</pkg>
+    <pkg>fgac</pkg>
+    <pkg>financial</pkg>
+    <pkg priority="core">fBasics</pkg>
+    <pkg priority="core">fCalendar</pkg>
+    <pkg priority="core">fExtremes</pkg>
+    <pkg priority="core">fOptions</pkg>
+    <pkg priority="core">fPortfolio</pkg>
+    <pkg priority="core">fMultivar</pkg>
+    <pkg>forecasting</pkg>
+    <pkg>fracdiff</pkg>
+    <pkg>FracSim</pkg>
+    <pkg priority="core">fSeries</pkg>
+    <pkg>ismev</pkg>
+    <pkg priority="core">its</pkg>    
+    <pkg>lmtest</pkg>
+    <pkg>longmemo</pkg>
+    <pkg>MSBVAR</pkg>
+    <pkg>mvtnorm</pkg>
+    <pkg>portfolio</pkg>
+    <pkg>portfolioSim</pkg>
+    <pkg>POT</pkg>
+    <pkg>RBloomberg</pkg>
+    <pkg>Rcmdr</pkg>
+    <pkg priority="core">RQuantLib</pkg>
+    <pkg>sandwich</pkg>
+    <pkg>strucchange</pkg>
+    <pkg priority="core">tseries</pkg>
+    <pkg>tsDyn</pkg>
+    <pkg>tseriesChaos</pkg>
+    <pkg priority="core">urca</pkg>
+    <pkg>uroot</pkg>
+    <pkg>VaR</pkg>
+    <pkg>vars</pkg>
+    <pkg>rwt</pkg> 
+    <pkg>wavelets</pkg>
+    <pkg>waveslim</pkg>
+    <pkg>wavethresh</pkg> 
+    <pkg>Zelig</pkg>
+    <pkg priority="core">zoo</pkg>    
+  </packagelist>
+
+  <links>
+    <view>Econometrics</view>
+    <view>MultiVariate</view>
+    <view>SocialSciences</view>
+    <a href="http://www.rmetrics.org">Rmetrics by Diethelm Wuertz contains a wealth of R code for Finance</a>
+    <a href="http://www.quantlib.org">Quantlib is a C++ library for quantitative finance</a>
+    <a href="https://www.stat.math.ethz.ch/mailman/listinfo/R-SIG-Finance/">Mailing list: R Special Interest Group Finance</a>
+    <a href="http://www.russell.com/US/Indexes/US/index_values.asp">Russell
+    indexes data</a>
+    <a href="http://www.msci.com/us/indexperf/index.html">MSCI indexes data</a>
+    <a href="http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html">French/Fama data</a>
+    <a href="http://www.wilshire.com/Indexes/calculator/">Wilshire indexes data</a>
+    <a href="http://www.barra.com/Research/DownloadMonthlyReturns.aspx">Barra
+    indexes data</a>
+    <a href="http://orfe.princeton.edu/~rcarmona/maindownload.html">Rene Carmona</a>
+    <a href="http://faculty.washington.edu/ezivot/splus.htm">Eric Zivot</a>
+    <a href="http://www.stat.tamu.edu/~ljin/Finance/stat689-R.htm">R Code for
+    Ruppert's 'Statistics and Finance'</a>
+  </links>
+
+</CRANTaskView>
