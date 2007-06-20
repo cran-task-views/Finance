@@ -76,7 +76,9 @@
           <pkg>fMultivar</pkg>, <pkg>fPortfolio</pkg>, <pkg>fOptions</pkg>
           and <pkg>fExtremes</pkg> packages contains a very large number of 
           relevant functions for different aspect of empirical and
-          computational finance.  The <pkg>RQuantLib</pkg> package
+          computational finance.  The <pkg>PerformanceAnalytics</pkg> package
+          contains another large number of function for portfolio-oriented
+          performance and risk analysis.  The packages The <pkg>RQuantLib</pkg> package
           provides several option-pricing functions as well as some 
           fixed-income functionality from the QuantLib project to R.
           The <pkg>portfolio</pkg> package contains classes for equity 
@@ -113,7 +115,7 @@
           </li>
     </ul>
     <p>
-    <small>Last updated on $Date: 2006/12/10 19:10:52 $.</small>
+    <small>Last updated on $Date: 2007/06/13 02:35:24 $.</small>
     </p>
   </info>
 
@@ -149,6 +151,7 @@
     <pkg>longmemo</pkg>
     <pkg>MSBVAR</pkg>
     <pkg>mvtnorm</pkg>
+    <pkg priority="core">PerformanceAnalytics</pkg>
     <pkg>portfolio</pkg>
     <pkg>portfolioSim</pkg>
     <pkg>POT</pkg>
@@ -190,6 +193,7 @@
     <a href="http://faculty.washington.edu/ezivot/splus.htm">Eric Zivot</a>
     <a href="http://www.stat.tamu.edu/~ljin/Finance/stat689-R.htm">R Code for
     Ruppert's 'Statistics and Finance'</a>
+    <a href="http://www.decisionsynergy.com/showPackageDownload.html">FinancePack and FractalPack</a>
   </links>
 
 </CRANTaskView>
