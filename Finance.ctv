@@ -87,7 +87,7 @@
           QuantLib project to R.  The <pkg>portfolio</pkg> package contains
           classes for equity portfolio management; the
           <pkg>portfolioSim</pkg> builds a related simulation framework and
-	  <pkg>tradeCost</pkg> estimates the potential impact of trades on
+	  <pkg>tradeCosts</pkg> estimates the potential impact of trades on
 	  the prevalent market prices. 
           The <pkg>backtest</pkg> offers tools to  
 	  explore portfollio-based hypotheses about financial instruments.
@@ -141,7 +141,6 @@
     <pkg>extRemes</pkg>
     <pkg>fgac</pkg>
     <pkg>financial</pkg>
-    <pkg priority="core">fMetrics</pkg>
     <pkg priority="core">fBasics</pkg>
     <pkg priority="core">fCalendar</pkg>
     <pkg priority="core">fCopulae</pkg>
@@ -168,11 +167,12 @@
     <pkg>QRMlib</pkg>
     <pkg>RBloomberg</pkg>
     <pkg>Rcmdr</pkg>
+    <pkg priority="core">Rmetrics</pkg>
     <pkg>RQuantLib</pkg>
     <pkg>sandwich</pkg>
     <pkg>strucchange</pkg>
     <pkg priority="core">tseries</pkg>
-    <pkg>tradeCost</pkg>
+    <pkg>tradeCosts</pkg>
     <pkg>tsDyn</pkg>
     <pkg>tseriesChaos</pkg>
     <pkg priority="core">urca</pkg>
