@@ -71,19 +71,24 @@
 	  The <pkg>forecasting</pkg> bundle adds functions and dataset for
           forecasting problems.
           </li> 
-      <li><b>Finance:</b>The Rmetrics bundle comprised of the
+      <li><b>Finance:</b>The <pkg>Rmetrics</pkg> bundle comprised of the
           <pkg>fBasics</pkg>, <pkg>fCalendar</pkg>, <pkg>fSeries</pkg>, 
           <pkg>fMultivar</pkg>, <pkg>fPortfolio</pkg>, <pkg>fOptions</pkg>
-          and <pkg>fExtremes</pkg> packages contains a very large number of 
-          relevant functions for different aspect of empirical and
-          computational finance.  The <pkg>PerformanceAnalytics</pkg> package
+          <pkg>fExtremes</pkg> and <pkg>fCopulae</pkg> packages contains a
+          very large number of relevant functions for different aspect of
+          empirical and computational finance.  
+
+          The <pkg>PerformanceAnalytics</pkg> package
           contains another large number of function for portfolio-oriented
-          performance and risk analysis.  The packages The <pkg>RQuantLib</pkg> package
-          provides several option-pricing functions as well as some 
-          fixed-income functionality from the QuantLib project to R.
-          The <pkg>portfolio</pkg> package contains classes for equity 
-	  portfolio management; the <pkg>portfolioSim</pkg> builds a 
-	  related simulation framework. 
+          performance and risk analysis.  
+
+          The <pkg>RQuantLib</pkg> package provides several option-pricing
+          functions as well as some fixed-income functionality from the
+          QuantLib project to R.  The <pkg>portfolio</pkg> package contains
+          classes for equity portfolio management; the
+          <pkg>portfolioSim</pkg> builds a related simulation framework and
+	  <pkg>tradeCost</pkg> estimates the potential impact of trades on
+	  the prevalent market prices. 
           The <pkg>backtest</pkg> offers tools to  
 	  explore portfollio-based hypotheses about financial instruments.
  	  The <pkg>financial</pkg> package can compute present values, cash
@@ -94,7 +99,8 @@
           Extreme Value Theory models: <pkg>evd</pkg>, <pkg>evdbayes</pkg>, 
           <pkg>evir</pkg>, <pkg>extRremes</pkg>, <pkg>ismec</pkg>, 
           <pkg>POT</pkg>.  The <pkg>CreditMetrics</pkg> package provides 
-	  functions for Credit Risk modeling.
+	  functions for Credit Risk modeling. The <pkg>QRMlib</pkg> covers
+          quantitative risk modelling.
           The <pkg>mvtnorm</pkg> 
           package provides code for multivariate Normal and t-distributions.
           The Rmetrics packages <pkg>fPortfolio</pkg> and 
@@ -115,7 +121,7 @@
           </li>
     </ul>
     <p>
-    <small>Last updated on $Date: 2007/06/13 02:35:24 $.</small>
+    <small>Last updated on $Date: 2007/07/31 01:47:47 $.</small>
     </p>
   </info>
 
@@ -135,11 +141,15 @@
     <pkg>extRemes</pkg>
     <pkg>fgac</pkg>
     <pkg>financial</pkg>
+    <pkg priority="core">fMetrics</pkg>
     <pkg priority="core">fBasics</pkg>
     <pkg priority="core">fCalendar</pkg>
+    <pkg priority="core">fCopulae</pkg>
+    <pkg priority="core">fEcofin</pkg>
     <pkg priority="core">fExtremes</pkg>
     <pkg priority="core">fOptions</pkg>
     <pkg priority="core">fPortfolio</pkg>
+    <pkg priority="core">fSeries</pkg>
     <pkg priority="core">fMultivar</pkg>
     <pkg>forecasting</pkg>
     <pkg>fracdiff</pkg>
@@ -155,12 +165,14 @@
     <pkg>portfolio</pkg>
     <pkg>portfolioSim</pkg>
     <pkg>POT</pkg>
+    <pkg>QRMlib</pkg>
     <pkg>RBloomberg</pkg>
     <pkg>Rcmdr</pkg>
-    <pkg priority="core">RQuantLib</pkg>
+    <pkg>RQuantLib</pkg>
     <pkg>sandwich</pkg>
     <pkg>strucchange</pkg>
     <pkg priority="core">tseries</pkg>
+    <pkg>tradeCost</pkg>
     <pkg>tsDyn</pkg>
     <pkg>tseriesChaos</pkg>
     <pkg priority="core">urca</pkg>
