@@ -111,7 +111,10 @@
 	  The <pkg>copula</pkg> and <pkg>fgac</pkg> packages cover 
           multivariate dependency structures using copula methods.
 	  The <pkg>actuar</pkg> package provides an actuarial
-	  perspective to risk management.  
+	  perspective to risk management.
+	  The <pkg>ghyb</pkg> provides generalized hyberbolic distribution
+          functions as well as procedures for VaR, CVaR or target-return
+          portfolio optimizations.
           </li>
       <li><b>Data and Date Management:</b>The <pkg>its</pkg>,
           <pkg>zoo</pkg> and
@@ -157,6 +160,7 @@
     <pkg>fracdiff</pkg>
     <pkg>FracSim</pkg>
     <pkg priority="core">fSeries</pkg>
+    <pkg>ghyp</pkg>
     <pkg>ismev</pkg>
     <pkg priority="core">its</pkg>    
     <pkg>lmtest</pkg>
