@@ -77,11 +77,11 @@
           <pkg>fExtremes</pkg> and <pkg>fCopulae</pkg> packages contains a
           very large number of relevant functions for different aspect of
           empirical and computational finance.  
-
+	  <br>
           The <pkg>PerformanceAnalytics</pkg> package
           contains another large number of function for portfolio-oriented
           performance and risk analysis.  
-
+	  <br>
           The <pkg>RQuantLib</pkg> package provides several option-pricing
           functions as well as some fixed-income functionality from the
           QuantLib project to R.  The <pkg>portfolio</pkg> package contains
@@ -93,6 +93,9 @@
 	  explore portfollio-based hypotheses about financial instruments.
  	  The <pkg>financial</pkg> package can compute present values, cash
 	  flows and other simple finance calculations.
+	  <br>
+	  The <pkg>sde</pkg> provides simulation and inference functionality
+           for stochastic differential equations.
           </li>
       <li><b>Risk Management:</b>The <pkg>VaR</pkg> package estimates
           Value-at-Risk, and several packages provide functionality for 
@@ -108,7 +111,7 @@
 	  The <pkg>copula</pkg> and <pkg>fgac</pkg> packages cover 
           multivariate dependency structures using copula methods.
 	  The <pkg>actuar</pkg> package provides an actuarial
-	  perspective to risk management
+	  perspective to risk management.  
           </li>
       <li><b>Data and Date Management:</b>The <pkg>its</pkg>,
           <pkg>zoo</pkg> and
@@ -170,6 +173,7 @@
     <pkg priority="core">Rmetrics</pkg>
     <pkg>RQuantLib</pkg>
     <pkg>sandwich</pkg>
+    <pkg>sde</pkg>
     <pkg>strucchange</pkg>
     <pkg priority="core">tseries</pkg>
     <pkg>tradeCosts</pkg>
