@@ -71,18 +71,16 @@
 	  The <pkg>forecasting</pkg> bundle adds functions and dataset for
           forecasting problems.
           </li> 
-      <li><b>Finance:</b>The <pkg>Rmetrics</pkg> bundle comprised of the
+      <li><p><b>Finance:</b>The <pkg>Rmetrics</pkg> bundle comprised of the
           <pkg>fBasics</pkg>, <pkg>fCalendar</pkg>, <pkg>fSeries</pkg>, 
           <pkg>fMultivar</pkg>, <pkg>fPortfolio</pkg>, <pkg>fOptions</pkg>
           <pkg>fExtremes</pkg> and <pkg>fCopulae</pkg> packages contains a
           very large number of relevant functions for different aspect of
-          empirical and computational finance.  
-	  <br>
-          The <pkg>PerformanceAnalytics</pkg> package
+          empirical and computational finance.</p>
+          <p>The <pkg>PerformanceAnalytics</pkg> package
           contains another large number of function for portfolio-oriented
-          performance and risk analysis.  
-	  <br>
-          The <pkg>RQuantLib</pkg> package provides several option-pricing
+          performance and risk analysis.</p>
+          <p>The <pkg>RQuantLib</pkg> package provides several option-pricing
           functions as well as some fixed-income functionality from the
           QuantLib project to R.  The <pkg>portfolio</pkg> package contains
           classes for equity portfolio management; the
@@ -92,10 +90,9 @@
           The <pkg>backtest</pkg> offers tools to  
 	  explore portfollio-based hypotheses about financial instruments.
  	  The <pkg>financial</pkg> package can compute present values, cash
-	  flows and other simple finance calculations.
-	  <br>
-	  The <pkg>sde</pkg> provides simulation and inference functionality
-           for stochastic differential equations.
+	  flows and other simple finance calculations.</p>
+	  <p>The <pkg>sde</pkg> provides simulation and inference functionality
+           for stochastic differential equations.</p>
           </li>
       <li><b>Risk Management:</b>The <pkg>VaR</pkg> package estimates
           Value-at-Risk, and several packages provide functionality for 
