@@ -72,11 +72,17 @@
           forecasting problems.
           </li> 
       <li><p><b>Finance:</b>The <pkg>Rmetrics</pkg> bundle comprised of the
-          <pkg>fBasics</pkg>, <pkg>fCalendar</pkg>, <pkg>fSeries</pkg>, 
-          <pkg>fMultivar</pkg>, <pkg>fPortfolio</pkg>, <pkg>fOptions</pkg>
-          <pkg>fExtremes</pkg> and <pkg>fCopulae</pkg> packages contains a
-          very large number of relevant functions for different aspect of
-          empirical and computational finance.</p>
+          <pkg>fArma</pkg>, <pkg>fAsianOptions</pkg>, <pkg>fAssets</pkg>, 
+	  <pkg>fBasics</pkg>, <pkg>fBonds</pkg>, <pkg>fCalendar</pkg>, 
+	  <pkg>fCopulae</pkg>, <pkg>fEcofin</pkg>, <pkg>fExoticOptions</pkg>, 
+	  <pkg>fExtremes</pkg>, <pkg>fGarch</pkg>, <pkg>fImport</pkg>, 
+	  <pkg>fMultivar</pkg>, <pkg>fNonlinear</pkg>, <pkg>fOptions</pkg>, 
+	  <pkg>fPortfolio</pkg>, <pkg>fRegression</pkg>, <pkg>fSeries</pkg>, 
+	  <pkg>fTrading</pkg>, <pkg>fUnitRoots</pkg> and
+          <pkg>fUtilities</pkg> packages contains a very large number of 
+	  relevant functions for different aspect of empirical and
+          computational 
+          finance.</p>
           <p>The <pkg>PerformanceAnalytics</pkg> package
           contains another large number of function for portfolio-oriented
           performance and risk analysis.</p>
@@ -89,6 +95,8 @@
 	  the prevalent market prices. 
           The <pkg>backtest</pkg> offers tools to  
 	  explore portfollio-based hypotheses about financial instruments.
+	  The <pkg>TTR</pkg> contains functions to construct technical
+          trading rules in R.
  	  The <pkg>financial</pkg> package can compute present values, cash
 	  flows and other simple finance calculations.</p>
 	  <p>The <pkg>sde</pkg> provides simulation and inference functionality
@@ -144,15 +152,27 @@
     <pkg>extRemes</pkg>
     <pkg>fgac</pkg>
     <pkg>financial</pkg>
+    <pkg priority="core">fArma</pkg>
+    <pkg priority="core">fAsianOptions</pkg>
+    <pkg priority="core">fAssets</pkg>
     <pkg priority="core">fBasics</pkg>
+    <pkg priority="core">fBonds</pkg>
     <pkg priority="core">fCalendar</pkg>
     <pkg priority="core">fCopulae</pkg>
     <pkg priority="core">fEcofin</pkg>
+    <pkg priority="core">fExoticOptions</pkg>
     <pkg priority="core">fExtremes</pkg>
+    <pkg priority="core">fGarch</pkg>
+    <pkg priority="core">fImport</pkg>
+    <pkg priority="core">fMultivar</pkg>
+    <pkg priority="core">fNonlinear</pkg>
     <pkg priority="core">fOptions</pkg>
     <pkg priority="core">fPortfolio</pkg>
+    <pkg priority="core">fRegression</pkg>
     <pkg priority="core">fSeries</pkg>
-    <pkg priority="core">fMultivar</pkg>
+    <pkg priority="core">fTrading</pkg>
+    <pkg priority="core">fUnitRoots</pkg>
+    <pkg priority="core">fUtilities</pkg>
     <pkg>forecasting</pkg>
     <pkg>fracdiff</pkg>
     <pkg>FracSim</pkg>
@@ -180,6 +200,7 @@
     <pkg>tradeCosts</pkg>
     <pkg>tsDyn</pkg>
     <pkg>tseriesChaos</pkg>
+    <pkg>TTR</pkg>
     <pkg priority="core">urca</pkg>
     <pkg>uroot</pkg>
     <pkg>VaR</pkg>
@@ -196,7 +217,7 @@
     <view>Econometrics</view>
     <view>MultiVariate</view>
     <view>SocialSciences</view>
-    <a href="http://www.rmetrics.org">Rmetrics by Diethelm Wuertz contains a wealth of R code for Finance</a>
+    <a href="http://www.rmetrics.org">Rmetrics contains a wealth of R code for Finance</a>
     <a href="http://www.quantlib.org">Quantlib is a C++ library for quantitative finance</a>
     <a href="https://www.stat.math.ethz.ch/mailman/listinfo/R-SIG-Finance/">Mailing list: R Special Interest Group Finance</a>
     <a href="http://www.russell.com/US/Indexes/US/index_values.asp">Russell
