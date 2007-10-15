@@ -215,7 +215,7 @@
 
   <links>
     <view>Econometrics</view>
-    <view>MultiVariate</view>
+    <view>Multivariate</view>
     <view>SocialSciences</view>
     <a href="http://www.rmetrics.org">Rmetrics contains a wealth of R code for Finance</a>
     <a href="http://www.quantlib.org">Quantlib is a C++ library for quantitative finance</a>
