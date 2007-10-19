@@ -88,13 +88,20 @@
           performance and risk analysis.</p>
           <p>The <pkg>RQuantLib</pkg> package provides several option-pricing
           functions as well as some fixed-income functionality from the
-          QuantLib project to R.  The <pkg>portfolio</pkg> package contains
+          QuantLib project to R.  
+	  <p>
+	  The <pkg>quantmod</pkg> package offers a number of functions for
+          quantitative modelling in finance as well as data acqusition, plotting
+          and other utilities.
+	  <p>
+	  The <pkg>portfolio</pkg> package contains
           classes for equity portfolio management; the
           <pkg>portfolioSim</pkg> builds a related simulation framework and
 	  <pkg>tradeCosts</pkg> estimates the potential impact of trades on
 	  the prevalent market prices. 
           The <pkg>backtest</pkg> offers tools to  
 	  explore portfollio-based hypotheses about financial instruments.
+	  <p>
 	  The <pkg>TTR</pkg> contains functions to construct technical
           trading rules in R.
  	  The <pkg>financial</pkg> package can compute present values, cash
@@ -189,6 +196,7 @@
     <pkg>portfolioSim</pkg>
     <pkg>POT</pkg>
     <pkg>QRMlib</pkg>
+    <pkg>quantmod</pkg>
     <pkg>RBloomberg</pkg>
     <pkg>Rcmdr</pkg>
     <pkg priority="core">Rmetrics</pkg>
