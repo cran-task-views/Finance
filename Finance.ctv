@@ -23,55 +23,84 @@
     <a href="mailto:Dirk.Eddelbuettel@R-project.org">task view maintainer</a>.
     </p>
    
+    <p>
+    <strong>Standard regression models</strong>
     <ul>
-      <li><b>Standard regression models</b>: 
-          Linear models such as ordinary least squares (OLS) can be estimated
+      <li>Linear models such as ordinary least squares (OLS) can be estimated
           by <tt>lm()</tt>
           (from by the stats package contained in the basic R
           distribution). Maximum Likelihood (ML) estimation can be undertaken
           with the <tt>optim()</tt> function. Non-linear least squares can
 	  be estimated with the <tt>nls()</tt> function, as well as with
-	  <tt>nlme()</tt> from the <pkg>nlme</pkg> package. For the
-	  linear model, a
-          variety of regression diagnostic tests 
+	  <tt>nlme()</tt> from the <pkg>nlme</pkg> package. 
+      </li>
+      <li>For the linear model, a variety of regression diagnostic tests 
           are provided by the <pkg>car</pkg>, <pkg>lmtest</pkg>,
           <pkg>strucchange</pkg>, <pkg>urca</pkg>, <pkg>uroot</pkg>,
 	  and <pkg>sandwich</pkg> packages. The <pkg>Rcmdr</pkg> and 
           <pkg>Zelig</pkg> packages provide user interfaces that may be of
-          interest as well.</li>
-      <li><b>Time series</b>: Classical time series functionality is provided
+          interest as well.
+      </li>
+    </ul>
+    </p>
+
+    <p>
+    <strong>Time series</strong>
+    <ul>
+      <li>Classical time series functionality is provided
           by the <tt>arima()</tt> and <tt>KalmanLike()</tt>commands in the
           basic R distribution.  
-	  The <pkg>dse</pkg> packages provides a variety of more
+      </li>
+      <li>The <pkg>dse</pkg> packages provides a variety of more
 	  advanced estimation methods; <pkg>fracdiff</pkg> can
 	  estimate fractionally integrated series; <pkg>longmemo</pkg> covers
 	  related material; <pkg>FracSim</pkg> simulates fractional Levy
-          series. For volatily 
+          series. 
+      </li>
+      <li>For volatily 
 	  modeling, the standard GARCH(1,1) model can be estimated with the 
-	  <tt>garch()</tt> function in the <pkg>tseries</pkg> package. Unit
-          root and cointegration tests are provided by <pkg>tseries</pkg>,
+	  <tt>garch()</tt> function in the <pkg>tseries</pkg> package. 
+          Rmetrisc (see below) also contains the <pkg>fGrach</pkg> package.
+      </li>
+      <li>Unit root and cointegration tests are provided by <pkg>tseries</pkg>,
 	  <pkg>urca</pkg> and <pkg>uroot</pkg>.
 	  The Rmetrics packages <pkg>fSeries</pkg> and
           <pkg>fMultivar</pkg> contain a number of estimation functions for 
           ARMA, GARCH, long memory models, unit roots and more. 
+      </li>
+      <li>
 	  The <pkg>ArDec</pkg> implements autoregressive time series 
 	  decomposition in a Bayesian framework; <pkg>MSBVAR</pkg> provides 
 	  Bayesian estimation of vector autoregressive models.  
+      </li>
+      <li>
 	  The <pkg>vars</pkg> package offer estimation, diagnostics,
 	  forecasting and error decomposition of VAR and SVAR model in a
           classical framework.
+      </li>
+      <li>
           The <pkg>dyn</pkg> and 
 	  <pkg>dynlm</pkg> are suitable for dynamic (linear) regression models.
+      </li>
+      <li>
       	  Several packages provide wavelet analysis 
 	  functionality: <pkg>rwt</pkg>, <pkg>wavelets</pkg>, 
           <pkg>waveslim</pkg>, <pkg>wavethresh</pkg>. Some methods from chaos 
           theory are provided by the package <pkg>tseriesChaos</pkg>, and
           <pkg>tsDyn</pkg> adds time-series analysis based on dynamical
           systems therory. 
+      </li>
+      <li>
 	  The <pkg>forecasting</pkg> bundle adds functions and dataset for
           forecasting problems.
-          </li> 
-      <li><p><b>Finance:</b>The <pkg>Rmetrics</pkg> bundle comprised of the
+      </li> 
+    </ul>
+    </p>
+
+    <p>
+    <strong>Finance</strong>
+    <ul>
+      <li>The <pkg>Rmetrics</pkg> bundle comprised of the
           <pkg>fArma</pkg>, <pkg>fAsianOptions</pkg>, <pkg>fAssets</pkg>, 
 	  <pkg>fBasics</pkg>, <pkg>fBonds</pkg>, <pkg>fCalendar</pkg>, 
 	  <pkg>fCopulae</pkg>, <pkg>fEcofin</pkg>, <pkg>fExoticOptions</pkg>, 
@@ -82,64 +111,93 @@
           <pkg>fUtilities</pkg> packages contains a very large number of 
 	  relevant functions for different aspect of empirical and
           computational 
-          finance.</p>
-          <p>The <pkg>PerformanceAnalytics</pkg> package
-          contains another large number of function for portfolio-oriented
-          performance and risk analysis.</p>
-          <p>The <pkg>RQuantLib</pkg> package provides several option-pricing
+          finance.
+      </li>
+      <li>The <pkg>RQuantLib</pkg> package provides several option-pricing
           functions as well as some fixed-income functionality from the
           QuantLib project to R.  
-	  <p>
-	  The <pkg>quantmod</pkg> package offers a number of functions for
+      </li>
+      <li>The <pkg>quantmod</pkg> package offers a number of functions for
           quantitative modelling in finance as well as data acqusition, plotting
           and other utilities.
-	  <p>
-	  The <pkg>portfolio</pkg> package contains
+      </li>
+      <li>The <pkg>portfolio</pkg> package contains
           classes for equity portfolio management; the
           <pkg>portfolioSim</pkg> builds a related simulation framework and
 	  <pkg>tradeCosts</pkg> estimates the potential impact of trades on
 	  the prevalent market prices. 
           The <pkg>backtest</pkg> offers tools to  
 	  explore portfollio-based hypotheses about financial instruments.
-	  <p>
-	  The <pkg>TTR</pkg> contains functions to construct technical
+      </li>
+      <li>The <pkg>TTR</pkg> contains functions to construct technical
           trading rules in R.
- 	  The <pkg>financial</pkg> package can compute present values, cash
-	  flows and other simple finance calculations.</p>
-	  <p>The <pkg>sde</pkg> provides simulation and inference functionality
-           for stochastic differential equations.</p>
-          </li>
-      <li><b>Risk Management:</b>The <pkg>VaR</pkg> package estimates
+      </li>
+      <li>The <pkg>financial</pkg> package can compute present values, cash
+	  flows and other simple finance calculations.
+      </li>
+      <li>The <pkg>sde</pkg> provides simulation and inference functionality
+          for stochastic differential equations.
+      </li>
+    </ul>
+    </p>
+
+    <p>
+    <strong>Risk management</strong>
+    <ul>
+      <li>The <pkg>VaR</pkg> package estimates
           Value-at-Risk, and several packages provide functionality for 
           Extreme Value Theory models: <pkg>evd</pkg>, <pkg>evdbayes</pkg>, 
           <pkg>evir</pkg>, <pkg>extRremes</pkg>, <pkg>ismec</pkg>, 
-          <pkg>POT</pkg>.  The <pkg>CreditMetrics</pkg> package provides 
-	  functions for Credit Risk modeling. The <pkg>QRMlib</pkg> covers
-          quantitative risk modelling.
+          <pkg>POT</pkg>.
+      </li>
+      <li>The <pkg>CreditMetrics</pkg> package provides 
+	  functions for Credit Risk modeling.
+      </li>
+      <li>The <pkg>QRMlib</pkg> covers quantitative risk modelling.
+      </li>
+      <li>
           The <pkg>mvtnorm</pkg> 
           package provides code for multivariate Normal and t-distributions.
+      </li>
+      <li>
           The Rmetrics packages <pkg>fPortfolio</pkg> and 
           <pkg>fExtremes</pkg> also contain a number of relevant functions.
+      </li>
+      <li>
 	  The <pkg>copula</pkg> and <pkg>fgac</pkg> packages cover 
           multivariate dependency structures using copula methods.
+      </li>
+      <li>
 	  The <pkg>actuar</pkg> package provides an actuarial
 	  perspective to risk management.
+      </li>
+      <li>
 	  The <pkg>ghyb</pkg> provides generalized hyberbolic distribution
           functions as well as procedures for VaR, CVaR or target-return
           portfolio optimizations.
-          </li>
-      <li><b>Data and Date Management:</b>The <pkg>its</pkg>,
-          <pkg>zoo</pkg> and
+      </li>
+    </ul>
+    </p>
+
+    <p>
+    <strong>Data and date management</strong>
+    <ul>
+      <li>The <pkg>its</pkg>, <pkg>zoo</pkg> and
           <pkg>fCalendar</pkg> (part of Rmetrics) packages provide support for
-          irregularly-spaced time series. <pkg>fCalendar</pkg> also addresses
+          irregularly-spaced time series. 
+      </li>
+      <li><pkg>fCalendar</pkg> also addresses
           calendar issues such as recurring holidays for a large number of
           financial centers, and provides code for high-frequency data sets.
-	  The <pkg>RBloomberg</pkg> package can access Bloomberg data (but
+      </li>
+      <li>The <pkg>RBloomberg</pkg> package can access Bloomberg data (but
 	  requires a Bloomberg installations on a Windows PC).
-          </li>
+      </li>
     </ul>
+    </p>
+
     <p>
-    <small>Last updated on $Date: 2007/07/31 01:47:47 $.</small>
+    <small>Last updated on $Date$.</small>
     </p>
   </info>
 
