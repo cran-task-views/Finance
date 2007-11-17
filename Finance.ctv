@@ -57,10 +57,15 @@
 	  related material; <pkg>FracSim</pkg> simulates fractional Levy
           series. 
       </li>
-      <li>For volatily 
-	  modeling, the standard GARCH(1,1) model can be estimated with the 
+      <li>For volatily modeling, the standard GARCH(1,1) model can be estimated with the 
 	  <tt>garch()</tt> function in the <pkg>tseries</pkg> package. 
-          Rmetrisc (see below) also contains the <pkg>fGrach</pkg> package.
+          Rmetrisc (see below) contains the <pkg>fGarch</pkg> package which
+          has additional models.
+      </li>
+      <li>The <pkg>realized</pkg> package contains function to model and
+          visualized 'realized' variance (from high-frequency sampling, as
+          opposed to historical volatility and variance from lower-frequency returns, or
+          implied volatility from option prices).
       </li>
       <li>Unit root and cointegration tests are provided by <pkg>tseries</pkg>,
 	  <pkg>urca</pkg> and <pkg>uroot</pkg>.
@@ -257,6 +262,7 @@
     <pkg>quantmod</pkg>
     <pkg>RBloomberg</pkg>
     <pkg>Rcmdr</pkg>
+    <pkg>realized</pkg>
     <pkg priority="core">Rmetrics</pkg>
     <pkg>RQuantLib</pkg>
     <pkg>sandwich</pkg>
