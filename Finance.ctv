@@ -177,7 +177,7 @@
 	  perspective to risk management.
       </li>
       <li>
-	  The <pkg>ghyb</pkg> provides generalized hyberbolic distribution
+	  The <pkg>ghyp</pkg> provides generalized hyberbolic distribution
           functions as well as procedures for VaR, CVaR or target-return
           portfolio optimizations.
       </li>
