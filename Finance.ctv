@@ -57,16 +57,15 @@
 	  related material; <pkg>FracSim</pkg> simulates fractional Levy
           series. 
       </li>
-      <li>For volatily modeling, the standard GARCH(1,1) model can be
-          estimated with the  
+      <li>For volatily modeling, the standard GARCH(1,1) model can be estimated with the 
 	  <tt>garch()</tt> function in the <pkg>tseries</pkg> package. 
           Rmetrisc (see below) contains the <pkg>fGarch</pkg> package which
           has additional models.
       </li>
       <li>The <pkg>realized</pkg> package contains function to model and
           visualized 'realized' variance (from high-frequency sampling, as
-          opposed to historical volatility and variance from lower-frequency
-          returns, or implied volatility from option prices).
+          opposed to historical volatility and variance from lower-frequency returns, or
+          implied volatility from option prices).
       </li>
       <li>Unit root and cointegration tests are provided by <pkg>tseries</pkg>,
 	  <pkg>urca</pkg> and <pkg>uroot</pkg>.
@@ -100,12 +99,6 @@
 	  The <pkg>forecasting</pkg> bundle adds functions and dataset for
           forecasting problems.
       </li> 
-      <li>
-          Tests for various null hypothesis related to the weak-form of the
-          efficient markets hypothesis can be performed with the
-          <pkg>vrtest</pkg> package, and the <pkg>tseries</pkg> contains
-          several tests for nonlinearities.
-      </li>
     </ul>
     </p>
 
@@ -130,8 +123,8 @@
           QuantLib project to R.  
       </li>
       <li>The <pkg>quantmod</pkg> package offers a number of functions for
-          quantitative modelling in finance as well as data acqusition,
-          plotting and other utilities.
+          quantitative modelling in finance as well as data acqusition, plotting
+          and other utilities.
       </li>
       <li>The <pkg>portfolio</pkg> package contains
           classes for equity portfolio management; the
@@ -285,7 +278,6 @@
     <pkg>VaR</pkg>
     <pkg>vars</pkg>
     <pkg>rwt</pkg> 
-    <pkg>vrtest</pkg>
     <pkg>wavelets</pkg>
     <pkg>waveslim</pkg>
     <pkg>wavethresh</pkg> 
@@ -309,6 +301,8 @@
     indexes data</a>
     <a href="http://orfe.princeton.edu/~rcarmona/maindownload.html">Rene Carmona</a>
     <a href="http://faculty.washington.edu/ezivot/splus.htm">Eric Zivot</a>
+    <a href="http://www.stat.tamu.edu/~ljin/Finance/stat689-R.htm">R Code for
+    Ruppert's 'Statistics and Finance'</a>
     <a href="http://www.decisionsynergy.com/showPackageDownload.html">FinancePack and FractalPack</a>
   </links>
 
