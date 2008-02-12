@@ -187,6 +187,17 @@
     </p>
 
     <p>
+    <strong>Books</strong>
+    <ul>
+      <li>The <pkg>FinTS</pkg> package provides an R companion to Tsay (2005),
+      <em>Analysis of Financial Time Series</em>, 2nd ed. Wiley,  
+      and includes data sets, functions and script files to work some 
+      of the examples.  
+      </li>
+    </ul>
+    </p>
+
+    <p>
     <strong>Data and date management</strong>
     <ul>
       <li>The <pkg>its</pkg>, <pkg>zoo</pkg> and
