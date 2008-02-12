@@ -76,7 +76,9 @@
       <li>
 	  The <pkg>ArDec</pkg> implements autoregressive time series 
 	  decomposition in a Bayesian framework; <pkg>MSBVAR</pkg> provides 
-	  Bayesian estimation of vector autoregressive models.  
+	  Bayesian estimation of vector autoregressive models. The 
+          <pkg>dlm</pkg> package  provides Bayesian and likelihood analysis
+    	  of dynamic linear models (ie linear Gaussian state space models).
       </li>
       <li>
 	  The <pkg>vars</pkg> package offer estimation, diagnostics,
@@ -189,7 +191,8 @@
     <ul>
       <li>The <pkg>its</pkg>, <pkg>zoo</pkg> and
           <pkg>fCalendar</pkg> (part of Rmetrics) packages provide support for
-          irregularly-spaced time series. 
+          irregularly-spaced time series. The <pkg>xts</pkg> package extends 
+          <pkg>zoo</pkg> specifically for financial time series.
       </li>
       <li><pkg>fCalendar</pkg> also addresses
           calendar issues such as recurring holidays for a large number of
@@ -213,6 +216,7 @@
     <pkg>car</pkg>
     <pkg>copula</pkg>
     <pkg>CreditMetrics</pkg>
+    <pkg>dlm</pkg>
     <pkg>dse</pkg>
     <pkg>dyn</pkg>
     <pkg>dynlm</pkg>
@@ -281,6 +285,7 @@
     <pkg>wavelets</pkg>
     <pkg>waveslim</pkg>
     <pkg>wavethresh</pkg> 
+    <pkg>xts</pkg> 
     <pkg>Zelig</pkg>
     <pkg priority="core">zoo</pkg>    
   </packagelist>
