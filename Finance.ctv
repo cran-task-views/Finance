@@ -2,7 +2,8 @@
 
   <name>Finance</name>
   <topic>Empirical Finance</topic>
-  <maintainer>Dirk Eddelbuettel</maintainer>
+  <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
+  <version>2008-02-12</version>
   
   <info>
     <p>
@@ -215,9 +216,6 @@
     </ul>
     </p>
 
-    <p>
-    <small>Last updated on $Date$.</small>
-    </p>
   </info>
 
   <packagelist>
