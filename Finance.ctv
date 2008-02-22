@@ -3,7 +3,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2008-02-12</version>
+  <version>2008-02-21</version>
   
   <info>
     <p>
@@ -143,8 +143,13 @@
       <li>The <pkg>financial</pkg> package can compute present values, cash
 	  flows and other simple finance calculations.
       </li>
-      <li>The <pkg>sde</pkg> provides simulation and inference functionality
+      <li>The <pkg>sde</pkg> package provides simulation and inference functionality
           for stochastic differential equations.
+      </li>
+      <li>The <pkg>termstr</pkg> package contains methods for the estimation
+          of zero-coupon yield curves and spread curves based the parametric 
+          Nelson and Siegel (1987) method with the Svensson (1994) extension, 
+         and the McCulloch (1975) cubic splines approach.
       </li>
     </ul>
     </p>
@@ -282,6 +287,7 @@
     <pkg>sde</pkg>
     <pkg>strucchange</pkg>
     <pkg priority="core">tseries</pkg>
+    <pkg>termstr</pkg>
     <pkg>tradeCosts</pkg>
     <pkg>tsDyn</pkg>
     <pkg>tseriesChaos</pkg>
