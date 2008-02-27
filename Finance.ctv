@@ -151,6 +151,9 @@
           Nelson and Siegel (1987) method with the Svensson (1994) extension, 
          and the McCulloch (1975) cubic splines approach.
       </li>
+      <li>The <pkg>vrtest</pkg> package contains a number of variance ratio
+          tests for the weak-form of the efficient markets hypothesis.
+      </li>
     </ul>
     </p>
 
@@ -297,6 +300,7 @@
     <pkg>VaR</pkg>
     <pkg>vars</pkg>
     <pkg>rwt</pkg> 
+    <pkg>vrtest</pkg>
     <pkg>wavelets</pkg>
     <pkg>waveslim</pkg>
     <pkg>wavethresh</pkg> 
