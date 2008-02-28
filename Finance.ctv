@@ -146,7 +146,7 @@
       <li>The <pkg>sde</pkg> package provides simulation and inference functionality
           for stochastic differential equations.
       </li>
-      <li>The <pkg>termstr</pkg> package contains methods for the estimation
+      <li>The <pkg>termstrc</pkg> package contains methods for the estimation
           of zero-coupon yield curves and spread curves based the parametric 
           Nelson and Siegel (1987) method with the Svensson (1994) extension, 
          and the McCulloch (1975) cubic splines approach.
@@ -290,7 +290,7 @@
     <pkg>sde</pkg>
     <pkg>strucchange</pkg>
     <pkg priority="core">tseries</pkg>
-    <pkg>termstr</pkg>
+    <pkg>termstrc</pkg>
     <pkg>tradeCosts</pkg>
     <pkg>tsDyn</pkg>
     <pkg>tseriesChaos</pkg>
