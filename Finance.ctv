@@ -28,12 +28,12 @@
     <strong>Standard regression models</strong>
     <ul>
       <li>Linear models such as ordinary least squares (OLS) can be estimated
-          by <tt>lm()</tt>
+          by <code>lm()</code>
           (from by the stats package contained in the basic R
           distribution). Maximum Likelihood (ML) estimation can be undertaken
-          with the <tt>optim()</tt> function. Non-linear least squares can
-	  be estimated with the <tt>nls()</tt> function, as well as with
-	  <tt>nlme()</tt> from the <pkg>nlme</pkg> package. 
+          with the <code>optim()</code> function. Non-linear least squares can
+	  be estimated with the <code>nls()</code> function, as well as with
+	  <code>nlme()</code> from the <pkg>nlme</pkg> package. 
       </li>
       <li>For the linear model, a variety of regression diagnostic tests 
           are provided by the <pkg>car</pkg>, <pkg>lmtest</pkg>,
@@ -49,7 +49,7 @@
     <strong>Time series</strong>
     <ul>
       <li>Classical time series functionality is provided
-          by the <tt>arima()</tt> and <tt>KalmanLike()</tt>commands in the
+          by the <code>arima()</code> and <code>KalmanLike()</code>commands in the
           basic R distribution.  
       </li>
       <li>The <pkg>dse</pkg> packages provides a variety of more
@@ -59,7 +59,7 @@
           series. 
       </li>
       <li>For volatily modeling, the standard GARCH(1,1) model can be estimated with the 
-	  <tt>garch()</tt> function in the <pkg>tseries</pkg> package. 
+	  <code>garch()</code> function in the <pkg>tseries</pkg> package. 
           Rmetrisc (see below) contains the <pkg>fGarch</pkg> package which
           has additional models.
       </li>
