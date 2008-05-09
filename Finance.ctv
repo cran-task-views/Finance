@@ -267,7 +267,6 @@
     <pkg>forecasting</pkg>
     <pkg>fracdiff</pkg>
     <pkg>FracSim</pkg>
-    <pkg priority="core">fSeries</pkg>
     <pkg>ghyp</pkg>
     <pkg>ismev</pkg>
     <pkg priority="core">its</pkg>    
