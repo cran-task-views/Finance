@@ -3,7 +3,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2008-02-21</version>
+  <version>2008-05-14</version>
   
   <info>
     <p>
@@ -31,7 +31,8 @@
           by <code>lm()</code>
           (from by the stats package contained in the basic R
           distribution). Maximum Likelihood (ML) estimation can be undertaken
-          with the <code>optim()</code> function. Non-linear least squares can
+          with the <code>optim()</code> function or with optimization
+          functions in the <pkg>BB</pkg> package. Non-linear least squares can
 	  be estimated with the <code>nls()</code> function, as well as with
 	  <code>nlme()</code> from the <pkg>nlme</pkg> package. 
       </li>
@@ -101,6 +102,9 @@
       <li>
 	  The <pkg>forecasting</pkg> bundle adds functions and dataset for
           forecasting problems.
+      </li> 
+      <li>
+	  The <pkg>tsfa</pkg> provides functions for time series factor analysis.
       </li> 
     </ul>
     </p>
@@ -221,6 +225,10 @@
       <li>The <pkg>RBloomberg</pkg> package can access Bloomberg data (but
 	  requires a Bloomberg installations on a Windows PC).
       </li>
+      <li>The packages <pkg>TSdbi</pkg>, <pkg>TSMySQL</pkg>,
+          <pkg>TSSQLite</pkg> and <pkg>TSpadi</pkg> provide support for 
+	  time-series databases.
+      </li>
     </ul>
     </p>
 
@@ -230,6 +238,7 @@
     <pkg>actuar</pkg>
     <pkg>ArDec</pkg>
     <pkg>backtest</pkg>
+    <pkg>BB</pkg>
     <pkg>car</pkg>
     <pkg>copula</pkg>
     <pkg>CreditMetrics</pkg>
@@ -293,6 +302,11 @@
     <pkg>tradeCosts</pkg>
     <pkg>tsDyn</pkg>
     <pkg>tseriesChaos</pkg>
+    <pkg>tsfa</pkg>
+    <pkg>TSdbi</pkg> 
+    <pkg>TSMySQL</pkg>
+    <pkg>TSpadi</pkg>
+    <pkg>TSSQLite</pkg>
     <pkg>TTR</pkg>
     <pkg priority="core">urca</pkg>
     <pkg>uroot</pkg>
