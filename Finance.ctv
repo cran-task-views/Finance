@@ -28,11 +28,10 @@
     <strong>Standard regression models</strong>
     <ul>
       <li>Linear models such as ordinary least squares (OLS) can be estimated
-          by <code>lm()</code>
-          (from by the stats package contained in the basic R
+          by <code>lm()</code> (from by the stats package contained in the basic R
           distribution). Maximum Likelihood (ML) estimation can be undertaken
-          with the <code>optim()</code> function or with optimization
-          functions in the <pkg>BB</pkg> package. Non-linear least squares can
+          with the standard <code>optim()</code> function. Many other suitable methods
+          are listed in the <view>Optimization</view> view. Non-linear least squares can
 	  be estimated with the <code>nls()</code> function, as well as with
 	  <code>nlme()</code> from the <pkg>nlme</pkg> package. 
       </li>
@@ -225,10 +224,6 @@
       <li>The <pkg>RBloomberg</pkg> package can access Bloomberg data (but
 	  requires a Bloomberg installations on a Windows PC).
       </li>
-      <li>The packages <pkg>TSdbi</pkg>, <pkg>TSMySQL</pkg>,
-          <pkg>TSSQLite</pkg> and <pkg>TSpadi</pkg> provide support for 
-	  time-series databases.
-      </li>
     </ul>
     </p>
 
@@ -238,7 +233,6 @@
     <pkg>actuar</pkg>
     <pkg>ArDec</pkg>
     <pkg>backtest</pkg>
-    <pkg>BB</pkg>
     <pkg>car</pkg>
     <pkg>copula</pkg>
     <pkg>CreditMetrics</pkg>
@@ -303,10 +297,6 @@
     <pkg>tsDyn</pkg>
     <pkg>tseriesChaos</pkg>
     <pkg>tsfa</pkg>
-    <pkg>TSdbi</pkg> 
-    <pkg>TSMySQL</pkg>
-    <pkg>TSpadi</pkg>
-    <pkg>TSSQLite</pkg>
     <pkg>TTR</pkg>
     <pkg priority="core">urca</pkg>
     <pkg>uroot</pkg>
