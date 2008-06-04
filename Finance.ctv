@@ -61,7 +61,8 @@
       <li>For volatily modeling, the standard GARCH(1,1) model can be estimated with the 
 	  <code>garch()</code> function in the <pkg>tseries</pkg> package. 
           Rmetrisc (see below) contains the <pkg>fGarch</pkg> package which
-          has additional models.
+          has additional models.  The <pkg>bayesGARCH</pkg> can perform
+	  Bayesian estimation of a GARCH(1,1) model with Student's t innovations.
       </li>
       <li>The <pkg>realized</pkg> package contains functions to model and
           visualize 'realized' variance (from high-frequency sampling, as
@@ -233,6 +234,7 @@
     <pkg>actuar</pkg>
     <pkg>ArDec</pkg>
     <pkg>backtest</pkg>
+    <pkg>bayesGARCH</pkg>
     <pkg>car</pkg>
     <pkg>copula</pkg>
     <pkg>CreditMetrics</pkg>
