@@ -63,6 +63,8 @@
           Rmetrisc (see below) contains the <pkg>fGarch</pkg> package which
           has additional models.  The <pkg>bayesGARCH</pkg> can perform
 	  Bayesian estimation of a GARCH(1,1) model with Student's t innovations.
+          The <pkg>ccgarch</pkg> ccgarch can estimate (multivariate) Conditional 
+          Correlation GARCH models.
       </li>
       <li>The <pkg>realized</pkg> package contains functions to model and
           visualize 'realized' variance (from high-frequency sampling, as
@@ -239,6 +241,7 @@
     <pkg>backtest</pkg>
     <pkg>bayesGARCH</pkg>
     <pkg>car</pkg>
+    <pkg>ccgarch</pkg>
     <pkg>copula</pkg>
     <pkg>CreditMetrics</pkg>
     <pkg>dlm</pkg>
