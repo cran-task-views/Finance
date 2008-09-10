@@ -3,7 +3,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2008-06-04</version>
+  <version>2008-09-10</version>
   
   <info>
     <p>
@@ -223,7 +223,10 @@
           financial centers, and provides code for high-frequency data sets.
       </li>
       <li>The <pkg>RBloomberg</pkg> package can access Bloomberg data (but
-	  requires a Bloomberg installations on a Windows PC).
+	  requires a Bloomberg installations on a Windows PC). The
+          <pkg>fame</pkg> package can access Fame time-series databases (but 
+	  also requires a Fame backend). The <pkg>tis</pkg> package provides 
+          time indices and time-indexed series compatible with Fame frequencies.
       </li>
     </ul>
     </p>
@@ -246,6 +249,7 @@
     <pkg>evdbayes</pkg>
     <pkg>evir</pkg>
     <pkg>extRemes</pkg>
+    <pkg>fame</pkg>
     <pkg>fgac</pkg>
     <pkg>financial</pkg>
     <pkg priority="core">fArma</pkg>
@@ -305,6 +309,7 @@
     <pkg>VaR</pkg>
     <pkg>vars</pkg>
     <pkg>rwt</pkg> 
+    <pkg>tis</pkg> 
     <pkg>vrtest</pkg>
     <pkg>wavelets</pkg>
     <pkg>waveslim</pkg>
