@@ -48,6 +48,9 @@
     <p>
     <strong>Time series</strong>
     <ul>
+      <li>A detailed overview of tools for time series analysis can be found in
+          the <view>TimeSeries</view> task view. Below a brief overview of the
+	  most important methods in finance is given.</li>
       <li>Classical time series functionality is provided
           by the <code>arima()</code> and <code>KalmanLike()</code>commands in the
           basic R distribution.  
@@ -98,7 +101,7 @@
 	  functionality: <pkg>rwt</pkg>, <pkg>wavelets</pkg>, 
           <pkg>waveslim</pkg>, <pkg>wavethresh</pkg>. Some methods from chaos 
           theory are provided by the package <pkg>tseriesChaos</pkg>, and
-          <pkg>tsDyn</pkg> adds time-series analysis based on dynamical
+          <pkg>tsDyn</pkg> adds time series analysis based on dynamical
           systems therory. 
       </li>
       <li>
@@ -218,7 +221,8 @@
       <li>The <pkg>its</pkg>, <pkg>zoo</pkg> and
           <pkg>fCalendar</pkg> (part of Rmetrics) packages provide support for
           irregularly-spaced time series. The <pkg>xts</pkg> package extends 
-          <pkg>zoo</pkg> specifically for financial time series.
+          <pkg>zoo</pkg> specifically for financial time series. Also see the
+	  <view>TimeSeries</view> task view for more details.
       </li>
       <li><pkg>fCalendar</pkg> also addresses
           calendar issues such as recurring holidays for a large number of
@@ -226,7 +230,7 @@
       </li>
       <li>The <pkg>RBloomberg</pkg> package can access Bloomberg data (but
 	  requires a Bloomberg installations on a Windows PC). The
-          <pkg>fame</pkg> package can access Fame time-series databases (but 
+          <pkg>fame</pkg> package can access Fame time series databases (but 
 	  also requires a Fame backend). The <pkg>tis</pkg> package provides 
           time indices and time-indexed series compatible with Fame frequencies.
       </li>
@@ -327,6 +331,7 @@
     <view>Multivariate</view>
     <view>Optimization</view>
     <view>SocialSciences</view>
+    <view>TimeSeries</view>
     <a href="http://www.rmetrics.org">Rmetrics contains a wealth of R code for Finance</a>
     <a href="http://www.quantlib.org">Quantlib is a C++ library for quantitative finance</a>
     <a href="https://www.stat.math.ethz.ch/mailman/listinfo/R-SIG-Finance/">Mailing list: R Special Interest Group Finance</a>
