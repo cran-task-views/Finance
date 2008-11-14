@@ -76,7 +76,7 @@
       </li>
       <li>Unit root and cointegration tests are provided by <pkg>tseries</pkg>,
 	  <pkg>urca</pkg> and <pkg>uroot</pkg>.
-	  The Rmetrics packages <pkg>fSeries</pkg> and
+	  The Rmetrics packages <pkg>timeSeries</pkg> and
           <pkg>fMultivar</pkg> contain a number of estimation functions for 
           ARMA, GARCH, long memory models, unit roots and more. 
       </li>
@@ -117,13 +117,13 @@
     <p>
     <strong>Finance</strong>
     <ul>
-      <li>The <pkg>Rmetrics</pkg> bundle comprised of the
+      <li>The Rmetrics suite of packages comprises
           <pkg>fArma</pkg>, <pkg>fAsianOptions</pkg>, <pkg>fAssets</pkg>, 
-	  <pkg>fBasics</pkg>, <pkg>fBonds</pkg>, <pkg>fCalendar</pkg>, 
+	  <pkg>fBasics</pkg>, <pkg>fBonds</pkg>, <pkg>timeDate</pkg> (formerly: fCalendar), 
 	  <pkg>fCopulae</pkg>, <pkg>fEcofin</pkg>, <pkg>fExoticOptions</pkg>, 
 	  <pkg>fExtremes</pkg>, <pkg>fGarch</pkg>, <pkg>fImport</pkg>, 
 	  <pkg>fMultivar</pkg>, <pkg>fNonlinear</pkg>, <pkg>fOptions</pkg>, 
-	  <pkg>fPortfolio</pkg>, <pkg>fRegression</pkg>, <pkg>fSeries</pkg>, 
+	  <pkg>fPortfolio</pkg>, <pkg>fRegression</pkg>, <pkg>timeSeries</pkg> (formerly: fSeries), 
 	  <pkg>fTrading</pkg>, <pkg>fUnitRoots</pkg> and
           <pkg>fUtilities</pkg> packages contains a very large number of 
 	  relevant functions for different aspect of empirical and
@@ -219,12 +219,12 @@
     <strong>Data and date management</strong>
     <ul>
       <li>The <pkg>its</pkg>, <pkg>zoo</pkg> and
-          <pkg>fCalendar</pkg> (part of Rmetrics) packages provide support for
+          <pkg>timeDate</pkg> (part of Rmetrics) packages provide support for
           irregularly-spaced time series. The <pkg>xts</pkg> package extends 
-          <pkg>zoo</pkg> specifically for financial time series. Also see the
+          <pkg>zoo</pkg> specifically for financial time series. See the
 	  <view>TimeSeries</view> task view for more details.
       </li>
-      <li><pkg>fCalendar</pkg> also addresses
+      <li><pkg>timeDate</pkg> also addresses
           calendar issues such as recurring holidays for a large number of
           financial centers, and provides code for high-frequency data sets.
       </li>
@@ -264,7 +264,6 @@
     <pkg priority="core">fAssets</pkg>
     <pkg priority="core">fBasics</pkg>
     <pkg priority="core">fBonds</pkg>
-    <pkg priority="core">fCalendar</pkg>
     <pkg priority="core">fCopulae</pkg>
     <pkg priority="core">fEcofin</pkg>
     <pkg priority="core">fExoticOptions</pkg>
@@ -276,7 +275,6 @@
     <pkg priority="core">fOptions</pkg>
     <pkg priority="core">fPortfolio</pkg>
     <pkg priority="core">fRegression</pkg>
-    <pkg priority="core">fSeries</pkg>
     <pkg priority="core">fTrading</pkg>
     <pkg priority="core">fUnitRoots</pkg>
     <pkg priority="core">fUtilities</pkg>
@@ -299,7 +297,6 @@
     <pkg>RBloomberg</pkg>
     <pkg>Rcmdr</pkg>
     <pkg>realized</pkg>
-    <pkg priority="core">Rmetrics</pkg>
     <pkg>RQuantLib</pkg>
     <pkg>sandwich</pkg>
     <pkg>sde</pkg>
@@ -316,6 +313,8 @@
     <pkg>VaR</pkg>
     <pkg>vars</pkg>
     <pkg>rwt</pkg> 
+    <pkg priority="core">timeDate</pkg>
+    <pkg priority="core">timeSeries</pkg>
     <pkg>tis</pkg> 
     <pkg>vrtest</pkg>
     <pkg>wavelets</pkg>
