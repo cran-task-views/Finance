@@ -197,10 +197,13 @@
 	  perspective to risk management.
       </li>
       <li>
-	  The <pkg>ghyp</pkg> provides generalized hyberbolic distribution
+	  The <pkg>ghyp</pkg> package provides generalized hyberbolic distribution
           functions as well as procedures for VaR, CVaR or target-return
           portfolio optimizations.
       </li>
+      <li>
+          The <pkg>ChainLadder</pkg> package provides functions for modeling
+          insurance claim reserves.
     </ul>
     </p>
 
@@ -246,6 +249,7 @@
     <pkg>bayesGARCH</pkg>
     <pkg>car</pkg>
     <pkg>ccgarch</pkg>
+    <pkg>ChainLadder</pkg>
     <pkg>copula</pkg>
     <pkg>CreditMetrics</pkg>
     <pkg>dlm</pkg>
