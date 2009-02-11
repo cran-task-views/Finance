@@ -27,6 +27,7 @@
    
     <p>
     <strong>Standard regression models</strong>
+    </p>
     <ul>
       <li>Linear models such as ordinary least squares (OLS) can be estimated
           by <code>lm()</code> (from by the stats package contained in the basic R
@@ -44,10 +45,10 @@
           interest as well.
       </li>
     </ul>
-    </p>
 
     <p>
     <strong>Time series</strong>
+    </p>
     <ul>
       <li>A detailed overview of tools for time series analysis can be found in
           the <view>TimeSeries</view> task view. Below a brief overview of the
@@ -113,10 +114,10 @@
 	  The <pkg>tsfa</pkg> provides functions for time series factor analysis.
       </li> 
     </ul>
-    </p>
 
     <p>
     <strong>Finance</strong>
+    </p>
     <ul>
       <li>The Rmetrics suite of packages comprises
           <pkg>fArma</pkg>, <pkg>fAsianOptions</pkg>, <pkg>fAssets</pkg>, 
@@ -165,10 +166,10 @@
           tests for the weak-form of the efficient markets hypothesis.
       </li>
     </ul>
-    </p>
 
     <p>
     <strong>Risk management</strong>
+    </p>
     <ul>
       <li>The <pkg>VaR</pkg> package estimates
           Value-at-Risk, and several packages provide functionality for 
@@ -207,10 +208,10 @@
           insurance claim reserves.
       </li>
     </ul>
-    </p>
 
     <p>
     <strong>Books</strong>
+    </p>
     <ul>
       <li>The <pkg>FinTS</pkg> package provides an R companion to Tsay (2005),
       <em>Analysis of Financial Time Series</em>, 2nd ed. Wiley,  
@@ -218,10 +219,10 @@
       of the examples.  
       </li>
     </ul>
-    </p>
 
     <p>
     <strong>Data and date management</strong>
+    </p>
     <ul>
       <li>The <pkg>its</pkg>, <pkg>zoo</pkg> and
           <pkg>timeDate</pkg> (part of Rmetrics) packages provide support for
@@ -240,7 +241,6 @@
           time indices and time-indexed series compatible with Fame frequencies.
       </li>
     </ul>
-    </p>
 
   </info>
 
