@@ -1,10 +1,10 @@
-<!--Hey Emacs, make this -*- mode: XML -*- -->
+<!-- Hey Emacs, make this -*- mode: XML -*- -->
 <CRANTaskView>
 
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2009-02-12</version>
+  <version>2009-02-24</version>
   
   <info>
     <p>
@@ -63,7 +63,8 @@
 	  advanced estimation methods; <pkg>fracdiff</pkg> can
 	  estimate fractionally integrated series; <pkg>longmemo</pkg> covers
 	  related material; <pkg>FracSim</pkg> simulates fractional Levy
-          series. 
+          series. The <pkg>fractal</pkg> provide fractal time series modeling
+	  functionality. 
       </li>
       <li>For volatily modeling, the standard GARCH(1,1) model can be estimated with the 
 	  <code>garch()</code> function in the <pkg>tseries</pkg> package.
@@ -85,13 +86,16 @@
 	  The Rmetrics packages <pkg>timeSeries</pkg> and
           <pkg>fMultivar</pkg> contain a number of estimation functions for 
           ARMA, GARCH, long memory models, unit roots and more. 
+	  The <pkg>CADFtest</pkg> package implements the Hansen unit root test.
       </li>
       <li>
-	  The <pkg>ArDec</pkg> implements autoregressive time series 
-	  decomposition in a Bayesian framework; <pkg>MSBVAR</pkg> provides 
-	  Bayesian estimation of vector autoregressive models. The 
-          <pkg>dlm</pkg> package  provides Bayesian and likelihood analysis
-    	  of dynamic linear models (ie linear Gaussian state space models).
+	  The <pkg>ArDec</pkg> implements autoregressive time series
+	  decomposition in a Bayesian framework; <pkg>MSBVAR</pkg> provides
+	  Bayesian estimation of vector autoregressive models and
+	  the <pkg>MSVAR</pkg> provides classic estimation of vector
+	  autoregressive models. The  <pkg>dlm</pkg> package  provides
+	  Bayesian and likelihood analysis of dynamic linear models (ie
+	  linear Gaussian state space models). 
       </li>
       <li>
 	  The <pkg>vars</pkg> package offer estimation, diagnostics,
@@ -100,7 +104,10 @@
       </li>
       <li>
           The <pkg>dyn</pkg> and 
-	  <pkg>dynlm</pkg> are suitable for dynamic (linear) regression models.
+	  <pkg>dynlm</pkg> are suitable for dynamic (linear) regression
+	  models.
+	  The <pkg>dynamo</pkg> package can estimate dynamic model such as
+	  ARMA, ARMA-GARCH, ACD and MEM.
       </li>
       <li>
       	  Several packages provide wavelet analysis 
@@ -169,6 +176,11 @@
       <li>The <pkg>vrtest</pkg> package contains a number of variance ratio
           tests for the weak-form of the efficient markets hypothesis.
       </li>
+      <li>The <pkg>BLCOP</pkg> package provides implementation of the
+          Black-Litterman portfolio model as well other copula-opinion
+          pooling frameworks.
+      </li>
+
     </ul>
 
     <p>
@@ -242,7 +254,11 @@
 	  requires a Bloomberg installations on a Windows PC). The
           <pkg>fame</pkg> package can access Fame time series databases (but 
 	  also requires a Fame backend). The <pkg>tis</pkg> package provides 
-          time indices and time-indexed series compatible with Fame frequencies.
+          time indices and time-indexed series compatible with Fame
+	  frequencies. The <pkg>IBrokers</pkg> provides access to the
+	  Interactive Brokers API for data access, and
+	  the <pkg>opentick</pkg> package provides access to the OpenTick
+	  data (but either one requires an account to access the service).
       </li>
     </ul>
 
@@ -253,6 +269,8 @@
     <pkg>ArDec</pkg>
     <pkg>backtest</pkg>
     <pkg>bayesGARCH</pkg>
+    <pkg>BLCOP</pkg>
+    <pkg>CADFtest</pkg>
     <pkg>car</pkg>
     <pkg>ccgarch</pkg>
     <pkg>ChainLadder</pkg>
@@ -261,6 +279,7 @@
     <pkg>dlm</pkg>
     <pkg>dse</pkg>
     <pkg>dyn</pkg>
+    <pkg>dynamo</pkg>
     <pkg>dynlm</pkg>
     <pkg>evd</pkg>
     <pkg>evdbayes</pkg>
@@ -291,14 +310,18 @@
     <pkg>forecasting</pkg>
     <pkg>fracdiff</pkg>
     <pkg>FracSim</pkg>
+    <pkg>fractal</pkg>
     <pkg>ghyp</pkg>
     <pkg>gogarch</pkg>
+    <pkg>IBrokers</pkg>
     <pkg>ismev</pkg>
     <pkg priority="core">its</pkg>    
     <pkg>lmtest</pkg>
     <pkg>longmemo</pkg>
     <pkg>MSBVAR</pkg>
+    <pkg>MSVAR</pkg>
     <pkg>mvtnorm</pkg>
+    <pkg>opentick</pkg>
     <pkg priority="core">PerformanceAnalytics</pkg>
     <pkg>portfolio</pkg>
     <pkg>portfolioSim</pkg>
