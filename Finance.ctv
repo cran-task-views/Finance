@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2009-02-24</version>
+  <version>2009-02-26</version>
   
   <info>
     <p>
@@ -68,12 +68,12 @@
       </li>
       <li>For volatily modeling, the standard GARCH(1,1) model can be estimated with the 
 	  <code>garch()</code> function in the <pkg>tseries</pkg> package.
-          Rmetrisc (see below) contains the <pkg>fGarch</pkg> package which
+          Rmetrics (see below) contains the <pkg>fGarch</pkg> package which
           has additional models.  The <pkg>bayesGARCH</pkg> can perform
           Bayesian estimation of a GARCH(1,1) model with Student's t
           innovations.  For multivariate models, the <pkg>ccgarch</pkg>
-          ccgarch can estimate (multivariate) Conditional orrelation GARCH
-          models whereas the <pkg>gogarch</pkg> provides functions for
+          package can estimate (multivariate) Conditional Correlation GARCH
+          models whereas the <pkg>gogarch</pkg> package provides functions for
           generalized orthogonal GARCH models.
       </li>
       <li>The <pkg>realized</pkg> package contains functions to model and
@@ -118,11 +118,11 @@
           systems therory. 
       </li>
       <li>
-	  The <pkg>forecasting</pkg> bundle adds functions and dataset for
+	  The <pkg>forecasting</pkg> bundle adds functions and datasets for
           forecasting problems.
       </li> 
       <li>
-	  The <pkg>tsfa</pkg> provides functions for time series factor analysis.
+	  The <pkg>tsfa</pkg> package provides functions for time series factor analysis.
       </li> 
     </ul>
 
@@ -138,7 +138,7 @@
 	  <pkg>fMultivar</pkg>, <pkg>fNonlinear</pkg>, <pkg>fOptions</pkg>, 
 	  <pkg>fPortfolio</pkg>, <pkg>fRegression</pkg>, <pkg>timeSeries</pkg> (formerly: fSeries), 
 	  <pkg>fTrading</pkg>, <pkg>fUnitRoots</pkg> and
-          <pkg>fUtilities</pkg> packages contains a very large number of 
+          <pkg>fUtilities</pkg> packages contain a very large number of 
 	  relevant functions for different aspect of empirical and
           computational 
           finance.
@@ -157,7 +157,10 @@
 	  <pkg>tradeCosts</pkg> estimates the potential impact of trades on
 	  the prevalent market prices. 
           The <pkg>backtest</pkg> offers tools to  
-	  explore portfollio-based hypotheses about financial instruments.
+	  explore portfolio-based hypotheses about financial instruments.
+      </li>
+      <li>The <pkg>PerformanceAnalytics</pkg> package contains a large number
+          of functions for portfolio performance calculations and risk management.
       </li>
       <li>The <pkg>TTR</pkg> contains functions to construct technical
           trading rules in R.
@@ -251,13 +254,17 @@
           financial centers, and provides code for high-frequency data sets.
       </li>
       <li>The <pkg>RBloomberg</pkg> package can access Bloomberg data (but
-	  requires a Bloomberg installations on a Windows PC). The
-          <pkg>fame</pkg> package can access Fame time series databases (but 
+	  requires a Bloomberg installations on a Windows PC). 
+      </li>
+      <li>
+	  The <pkg>fame</pkg> package can access Fame time series databases (but 
 	  also requires a Fame backend). The <pkg>tis</pkg> package provides 
           time indices and time-indexed series compatible with Fame
-	  frequencies. The <pkg>IBrokers</pkg> provides access to the
-	  Interactive Brokers API for data access, and
-	  the <pkg>opentick</pkg> package provides access to the OpenTick
+	  frequencies. 
+      </li>
+      <li>
+	  The <pkg>IBrokers</pkg> package provides access to the Interactive Brokers
+	  API for data access, and the <pkg>opentick</pkg> package provides access to the OpenTick
 	  data (but either one requires an account to access the service).
       </li>
     </ul>
@@ -377,9 +384,8 @@
     indexes data</a>
     <a href="http://orfe.princeton.edu/~rcarmona/maindownload.html">Rene Carmona</a>
     <a href="http://faculty.washington.edu/ezivot/splus.htm">Eric Zivot</a>
-    <a href="http://www.stat.tamu.edu/~ljin/Finance/stat689-R.htm">R Code for
-    Ruppert's 'Statistics and Finance'</a>
-    <a href="http://www.decisionsynergy.com/showPackageDownload.html">FinancePack and FractalPack</a>
+    <a href="http://www.stat.tamu.edu/~ljin/Finance/stat689-R.htm">R Code for Ruppert's 'Statistics and Finance'</a>
+    <!-- <a href="http://www.decisionsynergy.com/showPackageDownload.html">FinancePack and FractalPack</a> -->
   </links>
 
 </CRANTaskView>
