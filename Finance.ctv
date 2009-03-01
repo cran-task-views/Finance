@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2009-02-26</version>
+  <version>2009-03-01</version>
   
   <info>
     <p>
@@ -263,6 +263,11 @@
 	  frequencies. 
       </li>
       <li>
+	  The <pkg>TSdbi</pkg> package provides a unifying interface for
+	  several time series data base backends, and its SQL implementations
+	  provide a database table design.
+      </li>
+      <li>
 	  The <pkg>IBrokers</pkg> package provides access to the Interactive Brokers
 	  API for data access, and the <pkg>opentick</pkg> package provides access to the OpenTick
 	  data (but either one requires an account to access the service).
@@ -345,6 +350,7 @@
     <pkg priority="core">tseries</pkg>
     <pkg>termstrc</pkg>
     <pkg>tradeCosts</pkg>
+    <pkg>TSdbi</pkg>
     <pkg>tsDyn</pkg>
     <pkg>tseriesChaos</pkg>
     <pkg>tsfa</pkg>
