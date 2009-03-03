@@ -8,43 +8,48 @@
   
   <info>
     <p>
-    This CRAN Task View contains a list of packages useful for
-    empirical work in Finance, grouped by topic. 
+      This CRAN Task View contains a list of packages useful for
+      empirical work in Finance, grouped by topic. 
     </p>
     <p>
-    Besides these packages, a very wide variety of functions suitable for
-    empirical work in Finance is provided by both the basic R 
-    system (and its set of recommended core packages), and a number of
-    other packages on the Comprehensive R Archive Network (CRAN). 
-    Consequently, several of the other CRAN Task Views may contain suitable
-    packages, in particular the <view>Econometrics</view> ,
-    <view>Multivariate</view>, <view>Optimization</view>, <view>SocialSciences</view>
-    and <view>TimeSeries</view> Task Views.
+      Besides these packages, a very wide variety of functions suitable for
+      empirical work in Finance is provided by both the basic R 
+      system (and its set of recommended core packages), and a number of
+      other packages on the Comprehensive R Archive Network (CRAN). 
+      Consequently, several of the other CRAN Task Views may contain suitable
+      packages, in particular the <view>Econometrics</view> ,
+      <view>Multivariate</view>, <view>Optimization</view>, <view>Robust</view>, 
+      <view>SocialSciences</view> and <view>TimeSeries</view> Task Views.
     </p>
     <p>
-    Please send suggestions for additions and extensions for this task
-    view to the 
-    <a href="mailto:Dirk.Eddelbuettel@R-project.org">task view maintainer</a>.
+      Please send suggestions for additions and extensions for this task
+      view to the 
+      <a href="mailto:Dirk.Eddelbuettel@R-project.org">task view maintainer</a>.
     </p>
    
     <p>
     <strong>Standard regression models</strong>
     </p>
     <ul>
+      <li>A detailed overview of the available regression methodologies is
+	provided by the <view>Econometrics</view> task view. This is
+	complemented by the <view>Robust</view> which focuses on more robust
+	and resistant methods.
+      </li>
       <li>Linear models such as ordinary least squares (OLS) can be estimated
-          by <code>lm()</code> (from by the stats package contained in the basic R
-          distribution). Maximum Likelihood (ML) estimation can be undertaken
-          with the standard <code>optim()</code> function. Many other suitable methods
-          are listed in the <view>Optimization</view> view. Non-linear least squares can
-	  be estimated with the <code>nls()</code> function, as well as with
-	  <code>nlme()</code> from the <pkg>nlme</pkg> package. 
+        by <code>lm()</code> (from by the stats package contained in the basic R
+        distribution). Maximum Likelihood (ML) estimation can be undertaken
+        with the standard <code>optim()</code> function. Many other suitable methods
+        are listed in the <view>Optimization</view> view. Non-linear least squares can
+	be estimated with the <code>nls()</code> function, as well as with
+	<code>nlme()</code> from the <pkg>nlme</pkg> package. 
       </li>
       <li>For the linear model, a variety of regression diagnostic tests 
-          are provided by the <pkg>car</pkg>, <pkg>lmtest</pkg>,
-          <pkg>strucchange</pkg>, <pkg>urca</pkg>, <pkg>uroot</pkg>,
-	  and <pkg>sandwich</pkg> packages. The <pkg>Rcmdr</pkg> and 
-          <pkg>Zelig</pkg> packages provide user interfaces that may be of
-          interest as well.
+        are provided by the <pkg>car</pkg>, <pkg>lmtest</pkg>,
+        <pkg>strucchange</pkg>, <pkg>urca</pkg>, <pkg>uroot</pkg>,
+	and <pkg>sandwich</pkg> packages. The <pkg>Rcmdr</pkg> and 
+        <pkg>Zelig</pkg> packages provide user interfaces that may be of
+        interest as well.
       </li>
     </ul>
 
@@ -183,7 +188,12 @@
           Black-Litterman portfolio model as well other copula-opinion
           pooling frameworks.
       </li>
-
+      <li>
+	  The <pkg>gmm</pkg> package provides generalized method of moments
+	  (GMM) estimations function that are often used when estimating the
+	  parameters of the moment conditions implied by an asset pricing
+	  model.
+      </li>
     </ul>
 
     <p>
@@ -324,6 +334,7 @@
     <pkg>FracSim</pkg>
     <pkg>fractal</pkg>
     <pkg>ghyp</pkg>
+    <pkg>gmm</pkg>
     <pkg>gogarch</pkg>
     <pkg>IBrokers</pkg>
     <pkg>ismev</pkg>
@@ -376,6 +387,7 @@
     <view>Econometrics</view>
     <view>Multivariate</view>
     <view>Optimization</view>
+    <view>Robust</view>
     <view>SocialSciences</view>
     <view>TimeSeries</view>
     <a href="http://www.rmetrics.org">Rmetrics contains a wealth of R code for Finance</a>
