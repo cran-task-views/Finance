@@ -64,7 +64,7 @@
           by the <code>arima()</code> and <code>KalmanLike()</code>commands in the
           basic R distribution.  
       </li>
-      <li>The <pkg>dse</pkg> packages provides a variety of more
+      <li>The <pkg>dse</pkg> and <pkg>timsac</pkg> packages provides a variety of more
 	  advanced estimation methods; <pkg>fracdiff</pkg> can
 	  estimate fractionally integrated series; <pkg>longmemo</pkg> covers
 	  related material; <pkg>FracSim</pkg> simulates fractional Levy
@@ -358,6 +358,7 @@
     <pkg>sandwich</pkg>
     <pkg>sde</pkg>
     <pkg>strucchange</pkg>
+    <pkg>timsac</pkg>
     <pkg priority="core">tseries</pkg>
     <pkg>termstrc</pkg>
     <pkg>tradeCosts</pkg>
