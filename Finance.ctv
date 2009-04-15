@@ -188,11 +188,14 @@
           Black-Litterman portfolio model as well other copula-opinion
           pooling frameworks.
       </li>
-      <li>
-	  The <pkg>gmm</pkg> package provides generalized method of moments
+      <li> The <pkg>gmm</pkg> package provides generalized method of moments
 	  (GMM) estimations function that are often used when estimating the
 	  parameters of the moment conditions implied by an asset pricing
 	  model.
+      </li>
+      <li> The <pkg>tawny</pkg> package contains estimator based on random
+	  matrix theory as well as shrinkage methods to remove sampling noise
+	  when estimating sample covariance matrices.
       </li>
     </ul>
 
@@ -282,6 +285,11 @@
 	  API for data access, and the <pkg>opentick</pkg> package provides access to the OpenTick
 	  data (but either one requires an account to access the service).
       </li>
+      <li>
+	  The <pkg>data.table</pkg> package provides very efficient and fast
+	  access to in-meory data sets such as asset prices.
+      </li>
+
     </ul>
 
   </info>
@@ -298,6 +306,7 @@
     <pkg>ChainLadder</pkg>
     <pkg>copula</pkg>
     <pkg>CreditMetrics</pkg>
+    <pkg>data.table</pkg>
     <pkg>dlm</pkg>
     <pkg>dse</pkg>
     <pkg>dyn</pkg>
@@ -372,6 +381,7 @@
     <pkg>VaR</pkg>
     <pkg>vars</pkg>
     <pkg>rwt</pkg> 
+    <pkg>tawny</pkg>
     <pkg priority="core">timeDate</pkg>
     <pkg priority="core">timeSeries</pkg>
     <pkg>tis</pkg> 
