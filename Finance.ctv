@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2009-04-15</version>
+  <version>2009-06-08</version>
   
   <info>
     <p>
@@ -287,7 +287,7 @@
       </li>
       <li>
 	  The <pkg>data.table</pkg> package provides very efficient and fast
-	  access to in-meory data sets such as asset prices.
+	  access to in-memory data sets such as asset prices.
       </li>
 
     </ul>
