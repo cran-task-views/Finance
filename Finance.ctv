@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2009-06-08</version>
+  <version>2009-06-22</version>
   
   <info>
     <p>
@@ -46,10 +46,9 @@
       </li>
       <li>For the linear model, a variety of regression diagnostic tests 
         are provided by the <pkg>car</pkg>, <pkg>lmtest</pkg>,
-        <pkg>strucchange</pkg>, <pkg>urca</pkg>, <pkg>uroot</pkg>,
-	and <pkg>sandwich</pkg> packages. The <pkg>Rcmdr</pkg> and 
-        <pkg>Zelig</pkg> packages provide user interfaces that may be of
-        interest as well.
+        <pkg>strucchange</pkg>, <pkg>urca</pkg>, and <pkg>sandwich</pkg> packages. 
+	The <pkg>Rcmdr</pkg> and <pkg>Zelig</pkg> packages provide user
+	interfaces that may be of interest as well.
       </li>
     </ul>
 
@@ -87,7 +86,7 @@
           implied volatility from option prices).
       </li>
       <li>Unit root and cointegration tests are provided by <pkg>tseries</pkg>,
-	  <pkg>urca</pkg> and <pkg>uroot</pkg>.
+	  and <pkg>urca</pkg>.
 	  The Rmetrics packages <pkg>timeSeries</pkg> and
           <pkg>fMultivar</pkg> contain a number of estimation functions for 
           ARMA, GARCH, long memory models, unit roots and more. 
@@ -377,7 +376,6 @@
     <pkg>tsfa</pkg>
     <pkg>TTR</pkg>
     <pkg priority="core">urca</pkg>
-    <pkg>uroot</pkg>
     <pkg>VaR</pkg>
     <pkg>vars</pkg>
     <pkg>rwt</pkg> 
