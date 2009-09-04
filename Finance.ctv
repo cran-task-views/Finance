@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2009-08-04</version>
+  <version>2009-09-04</version>
   
   <info>
     <p>
@@ -167,7 +167,8 @@
           of functions for portfolio performance calculations and risk management.
       </li>
       <li>The <pkg>TTR</pkg> contains functions to construct technical
-          trading rules in R.
+          trading rules in R. The <pkg>ttrTest</pkg> package contains several
+          test statistics for assessing the efficacy of such rules.
       </li>
       <li>The <pkg>financial</pkg> package can compute present values, cash
 	  flows and other simple finance calculations.
@@ -376,6 +377,7 @@
     <pkg>tseriesChaos</pkg>
     <pkg>tsfa</pkg>
     <pkg>TTR</pkg>
+    <pkg>ttrTest</pkg>
     <pkg priority="core">urca</pkg>
     <pkg>VaR</pkg>
     <pkg>vars</pkg>
