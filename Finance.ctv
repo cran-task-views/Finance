@@ -167,7 +167,7 @@
           of functions for portfolio performance calculations and risk management.
       </li>
       <li>The <pkg>TTR</pkg> contains functions to construct technical
-          trading rules in R. The <pkg>ttrTest</pkg> package contains several
+          trading rules in R. The <pkg>ttrTests</pkg> package contains several
           test statistics for assessing the efficacy of such rules.
       </li>
       <li>The <pkg>financial</pkg> package can compute present values, cash
@@ -377,7 +377,7 @@
     <pkg>tseriesChaos</pkg>
     <pkg>tsfa</pkg>
     <pkg>TTR</pkg>
-    <pkg>ttrTest</pkg>
+    <pkg>ttrTests</pkg>
     <pkg priority="core">urca</pkg>
     <pkg>VaR</pkg>
     <pkg>vars</pkg>
