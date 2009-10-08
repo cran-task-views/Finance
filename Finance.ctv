@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2009-09-07</version>
+  <version>2009-10-07</version>
   
   <info>
     <p>
@@ -167,8 +167,10 @@
           of functions for portfolio performance calculations and risk management.
       </li>
       <li>The <pkg>TTR</pkg> contains functions to construct technical
-          trading rules in R. The <pkg>ttrTests</pkg> package contains several
-          test statistics for assessing the efficacy of such rules.
+          trading rules in R. The <pkg>ttrTests</pkg> package contains
+          several test statistics for assessing the efficacy 
+          of such rules, and the <pkg>atmi</pkg> package contains
+          functions to analyse and use such trading rules.
       </li>
       <li>The <pkg>financial</pkg> package can compute present values, cash
 	  flows and other simple finance calculations.
@@ -298,6 +300,7 @@
   <packagelist>
     <pkg>actuar</pkg>
     <pkg>ArDec</pkg>
+    <pkg>atmi</pkg>
     <pkg>backtest</pkg>
     <pkg>bayesGARCH</pkg>
     <pkg>BLCOP</pkg>
