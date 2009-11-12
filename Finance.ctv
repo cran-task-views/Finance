@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2009-11-02</version>
+  <version>2009-11-12</version>
   
   <info>
     <p>
@@ -78,12 +78,7 @@
           innovations.  For multivariate models, the <pkg>ccgarch</pkg>
           package can estimate (multivariate) Conditional Correlation GARCH
           models whereas the <pkg>gogarch</pkg> package provides functions for
-          generalized orthogonal GARCH models.  The
-          packages <pkg>MCMCtGARCH</pkg>, <pkg>MCMCtGARCHM</pkg>
-          and <pkg>MCMCtNARCH</pkg> estimate GARCH models with, respectively,
-          Student-t error, Student-t errors and GARCH-in-mean effects, and
-          Box-Cox transformed GARCH with Student-t errors, by means of Marcov
-          Chain Monte Carlo using the Metropolis-Hastings algorithm.
+          generalized orthogonal GARCH models.
       </li>
       <li>The <pkg>realized</pkg> package contains functions to model and
           visualize 'realized' variance (from high-frequency sampling, as
@@ -361,9 +356,6 @@
     <pkg priority="core">its</pkg>    
     <pkg>lmtest</pkg>
     <pkg>longmemo</pkg>
-    <pkg>MCMCtGARCH</pkg> 
-    <pkg>MCMCtGARCHM</pkg>
-    <pkg>MCMCtNARCH</pkg> 
     <pkg>MSBVAR</pkg>
     <pkg>MSVAR</pkg>
     <pkg>mvtnorm</pkg>
