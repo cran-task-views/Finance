@@ -287,8 +287,7 @@
       </li>
       <li>
 	  The <pkg>IBrokers</pkg> package provides access to the Interactive Brokers
-	  API for data access, and the <pkg>opentick</pkg> package provides access to the OpenTick
-	  data (but either one requires an account to access the service).
+	  API for data access (but requires an account to access the service).
       </li>
       <li>
 	  The <pkg>data.table</pkg> package provides very efficient and fast
@@ -359,7 +358,6 @@
     <pkg>MSBVAR</pkg>
     <pkg>MSVAR</pkg>
     <pkg>mvtnorm</pkg>
-    <pkg>opentick</pkg>
     <pkg priority="core">PerformanceAnalytics</pkg>
     <pkg>portfolio</pkg>
     <pkg>portfolioSim</pkg>
