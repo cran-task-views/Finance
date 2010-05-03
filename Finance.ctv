@@ -202,6 +202,10 @@
 	  matrix theory as well as shrinkage methods to remove sampling noise
 	  when estimating sample covariance matrices.
       </li>
+      <li> The <pkg>SV</pkg> package uses indirect inference to estimate
+	  non-Gaussian stochastic volatility models.
+      </li>
+
     </ul>
 
     <p>
@@ -372,6 +376,7 @@
     <pkg>sde</pkg>
     <pkg>stockPortfolio</pkg>    
     <pkg>strucchange</pkg>
+    <pkg>SV</pkg>
     <pkg>timsac</pkg>
     <pkg priority="core">tseries</pkg>
     <pkg>termstrc</pkg>
