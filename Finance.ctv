@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2010-05-03</version>
+  <version>2010-07-30</version>
   
   <info>
     <p>
@@ -80,11 +80,6 @@
           models whereas the <pkg>gogarch</pkg> package provides functions for
           generalized orthogonal GARCH models.
       </li>
-      <li>The <pkg>realized</pkg> package contains functions to model and
-          visualize 'realized' variance (from high-frequency sampling, as
-          opposed to historical volatility and variance from lower-frequency returns, or
-          implied volatility from option prices).
-      </li>
       <li>Unit root and cointegration tests are provided by <pkg>tseries</pkg>,
 	  and <pkg>urca</pkg>.
 	  The Rmetrics packages <pkg>timeSeries</pkg> and
@@ -95,9 +90,7 @@
       <li>
 	  The <pkg>ArDec</pkg> implements autoregressive time series
 	  decomposition in a Bayesian framework; <pkg>MSBVAR</pkg> provides
-	  Bayesian estimation of vector autoregressive models and
-	  the <pkg>MSVAR</pkg> provides classic estimation of vector
-	  autoregressive models. The  <pkg>dlm</pkg> package  provides
+	  Bayesian estimation of vector autoregressive models. The  <pkg>dlm</pkg> package  provides
 	  Bayesian and likelihood analysis of dynamic linear models (ie
 	  linear Gaussian state space models). 
       </li>
@@ -212,8 +205,7 @@
     <strong>Risk management</strong>
     </p>
     <ul>
-      <li>The <pkg>VaR</pkg> package estimates
-          Value-at-Risk, and several packages provide functionality for 
+      <li>Several packages provide functionality for 
           Extreme Value Theory models: <pkg>evd</pkg>, <pkg>evdbayes</pkg>, 
           <pkg>evir</pkg>, <pkg>extRremes</pkg>, <pkg>ismev</pkg>, 
           <pkg>POT</pkg>.
@@ -360,7 +352,6 @@
     <pkg>lmtest</pkg>
     <pkg>longmemo</pkg>
     <pkg>MSBVAR</pkg>
-    <pkg>MSVAR</pkg>
     <pkg>mvtnorm</pkg>
     <pkg priority="core">PerformanceAnalytics</pkg>
     <pkg>portfolio</pkg>
@@ -370,7 +361,6 @@
     <pkg>quantmod</pkg>
     <pkg>RBloomberg</pkg>
     <pkg>Rcmdr</pkg>
-    <pkg>realized</pkg>
     <pkg>RQuantLib</pkg>
     <pkg>sandwich</pkg>
     <pkg>sde</pkg>
@@ -388,7 +378,6 @@
     <pkg>TTR</pkg>
     <pkg>ttrTests</pkg>
     <pkg priority="core">urca</pkg>
-    <pkg>VaR</pkg>
     <pkg>vars</pkg>
     <pkg>rwt</pkg> 
     <pkg>tawny</pkg>
