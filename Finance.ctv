@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2010-07-30</version>
+  <version>2010-08-27</version>
   
   <info>
     <p>
@@ -198,7 +198,12 @@
       <li> The <pkg>SV</pkg> package uses indirect inference to estimate
 	  non-Gaussian stochastic volatility models.
       </li>
-
+      <li> The <pkg>orderbook</pkg> package can be used to analyses market
+	  microstructure effects and changes in the (limit-) order books.
+      </li>
+      <li> The <pkg>schwartz97</pkg> package can be used to model the
+	  Schwartz (1997) two-factor model for commodities markets.
+      </li>
     </ul>
 
     <p>
@@ -353,6 +358,7 @@
     <pkg>longmemo</pkg>
     <pkg>MSBVAR</pkg>
     <pkg>mvtnorm</pkg>
+    <pkg>orderbook</pkg>
     <pkg priority="core">PerformanceAnalytics</pkg>
     <pkg>portfolio</pkg>
     <pkg>portfolioSim</pkg>
@@ -362,7 +368,9 @@
     <pkg>RBloomberg</pkg>
     <pkg>Rcmdr</pkg>
     <pkg>RQuantLib</pkg>
+    <pkg>rwt</pkg> 
     <pkg>sandwich</pkg>
+    <pkg>schwartz97</pkg>
     <pkg>sde</pkg>
     <pkg>stockPortfolio</pkg>    
     <pkg>strucchange</pkg>
@@ -377,13 +385,12 @@
     <pkg>tsfa</pkg>
     <pkg>TTR</pkg>
     <pkg>ttrTests</pkg>
-    <pkg priority="core">urca</pkg>
-    <pkg>vars</pkg>
-    <pkg>rwt</pkg> 
     <pkg>tawny</pkg>
     <pkg priority="core">timeDate</pkg>
     <pkg priority="core">timeSeries</pkg>
     <pkg>tis</pkg> 
+    <pkg priority="core">urca</pkg>
+    <pkg>vars</pkg>
     <pkg>vrtest</pkg>
     <pkg>wavelets</pkg>
     <pkg>waveslim</pkg>
