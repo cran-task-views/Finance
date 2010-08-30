@@ -70,7 +70,7 @@
           series. The <pkg>fractal</pkg> provide fractal time series modeling
 	  functionality. 
       </li>
-      <li>For volatily modeling, the standard GARCH(1,1) model can be estimated with the 
+      <li>For volatility modeling, the standard GARCH(1,1) model can be estimated with the 
 	  <code>garch()</code> function in the <pkg>tseries</pkg> package.
           Rmetrics (see below) contains the <pkg>fGarch</pkg> package which
           has additional models.  The <pkg>bayesGARCH</pkg> can perform
