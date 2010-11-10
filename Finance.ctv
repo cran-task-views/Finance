@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2010-08-27</version>
+  <version>2010-11-10</version>
   
   <info>
     <p>
@@ -204,6 +204,13 @@
       <li> The <pkg>schwartz97</pkg> package can be used to model the
 	  Schwartz (1997) two-factor model for commodities markets.
       </li>
+      <li> The <pkg>rrv</pkg> package provides functions for 
+	modelling portfolio returns as random variables, partly
+	based on the work of Markowitz (1952, 1959), with an emphasis on:
+	modelling portfolios as functions of weight; modelling returns with
+	empirical cumulative distribution functions; and considering quantile
+	returns.
+      </li>
     </ul>
 
     <p>
@@ -369,6 +376,7 @@
     <pkg>Rcmdr</pkg>
     <pkg>RQuantLib</pkg>
     <pkg>rwt</pkg> 
+    <pkg>rrv</pkg> 
     <pkg>sandwich</pkg>
     <pkg>schwartz97</pkg>
     <pkg>sde</pkg>
