@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2010-11-10</version>
+  <version>2011-04-13</version>
   
   <info>
     <p>
@@ -150,9 +150,7 @@
       </li>
       <li>The <pkg>portfolio</pkg> package contains
           classes for equity portfolio management; the
-          <pkg>portfolioSim</pkg> builds a related simulation framework and
-	  <pkg>tradeCosts</pkg> estimates the potential impact of trades on
-	  the prevalent market prices. 
+          <pkg>portfolioSim</pkg> builds a related simulation framework. 
           The <pkg>backtest</pkg> offers tools to  
 	  explore portfolio-based hypotheses about financial instruments.
 	  The <pkg>stockPortfolio</pkg> packages provides functions for
@@ -181,10 +179,6 @@
       </li>
       <li>The <pkg>vrtest</pkg> package contains a number of variance ratio
           tests for the weak-form of the efficient markets hypothesis.
-      </li>
-      <li>The <pkg>BLCOP</pkg> package provides implementation of the
-          Black-Litterman portfolio model as well other copula-opinion
-          pooling frameworks.
       </li>
       <li> The <pkg>gmm</pkg> package provides generalized method of moments
 	  (GMM) estimations function that are often used when estimating the
@@ -312,7 +306,6 @@
     <pkg>atmi</pkg>
     <pkg>backtest</pkg>
     <pkg>bayesGARCH</pkg>
-    <pkg>BLCOP</pkg>
     <pkg>CADFtest</pkg>
     <pkg>car</pkg>
     <pkg>ccgarch</pkg>
@@ -386,7 +379,6 @@
     <pkg>timsac</pkg>
     <pkg priority="core">tseries</pkg>
     <pkg>termstrc</pkg>
-    <pkg>tradeCosts</pkg>
     <pkg>TSdbi</pkg>
     <pkg>tsDyn</pkg>
     <pkg>tseriesChaos</pkg>
