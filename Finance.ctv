@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2011-04-24</version>
+  <version>2011-06-15</version>
   
   <info>
     <p>
@@ -205,6 +205,10 @@
 	empirical cumulative distribution functions; and considering quantile
 	returns.
       </li>
+      <li> The <pkg>opefimor</pkg> package by contains material to
+      accompany the Iacus (2011) book entitled "Option Pricing and
+      Estimation of Financial Models in R".
+      </li>
     </ul>
 
     <p>
@@ -365,6 +369,7 @@
     <pkg>longmemo</pkg>
     <pkg>MSBVAR</pkg>
     <pkg>mvtnorm</pkg>
+    <pkg>opefimor</pkg>
     <pkg>orderbook</pkg>
     <pkg priority="core">PerformanceAnalytics</pkg>
     <pkg>portfolio</pkg>
