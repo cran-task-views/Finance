@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2011-06-15</version>
+  <version>2011-07-26</version>
   
   <info>
     <p>
@@ -192,9 +192,6 @@
       <li> The <pkg>SV</pkg> package uses indirect inference to estimate
 	  non-Gaussian stochastic volatility models.
       </li>
-      <li> The <pkg>orderbook</pkg> package can be used to analyses market
-	  microstructure effects and changes in the (limit-) order books.
-      </li>
       <li> The <pkg>schwartz97</pkg> package can be used to model the
 	  Schwartz (1997) two-factor model for commodities markets.
       </li>
@@ -370,7 +367,6 @@
     <pkg>MSBVAR</pkg>
     <pkg>mvtnorm</pkg>
     <pkg>opefimor</pkg>
-    <pkg>orderbook</pkg>
     <pkg priority="core">PerformanceAnalytics</pkg>
     <pkg>portfolio</pkg>
     <pkg>portfolioSim</pkg>
