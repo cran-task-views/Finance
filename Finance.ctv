@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2011-07-26</version>
+  <version>2011-08-04</version>
   
   <info>
     <p>
@@ -196,15 +196,18 @@
 	  Schwartz (1997) two-factor model for commodities markets.
       </li>
       <li> The <pkg>rrv</pkg> package provides functions for 
-	modelling portfolio returns as random variables, partly
-	based on the work of Markowitz (1952, 1959), with an emphasis on:
-	modelling portfolios as functions of weight; modelling returns with
-	empirical cumulative distribution functions; and considering quantile
-	returns.
+	  modelling portfolio returns as random variables, partly
+	  based on the work of Markowitz (1952, 1959), with an emphasis on:
+	  modelling portfolios as functions of weight; modelling returns with
+	  empirical cumulative distribution functions; and considering quantile
+	  returns.
       </li>
       <li> The <pkg>opefimor</pkg> package by contains material to
-      accompany the Iacus (2011) book entitled "Option Pricing and
-      Estimation of Financial Models in R".
+          accompany the Iacus (2011) book entitled "Option Pricing and
+          Estimation of Financial Models in R".
+      </li>
+      <li> The <pkg>maRketSim</pkg> package provides a market simulator, 
+          initially designed around the bond market.
       </li>
     </ul>
 
@@ -303,7 +306,6 @@
 	  liquidity and volatility, and investigate market microstructure
 	  aspects. 
       </li>
-
     </ul>
 
   </info>
@@ -364,6 +366,7 @@
     <pkg priority="core">its</pkg>    
     <pkg>lmtest</pkg>
     <pkg>longmemo</pkg>
+    <pkg>maRketSim</pkg>
     <pkg>MSBVAR</pkg>
     <pkg>mvtnorm</pkg>
     <pkg>opefimor</pkg>
