@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2011-08-04</version>
+  <version>2011-09-07</version>
   
   <info>
     <p>
@@ -70,19 +70,24 @@
           series. The <pkg>fractal</pkg> provide fractal time series modeling
 	  functionality. 
       </li>
-      <li>For volatility modeling, the standard GARCH(1,1) model can be estimated with the 
-	  <code>garch()</code> function in the <pkg>tseries</pkg> package.
-          Rmetrics (see below) contains the <pkg>fGarch</pkg> package which
-          has additional models.  The <pkg>bayesGARCH</pkg> can perform
+      <li>For volatility modeling, the standard GARCH(1,1) model can
+          be estimated with the <code>garch()</code> function in the
+          <pkg>tseries</pkg> package.  Rmetrics (see below) contains the
+          <pkg>fGarch</pkg> package which has additional models.  The
+          <pkg>rugarch</pkg> package can be used to model a variety of
+          univariate GARCH models with extensions such as ARFIMA, in-mean,
+          external regressors and various other specifications; with
+          methods for fit, forecast, simulation, inference and plotting
+          are provided too.  The <pkg>bayesGARCH</pkg> can perform
           Bayesian estimation of a GARCH(1,1) model with Student's t
           innovations.  For multivariate models, the <pkg>ccgarch</pkg>
-          package can estimate (multivariate) Conditional Correlation GARCH
-          models whereas the <pkg>gogarch</pkg> package provides functions for
-          generalized orthogonal GARCH models.
+          package can estimate (multivariate) Conditional Correlation
+          GARCH models whereas the <pkg>gogarch</pkg> package provides
+          functions for generalized orthogonal GARCH models.
       </li>
       <li>Unit root and cointegration tests are provided by <pkg>tseries</pkg>,
-	  and <pkg>urca</pkg>.
-	  The Rmetrics packages <pkg>timeSeries</pkg> and
+    	  and <pkg>urca</pkg>.
+    	  The Rmetrics packages <pkg>timeSeries</pkg> and
           <pkg>fMultivar</pkg> contain a number of estimation functions for 
           ARMA, GARCH, long memory models, unit roots and more. 
 	  The <pkg>CADFtest</pkg> package implements the Hansen unit root test.
@@ -381,6 +386,7 @@
     <pkg>RQuantLib</pkg>
     <pkg>rrv</pkg> 
     <pkg>RTAQ</pkg> 
+    <pkg>rugarch</pkg> 
     <pkg>rwt</pkg> 
     <pkg>sandwich</pkg>
     <pkg>schwartz97</pkg>
