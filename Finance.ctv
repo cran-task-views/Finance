@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2011-09-07</version>
+  <version>2011-09-28</version>
   
   <info>
     <p>
@@ -78,7 +78,9 @@
           univariate GARCH models with extensions such as ARFIMA, in-mean,
           external regressors and various other specifications; with
           methods for fit, forecast, simulation, inference and plotting
-          are provided too.  The <pkg>bayesGARCH</pkg> can perform
+          are provided too. The <pkg>betategarch</pkg> package can estimate 
+          and simulate the Beta-t-EGARCH model by Harvey. 
+          The <pkg>bayesGARCH</pkg> package can perform
           Bayesian estimation of a GARCH(1,1) model with Student's t
           innovations.  For multivariate models, the <pkg>ccgarch</pkg>
           package can estimate (multivariate) Conditional Correlation
@@ -321,6 +323,7 @@
     <pkg>atmi</pkg>
     <pkg>backtest</pkg>
     <pkg>bayesGARCH</pkg>
+    <pkg>betategarch</pkg>
     <pkg>CADFtest</pkg>
     <pkg>car</pkg>
     <pkg>ccgarch</pkg>
@@ -368,7 +371,7 @@
     <pkg>gogarch</pkg>
     <pkg>IBrokers</pkg>
     <pkg>ismev</pkg>
-    <pkg priority="core">its</pkg>    
+    <pkg>its</pkg>    
     <pkg>lmtest</pkg>
     <pkg>longmemo</pkg>
     <pkg>maRketSim</pkg>
@@ -414,7 +417,7 @@
     <pkg>waveslim</pkg>
     <pkg>wavethresh</pkg> 
     <pkg>YieldCurve</pkg>
-    <pkg>xts</pkg> 
+    <pkg priority="core">xts</pkg> 
     <pkg>Zelig</pkg>
     <pkg priority="core">zoo</pkg>    
   </packagelist>
