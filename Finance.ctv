@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2011-09-28</version>
+  <version>2011-10-11</version>
   
   <info>
     <p>
@@ -284,9 +284,6 @@
           calendar issues such as recurring holidays for a large number of
           financial centers, and provides code for high-frequency data sets.
       </li>
-      <li>The <pkg>RBloomberg</pkg> package can access Bloomberg data (but
-	  requires a Bloomberg installations on a Windows PC). 
-      </li>
       <li>
 	  The <pkg>fame</pkg> package can access Fame time series databases (but 
 	  also requires a Fame backend). The <pkg>tis</pkg> package provides 
@@ -384,7 +381,6 @@
     <pkg>POT</pkg>
     <pkg>QRMlib</pkg>
     <pkg>quantmod</pkg>
-    <pkg>RBloomberg</pkg>
     <pkg>Rcmdr</pkg>
     <pkg>RQuantLib</pkg>
     <pkg>rrv</pkg> 
