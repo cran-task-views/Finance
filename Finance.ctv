@@ -385,6 +385,7 @@
     <pkg>maRketSim</pkg>
     <pkg>MSBVAR</pkg>
     <pkg>mvtnorm</pkg>
+    <pkg>NMOF</pkg>
     <pkg>opefimor</pkg>
     <pkg>PairTrading</pkg>
     <pkg priority="core">PerformanceAnalytics</pkg>
