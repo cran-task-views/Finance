@@ -216,6 +216,12 @@
       <li> The <pkg>maRketSim</pkg> package provides a market simulator, 
           initially designed around the bond market.
       </li>
+      <li> The <pkg>PairTrading</pkg> package an implementation of the
+          classical "Pair(s) trading" trading strategy using
+          cointegration.
+      </li>
+
+
     </ul>
 
     <p>
@@ -264,9 +270,14 @@
     </p>
     <ul>
       <li>The <pkg>FinTS</pkg> package provides an R companion to Tsay (2005),
-      <em>Analysis of Financial Time Series</em>, 2nd ed. Wiley,  
-      and includes data sets, functions and script files to work some 
-      of the examples.  
+         <em>Analysis of Financial Time Series</em>, 2nd ed. Wiley,  
+         and includes data sets, functions and script files to work some 
+         of the examples.  
+      </li>
+      <li>The <pkg>NMOF</pkg> package provides functions, examples and data 
+         from <em>Numerical Methods in Finance</em> by Manfred Gilli, Dietmar Maringer and 
+	 Enrico Schumann (2011), including the different optimization heuristics such as 
+	 Differential Evolution, Genetic Algorithms, Particle Swarms, and Threshold Accepting.
       </li>
     </ul>
 
@@ -375,6 +386,7 @@
     <pkg>MSBVAR</pkg>
     <pkg>mvtnorm</pkg>
     <pkg>opefimor</pkg>
+    <pkg>PairTrading</pkg>
     <pkg priority="core">PerformanceAnalytics</pkg>
     <pkg>portfolio</pkg>
     <pkg>portfolioSim</pkg>
