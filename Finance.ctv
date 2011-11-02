@@ -236,8 +236,6 @@
       <li>The <pkg>CreditMetrics</pkg> package provides 
 	  functions for Credit Risk modeling.
       </li>
-      <li>The <pkg>QRMlib</pkg> covers quantitative risk modelling.
-      </li>
       <li>
           The <pkg>mvtnorm</pkg> 
           package provides code for multivariate Normal and t-distributions.
@@ -392,7 +390,6 @@
     <pkg>portfolio</pkg>
     <pkg>portfolioSim</pkg>
     <pkg>POT</pkg>
-    <pkg>QRMlib</pkg>
     <pkg>quantmod</pkg>
     <pkg>Rcmdr</pkg>
     <pkg>RQuantLib</pkg>
