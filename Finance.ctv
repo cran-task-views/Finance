@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2011-11-02</version>
+  <version>2011-11-03</version>
   
   <info>
     <p>
@@ -95,8 +95,7 @@
 	  The <pkg>CADFtest</pkg> package implements the Hansen unit root test.
       </li>
       <li>
-	  The <pkg>ArDec</pkg> implements autoregressive time series
-	  decomposition in a Bayesian framework; <pkg>MSBVAR</pkg> provides
+	  <pkg>MSBVAR</pkg> provides
 	  Bayesian estimation of vector autoregressive models. The  <pkg>dlm</pkg> package  provides
 	  Bayesian and likelihood analysis of dynamic linear models (ie
 	  linear Gaussian state space models). 
@@ -326,7 +325,6 @@
 
   <packagelist>
     <pkg>actuar</pkg>
-    <pkg>ArDec</pkg>
     <pkg>atmi</pkg>
     <pkg>backtest</pkg>
     <pkg>bayesGARCH</pkg>
