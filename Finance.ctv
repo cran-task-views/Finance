@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2011-11-03</version>
+  <version>2011-11-08</version>
   
   <info>
     <p>
@@ -259,7 +259,8 @@
       </li>
       <li>
           The <pkg>ChainLadder</pkg> package provides functions for modeling
-          insurance claim reserves.
+          insurance claim reserves; and the <pkg>lifecontingencies</pkg> package 
+          provides functions for financial and actuarial evaluations of life contingencies. 
       </li>
     </ul>
 
@@ -376,6 +377,7 @@
     <pkg>IBrokers</pkg>
     <pkg>ismev</pkg>
     <pkg>its</pkg>    
+    <pkg>lifecontingencies</pkg>
     <pkg>lmtest</pkg>
     <pkg>longmemo</pkg>
     <pkg>maRketSim</pkg>
