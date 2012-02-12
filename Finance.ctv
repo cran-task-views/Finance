@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2011-11-18</version>
+  <version>2012-02-12</version>
   
   <info>
     <p>
@@ -214,8 +214,13 @@
       <li> The <pkg>maRketSim</pkg> package provides a market simulator, 
           initially designed around the bond market.
       </li>
-      <li> The <pkg>PairTrading</pkg> package an implementation of the
+      <li> The <pkg>PairTrading</pkg> package provides an implementation of the
           classical "Pair(s) trading" trading strategy using
+          cointegration.
+      </li>
+      <li> The <pkg>BurStFin</pkg> package has a collection of
+          function for Finance including the estimation of covariance
+          matrices.  classical "Pair(s) trading" trading strategy using
           cointegration.
       </li>
 
@@ -327,6 +332,7 @@
     <pkg>backtest</pkg>
     <pkg>bayesGARCH</pkg>
     <pkg>betategarch</pkg>
+    <pkg>BurStFin</pkg>
     <pkg>CADFtest</pkg>
     <pkg>car</pkg>
     <pkg>ccgarch</pkg>
