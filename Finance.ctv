@@ -236,8 +236,8 @@
           <pkg>evir</pkg>, <pkg>extRremes</pkg>, <pkg>ismev</pkg>, 
           <pkg>POT</pkg>.
       </li>
-      <li>The <pkg>CreditMetrics</pkg> package provides 
-	  functions for Credit Risk modeling.
+      <li>
+	The packages <pkg>CreditMetrics</pkg> and <pkg>crp.CSFP</pkg> provide function for modelling credit risks.
       </li>
       <li>
           The <pkg>mvtnorm</pkg> 
@@ -339,6 +339,7 @@
     <pkg>ChainLadder</pkg>
     <pkg>copula</pkg>
     <pkg>CreditMetrics</pkg>
+    <pkg>crp.CSFP</pkg>
     <pkg>data.table</pkg>
     <pkg>dlm</pkg>
     <pkg>dse</pkg>
