@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2012-03-04</version>
+  <version>2012-03-15</version>
   
   <info>
     <p>
@@ -223,8 +223,11 @@
           matrices.  classical "Pair(s) trading" trading strategy using
           cointegration.
       </li>
-      <li> The <pkg>AmericanCallOpt</pkg> package contains pricer for
-      different American call options.
+      <li> The <pkg>AmericanCallOpt</pkg> package contains a pricer for
+        different American call options.
+      </li>
+      <li> The <pkg>VarSwapPrice</pkg> package can price a variance swap 
+        via a portfolio of European options contracts.
       </li>
 
     </ul>
@@ -425,6 +428,7 @@
     <pkg priority="core">urca</pkg>
     <pkg>vars</pkg>
     <pkg>vrtest</pkg>
+    <pkg>VarSwapPrice</pkg>
     <pkg>wavelets</pkg>
     <pkg>waveslim</pkg>
     <pkg>wavethresh</pkg> 
