@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2012-04-04</version>
+  <version>2012-04-11</version>
   
   <info>
     <p>
@@ -66,8 +66,7 @@
       <li>The <pkg>dse</pkg> and <pkg>timsac</pkg> packages provides a variety of more
 	  advanced estimation methods; <pkg>fracdiff</pkg> can
 	  estimate fractionally integrated series; <pkg>longmemo</pkg> covers
-	  related material; <pkg>FracSim</pkg> simulates fractional Levy
-          series. The <pkg>fractal</pkg> provide fractal time series modeling
+	  related material. The <pkg>fractal</pkg> provide fractal time series modeling
 	  functionality. 
       </li>
       <li>For volatility modeling, the standard GARCH(1,1) model can
@@ -385,7 +384,6 @@ Classifies implicit trading activity from market quotes and computes the probabi
     <pkg priority="core">fUnitRoots</pkg>
     <pkg>forecast</pkg>
     <pkg>fracdiff</pkg>
-    <pkg>FracSim</pkg>
     <pkg>fractal</pkg>
     <pkg>ghyp</pkg>
     <pkg>gmm</pkg>
