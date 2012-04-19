@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2012-04-11</version>
+  <version>2012-04-19</version>
   
   <info>
     <p>
@@ -272,6 +272,9 @@
           insurance claim reserves; and the <pkg>lifecontingencies</pkg> package 
           provides functions for financial and actuarial evaluations of life contingencies. 
       </li>
+      <li>
+	  The <pkg>frmqa</pkg> package aims to collect functions for Financial Risk Management and Quantitative Analysis.
+      </li>
     </ul>
 
     <p>
@@ -382,6 +385,7 @@
     <pkg>forecast</pkg>
     <pkg>fracdiff</pkg>
     <pkg>fractal</pkg>
+    <pkg>frmqa</pkg>
     <pkg>ghyp</pkg>
     <pkg>gmm</pkg>
     <pkg>gogarch</pkg>
