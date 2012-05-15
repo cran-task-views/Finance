@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2012-05-14</version>
+  <version>2012-05-15</version>
   
   <info>
     <p>
@@ -463,6 +463,7 @@
     <a href="http://faculty.washington.edu/ezivot/splus.htm">Eric Zivot</a>
     <a href="http://www.stat.tamu.edu/~ljin/Finance/stat689-R.htm">R Code for Ruppert's 'Statistics and Finance'</a>
     <!-- <a href="http://www.decisionsynergy.com/showPackageDownload.html">FinancePack and FractalPack</a> -->
+    <a href="http://www.r-programming.org/papers">Guy Yollin</a>
   </links>
 
 </CRANTaskView>
