@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2012-06-09</version>
+  <version>2012-07-18</version>
   
   <info>
     <p>
@@ -135,7 +135,7 @@
       <li>The Rmetrics suite of packages comprises
           <pkg>fArma</pkg>, <pkg>fAsianOptions</pkg>, <pkg>fAssets</pkg>, 
 	  <pkg>fBasics</pkg>, <pkg>fBonds</pkg>, <pkg>timeDate</pkg> (formerly: fCalendar), 
-	  <pkg>fCopulae</pkg>, <pkg>fEcofin</pkg>, <pkg>fExoticOptions</pkg>, 
+	  <pkg>fCopulae</pkg>, <pkg>fExoticOptions</pkg>, 
 	  <pkg>fExtremes</pkg>, <pkg>fGarch</pkg>, <pkg>fImport</pkg>, 
 	  <pkg>fMultivar</pkg>, <pkg>fNonlinear</pkg>, <pkg>fOptions</pkg>, 
 	  <pkg>fPortfolio</pkg>, <pkg>fRegression</pkg>, <pkg>timeSeries</pkg> (formerly: fSeries), 
@@ -368,7 +368,6 @@
     <pkg priority="core">fBasics</pkg>
     <pkg priority="core">fBonds</pkg>
     <pkg priority="core">fCopulae</pkg>
-    <pkg priority="core">fEcofin</pkg>
     <pkg priority="core">fExoticOptions</pkg>
     <pkg priority="core">fExtremes</pkg>
     <pkg priority="core">fGarch</pkg>
