@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2012-07-09</version>
+  <version>2012-07-27</version>
   
   <info>
     <p>
@@ -191,9 +191,6 @@
       <li> The <pkg>tawny</pkg> package contains estimator based on random
 	  matrix theory as well as shrinkage methods to remove sampling noise
 	  when estimating sample covariance matrices.
-      </li>
-      <li> The <pkg>SV</pkg> package uses indirect inference to estimate
-	  non-Gaussian stochastic volatility models.
       </li>
       <li> The <pkg>schwartz97</pkg> package can be used to model the
 	  Schwartz (1997) two-factor model for commodities markets.
@@ -407,7 +404,6 @@
     <pkg>sde</pkg>
     <pkg>stockPortfolio</pkg>    
     <pkg>strucchange</pkg>
-    <pkg>SV</pkg>
     <pkg>timsac</pkg>
     <pkg priority="core">tseries</pkg>
     <pkg>termstrc</pkg>
