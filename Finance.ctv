@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2012-09-10</version>
+  <version>2012-10-11</version>
   
   <info>
     <p>
@@ -71,20 +71,24 @@
       </li>
       <li>For volatility modeling, the standard GARCH(1,1) model can
           be estimated with the <code>garch()</code> function in the
-          <pkg>tseries</pkg> package.  Rmetrics (see below) contains the
-          <pkg>fGarch</pkg> package which has additional models.  The
-          <pkg>rugarch</pkg> package can be used to model a variety of
-          univariate GARCH models with extensions such as ARFIMA, in-mean,
-          external regressors and various other specifications; with
-          methods for fit, forecast, simulation, inference and plotting
-          are provided too. The <pkg>betategarch</pkg> package can estimate 
-          and simulate the Beta-t-EGARCH model by Harvey. 
-          The <pkg>bayesGARCH</pkg> package can perform
-          Bayesian estimation of a GARCH(1,1) model with Student's t
-          innovations.  For multivariate models, the <pkg>ccgarch</pkg>
-          package can estimate (multivariate) Conditional Correlation
-          GARCH models whereas the <pkg>gogarch</pkg> package provides
-          functions for generalized orthogonal GARCH models.
+          <pkg>tseries</pkg> package.  Rmetrics (see below) contains
+          the <pkg>fGarch</pkg> package which has additional models.
+          The <pkg>rugarch</pkg> package can be used to model a
+          variety of univariate GARCH models with extensions such as
+          ARFIMA, in-mean, external regressors and various other
+          specifications; with methods for fit, forecast, simulation,
+          inference and plotting are provided too. The
+          <pkg>betategarch</pkg> package can estimate and simulate the
+          Beta-t-EGARCH model by Harvey.  The <pkg>bayesGARCH</pkg>
+          package can perform Bayesian estimation of a GARCH(1,1)
+          model with Student's t innovations.  For multivariate
+          models, the <pkg>ccgarch</pkg> package can estimate
+          (multivariate) Conditional Correlation GARCH models whereas
+          the <pkg>gogarch</pkg> package provides functions for
+          generalized orthogonal GARCH models.  The
+          <pkg>AutoSEARCH</pkg> package provides automated
+          general-to-specific model selection of the mean and
+          log-volatility of a log-ARCH-X model.
       </li>
       <li>Unit root and cointegration tests are provided by <pkg>tseries</pkg>,
     	  and <pkg>urca</pkg>.
@@ -328,6 +332,7 @@
   <packagelist>
     <pkg>actuar</pkg>
     <pkg>AmericanCallOpt</pkg>
+    <pkg>AutoSEARCH</pkg>
     <pkg>backtest</pkg>
     <pkg>bayesGARCH</pkg>
     <pkg>betategarch</pkg>
