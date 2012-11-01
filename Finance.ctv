@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2012-10-11</version>
+  <version>2012-11-01</version>
   
   <info>
     <p>
@@ -171,9 +171,6 @@
           trading rules in R. The <pkg>ttrTests</pkg> package contains
           several test statistics for assessing the efficacy 
           of such rules.
-      </li>
-      <li>The <pkg>financial</pkg> package can compute present values, cash
-	  flows and other simple finance calculations.
       </li>
       <li>The <pkg>sde</pkg> package provides simulation and inference functionality
           for stochastic differential equations.
@@ -356,7 +353,6 @@
     <pkg>extRemes</pkg>
     <pkg>fame</pkg>
     <pkg>fgac</pkg>
-    <pkg>financial</pkg>
     <pkg priority="core">fArma</pkg>
     <pkg priority="core">fAsianOptions</pkg>
     <pkg priority="core">fAssets</pkg>
