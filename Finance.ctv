@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2012-11-01</version>
+  <version>2012-11-08</version>
   
   <info>
     <p>
@@ -161,8 +161,10 @@
           <pkg>portfolioSim</pkg> builds a related simulation framework. 
           The <pkg>backtest</pkg> offers tools to  
 	  explore portfolio-based hypotheses about financial instruments.
-	  The <pkg>stockPortfolio</pkg> packages provides functions for
+	  The <pkg>stockPortfolio</pkg> package provides functions for
 	  single index, constant correlation and multigroup models.
+	  The <pkg>pa</pkg> package offers performance attribution
+	  functionality for equity portfolios.
       </li>
       <li>The <pkg>PerformanceAnalytics</pkg> package contains a large number
           of functions for portfolio performance calculations and risk management.
@@ -389,6 +391,7 @@
     <pkg>mvtnorm</pkg>
     <pkg>NMOF</pkg>
     <pkg>opefimor</pkg>
+    <pkg>pa</pkg>
     <pkg>PairTrading</pkg>
     <pkg priority="core">PerformanceAnalytics</pkg>
     <pkg>portfolio</pkg>
