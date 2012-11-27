@@ -325,7 +325,7 @@
 	  aspects. 
       </li>
       <li>
-	  The <pkg>TFX</pkg> provides an interface to the TrueFX (TM)
+	  The <pkg>TFX</pkg> package provides an interface to the TrueFX (TM)
 	  service for free streaming real-time and historical
 	  tick-by-tick market data for interbank foreign exchange
 	  rates at the millisecond resolution.
