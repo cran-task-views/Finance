@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2012-11-08</version>
+  <version>2012-11-27</version>
   
   <info>
     <p>
@@ -324,6 +324,12 @@
 	  liquidity and volatility, and investigate market microstructure
 	  aspects. 
       </li>
+      <li>
+	  The <pkg>TFX</pkg> provides an interface to the TrueFX (TM)
+	  service for free streaming real-time and historical
+	  tick-by-tick market data for interbank foreign exchange
+	  rates at the millisecond resolution.
+      </li>
     </ul>
 
   </info>
@@ -411,6 +417,7 @@
     <pkg>timsac</pkg>
     <pkg priority="core">tseries</pkg>
     <pkg>termstrc</pkg>
+    <pkg>TFX</pkg>
     <pkg>TSdbi</pkg>
     <pkg>tsDyn</pkg>
     <pkg>tseriesChaos</pkg>
