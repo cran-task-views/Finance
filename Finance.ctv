@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2012-11-27</version>
+  <version>2012-12-13</version>
   
   <info>
     <p>
@@ -112,8 +112,6 @@
           The <pkg>dyn</pkg> and 
 	  <pkg>dynlm</pkg> are suitable for dynamic (linear) regression
 	  models.
-	  The <pkg>dynamo</pkg> package can estimate dynamic model such as
-	  ARMA, ARMA-GARCH, ACD and MEM.
       </li>
       <li>
       	  Several packages provide wavelet analysis 
@@ -353,7 +351,6 @@
     <pkg>dlm</pkg>
     <pkg>dse</pkg>
     <pkg>dyn</pkg>
-    <pkg>dynamo</pkg>
     <pkg>dynlm</pkg>
     <pkg>evd</pkg>
     <pkg>evdbayes</pkg>
