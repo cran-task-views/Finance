@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2012-12-15</version>
+  <version>2012-12-21</version>
   
   <info>
     <p>
@@ -206,7 +206,7 @@
           classical "Pair(s) trading" trading strategy using
           cointegration.
       </li>
-      <li> The <pkg>BurStFin</pkg> package has a collection of
+      <li> The <pkg>BurStFin</pkg> and <pkg>BurStMisc</pkg> package has a collection of
           function for Finance including the estimation of covariance
           matrices.  
       </li>
@@ -339,6 +339,7 @@
     <pkg>bayesGARCH</pkg>
     <pkg>betategarch</pkg>
     <pkg>BurStFin</pkg>
+    <pkg>BurStMisc</pkg>
     <pkg>CADFtest</pkg>
     <pkg>car</pkg>
     <pkg>ccgarch</pkg>
