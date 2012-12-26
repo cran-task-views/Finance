@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2012-12-21</version>
+  <version>2012-12-26</version>
   
   <info>
     <p>
@@ -327,6 +327,13 @@
 	  tick-by-tick market data for interbank foreign exchange
 	  rates at the millisecond resolution.
       </li>
+      <li>
+	  The package <pkg>highfrequency</pkg> contains functionality
+	  to manage, clean and match highfrequency trades and quotes
+	  data and enables users to calculate various liquidity
+	  measures, estimate and forecast volatility, and investigate
+	  microstructure noise and intraday periodicity.
+      </li>
     </ul>
 
   </info>
@@ -382,6 +389,7 @@
     <pkg>ghyp</pkg>
     <pkg>gmm</pkg>
     <pkg>gogarch</pkg>
+    <pkg>highfrequency</pkg>
     <pkg>IBrokers</pkg>
     <pkg>ismev</pkg>
     <pkg>its</pkg>    
