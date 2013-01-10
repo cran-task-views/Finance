@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2012-12-26</version>
+  <version>2013-01-09</version>
   
   <info>
     <p>
@@ -220,6 +220,10 @@
           and Easley and O'Hara (1987) tests for, respectively, trade direction, 
           and probability of informed trading. 
       </li>
+      <li>
+	The <pkg>parma</pkg> package provides support for portfolio
+	allocation and risk management applications.
+      </li>
     </ul>
 
     <p>
@@ -403,6 +407,7 @@
     <pkg>opefimor</pkg>
     <pkg>pa</pkg>
     <pkg>PairTrading</pkg>
+    <pkg>parma</pkg>
     <pkg priority="core">PerformanceAnalytics</pkg>
     <pkg>portfolio</pkg>
     <pkg>portfolioSim</pkg>
