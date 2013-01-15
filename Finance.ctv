@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2013-01-09</version>
+  <version>2013-01-14</version>
   
   <info>
     <p>
@@ -267,6 +267,9 @@
       <li>
 	  The <pkg>frmqa</pkg> package aims to collect functions for Financial Risk Management and Quantitative Analysis.
       </li>
+      <li>
+	  The <pkg>ESG</pkg> package can be used to model for asset projection, a scenario-based simulation approach.
+      </li>
     </ul>
 
     <p>
@@ -363,6 +366,7 @@
     <pkg>dse</pkg>
     <pkg>dyn</pkg>
     <pkg>dynlm</pkg>
+    <pkg>ESG</pkg>
     <pkg>evd</pkg>
     <pkg>evdbayes</pkg>
     <pkg>evir</pkg>
