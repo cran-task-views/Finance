@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2013-01-14</version>
+  <version>2013-01-29</version>
   
   <info>
     <p>
@@ -232,7 +232,7 @@
     <ul>
       <li>Several packages provide functionality for 
           Extreme Value Theory models: <pkg>evd</pkg>, <pkg>evdbayes</pkg>, 
-          <pkg>evir</pkg>, <pkg>extRremes</pkg>, <pkg>ismev</pkg>, 
+          <pkg>evir</pkg>, <pkg>extRemes</pkg>, <pkg>ismev</pkg>, 
           <pkg>POT</pkg>.
       </li>
       <li>
@@ -384,6 +384,7 @@
     <pkg priority="core">fGarch</pkg>
     <pkg priority="core">fImport</pkg>
     <pkg>FinAsym</pkg>
+    <pkg>FinTS</pkg>
     <pkg priority="core">fMultivar</pkg>
     <pkg priority="core">fNonlinear</pkg>
     <pkg priority="core">fOptions</pkg>
@@ -407,6 +408,7 @@
     <pkg>maRketSim</pkg>
     <pkg>MSBVAR</pkg>
     <pkg>mvtnorm</pkg>
+    <pkg>nlme</pkg>
     <pkg>NMOF</pkg>
     <pkg>opefimor</pkg>
     <pkg>pa</pkg>
