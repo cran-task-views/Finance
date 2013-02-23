@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2013-01-29</version>
+  <version>2013-02-23</version>
   
   <info>
     <p>
@@ -321,13 +321,13 @@
 	  The <pkg>data.table</pkg> package provides very efficient and fast
 	  access to in-memory data sets such as asset prices.
       </li>
-      <li>
-	  The <pkg>RTAQ</pkg> package can be used to analyse trades and
-	  quotes data supplied in the TAQ format of the New York Stock
-	  Exchange in order to implement intraday trading strategies, measure
-	  liquidity and volatility, and investigate market microstructure
-	  aspects. 
-      </li>
+      <!-- <li> -->
+      <!-- 	  The <pkg>RTAQ</pkg> package can be used to analyse trades and -->
+      <!-- 	  quotes data supplied in the TAQ format of the New York Stock -->
+      <!-- 	  Exchange in order to implement intraday trading strategies, measure -->
+      <!-- 	  liquidity and volatility, and investigate market microstructure -->
+      <!-- 	  aspects.  -->
+      <!-- </li> -->
       <li>
 	  The <pkg>TFX</pkg> package provides an interface to the TrueFX (TM)
 	  service for free streaming real-time and historical
@@ -421,7 +421,6 @@
     <pkg>quantmod</pkg>
     <pkg>Rcmdr</pkg>
     <pkg>RQuantLib</pkg>
-    <pkg>RTAQ</pkg> 
     <pkg>rugarch</pkg> 
     <pkg>rwt</pkg> 
     <pkg>sandwich</pkg>
