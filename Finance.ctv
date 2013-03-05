@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2013-02-23</version>
+  <version>2013-03-05</version>
   
   <info>
     <p>
@@ -126,6 +126,11 @@
       </li> 
       <li>
 	  The <pkg>tsfa</pkg> package provides functions for time series factor analysis.
+      </li> 
+      <li>
+	  The <pkg>stochvol</pkg> package implements Bayesian
+	  estimation of stochastic volatility using Markov Chain Monte
+	  Carlo.
       </li> 
     </ul>
 
@@ -426,6 +431,7 @@
     <pkg>sandwich</pkg>
     <pkg>schwartz97</pkg>
     <pkg>sde</pkg>
+    <pkg>stochvol</pkg>
     <pkg>stockPortfolio</pkg>    
     <pkg>strucchange</pkg>
     <pkg>timsac</pkg>
