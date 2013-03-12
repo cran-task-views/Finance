@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2013-03-05</version>
+  <version>2013-03-12</version>
   
   <info>
     <p>
@@ -229,6 +229,12 @@
 	The <pkg>parma</pkg> package provides support for portfolio
 	allocation and risk management applications.
       </li>
+      <li>
+	The <pkg>GUIDE</pkg> package provides a <em>GUI</em> for
+	<em>DE</em>rivatives and contains numerous pricer examples as
+	well as interactive 2d and 3d plots to study these pricing
+	functions.
+      </li>
     </ul>
 
     <p>
@@ -403,6 +409,7 @@
     <pkg>ghyp</pkg>
     <pkg>gmm</pkg>
     <pkg>gogarch</pkg>
+    <pkg>GUIDE</pkg>
     <pkg>highfrequency</pkg>
     <pkg>IBrokers</pkg>
     <pkg>ismev</pkg>
