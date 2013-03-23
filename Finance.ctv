@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2013-03-12</version>
+  <version>2013-03-23</version>
   
   <info>
     <p>
@@ -98,9 +98,7 @@
       </li>
       <li>
 	  <pkg>MSBVAR</pkg> provides
-	  Bayesian estimation of vector autoregressive models. The  <pkg>dlm</pkg> package  provides
-	  Bayesian and likelihood analysis of dynamic linear models (ie
-	  linear Gaussian state space models). 
+	  Bayesian estimation of vector autoregressive models.
       </li>
       <li>
 	  The <pkg>vars</pkg> package offer estimation, diagnostics,
@@ -373,7 +371,6 @@
     <pkg>CreditMetrics</pkg>
     <pkg>crp.CSFP</pkg>
     <pkg>data.table</pkg>
-    <pkg>dlm</pkg>
     <pkg>dse</pkg>
     <pkg>dyn</pkg>
     <pkg>dynlm</pkg>
