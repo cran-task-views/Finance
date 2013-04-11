@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2013-03-31</version>
+  <version>2013-04-10</version>
   
   <info>
     <p>
@@ -76,7 +76,9 @@
           variety of univariate GARCH models with extensions such as
           ARFIMA, in-mean, external regressors and various other
           specifications; with methods for fit, forecast, simulation,
-          inference and plotting are provided too. The
+          inference and plotting are provided too. The <pkg>rmgarch</pkg> 
+	  builds on it to provide the ability to estimate several multivariate 
+	  GARCH models. The
           <pkg>betategarch</pkg> package can estimate and simulate the
           Beta-t-EGARCH model by Harvey.  The <pkg>bayesGARCH</pkg>
           package can perform Bayesian estimation of a GARCH(1,1)
@@ -432,6 +434,7 @@
     <pkg>POT</pkg>
     <pkg>quantmod</pkg>
     <pkg>Rcmdr</pkg>
+    <pkg>rmgarch</pkg> 
     <pkg>RQuantLib</pkg>
     <pkg>rugarch</pkg> 
     <pkg>rwt</pkg> 
