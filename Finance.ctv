@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2013-04-10</version>
+  <version>2013-05-07</version>
   
   <info>
     <p>
@@ -237,6 +237,10 @@
 	well as interactive 2d and 3d plots to study these pricing
 	functions.
       </li>
+      <li>
+	The <pkg>PIN</pkg> package estimates the probability of
+	informed trading using microstructure data. .
+      </li>
     </ul>
 
     <p>
@@ -428,6 +432,7 @@
     <pkg>pa</pkg>
     <pkg>PairTrading</pkg>
     <pkg>parma</pkg>
+    <pkg>PIN</pkg>
     <pkg priority="core">PerformanceAnalytics</pkg>
     <pkg>portfolio</pkg>
     <pkg>portfolioSim</pkg>
