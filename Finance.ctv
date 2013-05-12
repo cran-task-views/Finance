@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2013-05-07</version>
+  <version>2013-05-11</version>
   
   <info>
     <p>
@@ -239,7 +239,12 @@
       </li>
       <li>
 	The <pkg>PIN</pkg> package estimates the probability of
-	informed trading using microstructure data. .
+	informed trading using microstructure data. 
+      </li>
+      <li>
+	The <pkg>SharpeR</pkg> package contains a collection of tools
+	for analyzing significance of trading strategies, based on the
+	Sharpe ratio and overfit of the same.
       </li>
     </ul>
 
@@ -446,6 +451,7 @@
     <pkg>sandwich</pkg>
     <pkg>schwartz97</pkg>
     <pkg>sde</pkg>
+    <pkg>SharpeR</pkg>
     <pkg>stochvol</pkg>
     <pkg>stockPortfolio</pkg>    
     <pkg>strucchange</pkg>
