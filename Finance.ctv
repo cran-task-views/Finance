@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2013-05-11</version>
+  <version>2013-06-10</version>
   
   <info>
     <p>
@@ -208,10 +208,6 @@
       </li>
       <li> The <pkg>maRketSim</pkg> package provides a market simulator, 
           initially designed around the bond market.
-      </li>
-      <li> The <pkg>PairTrading</pkg> package provides an implementation of the
-          classical "Pair(s) trading" trading strategy using
-          cointegration.
       </li>
       <li> The <pkg>BurStFin</pkg> and <pkg>BurStMisc</pkg> package has a collection of
           function for Finance including the estimation of covariance
@@ -435,7 +431,6 @@
     <pkg>NMOF</pkg>
     <pkg>opefimor</pkg>
     <pkg>pa</pkg>
-    <pkg>PairTrading</pkg>
     <pkg>parma</pkg>
     <pkg>PIN</pkg>
     <pkg priority="core">PerformanceAnalytics</pkg>
