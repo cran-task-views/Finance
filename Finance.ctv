@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2013-06-10</version>
+  <version>2013-06-19</version>
   
   <info>
     <p>
@@ -186,6 +186,8 @@
           Nelson and Siegel (1987) method with the Svensson (1994)
           extension. The former package adds the McCulloch (1975) cubic
           splines approach, the latter package adds the Diebold and Li approach.
+	  The <pkg>SmithWilsonYieldCurve</pkg> construct the yield curve using 
+          the Smith-Wilson approach based on LIBOR and SWAP rates.
       </li>
       <li>The <pkg>vrtest</pkg> package contains a number of variance ratio
           tests for the weak-form of the efficient markets hypothesis.
@@ -447,6 +449,7 @@
     <pkg>schwartz97</pkg>
     <pkg>sde</pkg>
     <pkg>SharpeR</pkg>
+    <pkg>SmithWilsonYieldCurve</pkg>
     <pkg>stochvol</pkg>
     <pkg>stockPortfolio</pkg>    
     <pkg>strucchange</pkg>
