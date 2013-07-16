@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2013-06-19</version>
+  <version>2013-07-15</version>
   
   <info>
     <p>
@@ -244,6 +244,9 @@
 	for analyzing significance of trading strategies, based on the
 	Sharpe ratio and overfit of the same.
       </li>
+      <li>
+	The <pkg>RND</pkg> package implements various functions to extract risk-neutral densities        from option prices.
+      </li>
     </ul>
 
     <p>
@@ -442,6 +445,7 @@
     <pkg>quantmod</pkg>
     <pkg>Rcmdr</pkg>
     <pkg>rmgarch</pkg> 
+    <pkg>RND</pkg>
     <pkg>RQuantLib</pkg>
     <pkg>rugarch</pkg> 
     <pkg>rwt</pkg> 
