@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2013-07-15</version>
+  <version>2013-08-09</version>
   
   <info>
     <p>
@@ -174,9 +174,7 @@
           of functions for portfolio performance calculations and risk management.
       </li>
       <li>The <pkg>TTR</pkg> contains functions to construct technical
-          trading rules in R. The <pkg>ttrTests</pkg> package contains
-          several test statistics for assessing the efficacy 
-          of such rules.
+          trading rules in R.
       </li>
       <li>The <pkg>sde</pkg> package provides simulation and inference functionality
           for stochastic differential equations.
@@ -466,7 +464,6 @@
     <pkg>tseriesChaos</pkg>
     <pkg>tsfa</pkg>
     <pkg>TTR</pkg>
-    <pkg>ttrTests</pkg>
     <pkg>tawny</pkg>
     <pkg priority="core">timeDate</pkg>
     <pkg priority="core">timeSeries</pkg>
