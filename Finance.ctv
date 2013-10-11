@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2013-10-10</version>
+  <version>2013-10-11</version>
   
   <info>
     <p>
@@ -243,7 +243,8 @@
 	Sharpe ratio and overfit of the same.
       </li>
       <li>
-	The <pkg>RND</pkg> package implements various functions to extract risk-neutral densities        from option prices.
+	The <pkg>RND</pkg> package implements various functions to extract risk-neutral densities 
+       from option prices.
       </li>
       <li>
 	<pkg>LSMonteCarlo</pkg> can price American Options via the Least Squares Monte Carlo 
@@ -253,6 +254,10 @@
 	The <pkg>BenfordTests</pkg> package provides 
         seven statistical tests and support functions for determining if numerical data 
         could conform to Benford's law. 
+      </li>
+      <li>
+	The <pkg>OptHedging</pkg> package values call and put option portfolio and implements an 
+        optimal hedging strategy.
       </li>
     </ul>
 
@@ -442,6 +447,7 @@
     <pkg>nlme</pkg>
     <pkg>NMOF</pkg>
     <pkg>opefimor</pkg>
+    <pkg>OptHedging</pkg>
     <pkg>pa</pkg>
     <pkg>parma</pkg>
     <pkg>PIN</pkg>
