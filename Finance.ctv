@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2013-09-27</version>
+  <version>2013-10-10</version>
   
   <info>
     <p>
@@ -245,6 +245,15 @@
       <li>
 	The <pkg>RND</pkg> package implements various functions to extract risk-neutral densities        from option prices.
       </li>
+      <li>
+	<pkg>LSMonteCarlo</pkg> can price American Options via the Least Squares Monte Carlo 
+        method 
+      </li>
+      <li>
+	The <pkg>BenfordTests</pkg> package provides 
+        seven statistical tests and support functions for determining if numerical data 
+        could conform to Benford's law. 
+      </li>
     </ul>
 
     <p>
@@ -371,6 +380,7 @@
     <pkg>AutoSEARCH</pkg>
     <pkg>backtest</pkg>
     <pkg>bayesGARCH</pkg>
+    <pkg>BenfordTests</pkg>
     <pkg>betategarch</pkg>
     <pkg>BurStFin</pkg>
     <pkg>BurStMisc</pkg>
@@ -424,6 +434,7 @@
     <pkg>its</pkg>    
     <pkg>lifecontingencies</pkg>
     <pkg>lmtest</pkg>
+    <pkg>LSMonteCarlo</pkg>
     <pkg>longmemo</pkg>
     <pkg>maRketSim</pkg>
     <pkg>MSBVAR</pkg>
