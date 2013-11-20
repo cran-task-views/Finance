@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2013-10-11</version>
+  <version>2013-11-18</version>
   
   <info>
     <p>
@@ -259,6 +259,10 @@
 	The <pkg>OptHedging</pkg> package values call and put option portfolio and implements an 
         optimal hedging strategy.
       </li>
+      <li>
+	The <pkg>markovchain</pkg> package provides functionality to
+	easily handle and analyse discrete Markov chains.
+      </li>
     </ul>
 
     <p>
@@ -441,6 +445,7 @@
     <pkg>lmtest</pkg>
     <pkg>LSMonteCarlo</pkg>
     <pkg>longmemo</pkg>
+    <pkg>markovchain</pkg>
     <pkg>maRketSim</pkg>
     <pkg>MSBVAR</pkg>
     <pkg>mvtnorm</pkg>
