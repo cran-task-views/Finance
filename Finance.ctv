@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2013-11-18</version>
+  <version>2013-12-10</version>
   
   <info>
     <p>
@@ -80,9 +80,7 @@
 	  builds on it to provide the ability to estimate several multivariate 
 	  GARCH models. The
           <pkg>betategarch</pkg> package can estimate and simulate the
-          Beta-t-EGARCH model by Harvey.  The <pkg>bayesGARCH</pkg>
-          package can perform Bayesian estimation of a GARCH(1,1)
-          model with Student's t innovations.  For multivariate
+          Beta-t-EGARCH model by Harvey. For multivariate
           models, the <pkg>ccgarch</pkg> package can estimate
           (multivariate) Conditional Correlation GARCH models whereas
           the <pkg>gogarch</pkg> package provides functions for
@@ -388,7 +386,6 @@
     <pkg>AmericanCallOpt</pkg>
     <pkg>AutoSEARCH</pkg>
     <pkg>backtest</pkg>
-    <pkg>bayesGARCH</pkg>
     <pkg>BenfordTests</pkg>
     <pkg>betategarch</pkg>
     <pkg>BurStFin</pkg>
