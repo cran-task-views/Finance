@@ -297,7 +297,8 @@
           portfolio optimizations.
       </li>
       <li>
-          The <pkg>lifecontingencies</pkg> package 
+          The <pkg>ChainLadder</pkg> package provides functions for modeling
+          insurance claim reserves; and the <pkg>lifecontingencies</pkg> package 
           provides functions for financial and actuarial evaluations of life contingencies. 
       </li>
       <li>
@@ -393,6 +394,7 @@
     <pkg>CADFtest</pkg>
     <pkg>car</pkg>
     <pkg>ccgarch</pkg>
+    <pkg>ChainLadder</pkg>
     <pkg>copula</pkg>
     <pkg>CreditMetrics</pkg>
     <pkg>crp.CSFP</pkg>
