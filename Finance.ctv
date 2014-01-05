@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2013-12-20</version>
+  <version>2014-01-05</version>
   
   <info>
     <p>
@@ -265,6 +265,10 @@
 	The <pkg>ycinterextra</pkg> package models yield curve interpolation and extrapolation using 
         via the Nelson-Siegel, Svensson, or Smith-Wilson models, as well as Hermite cubic splines.
       </li>
+      <li>
+	The <pkg>tvm</pkg> package models provides functions for time
+	value of money such as cashflows and yield curves.
+      </li>
     </ul>
 
     <p>
@@ -382,6 +386,10 @@
 	  measures, estimate and forecast volatility, and investigate
 	  microstructure noise and intraday periodicity.
       </li>
+          The <pkg>Rbitcoin</pkg> package offers access to Bitcoin
+          exchange APIs (mtgox, bitstamp, btce, kraken) via public and
+          private API calls and integration of data structures for all
+          markets.
     </ul>
 
   </info>
@@ -464,6 +472,7 @@
     <pkg>portfolioSim</pkg>
     <pkg>POT</pkg>
     <pkg>quantmod</pkg>
+    <pkg>Rbitcoin</pkg>
     <pkg>Rcmdr</pkg>
     <pkg>rmgarch</pkg> 
     <pkg>RND</pkg>
@@ -491,6 +500,7 @@
     <pkg priority="core">timeDate</pkg>
     <pkg priority="core">timeSeries</pkg>
     <pkg>tis</pkg> 
+    <pkg>tvm</pkg>
     <pkg priority="core">urca</pkg>
     <pkg>vars</pkg>
     <pkg>vrtest</pkg>
