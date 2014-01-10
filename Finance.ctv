@@ -388,10 +388,12 @@
 	  measures, estimate and forecast volatility, and investigate
 	  microstructure noise and intraday periodicity.
       </li>
+      </li>
           The <pkg>Rbitcoin</pkg> package offers access to Bitcoin
           exchange APIs (mtgox, bitstamp, btce, kraken) via public and
           private API calls and integration of data structures for all
           markets.
+      </li>
     </ul>
 
   </info>
