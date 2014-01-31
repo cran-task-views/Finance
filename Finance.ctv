@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2014-01-16</version>
+  <version>2014-01-31</version>
   
   <info>
     <p>
@@ -198,9 +198,6 @@
       <li> The <pkg>tawny</pkg> package contains estimator based on random
 	  matrix theory as well as shrinkage methods to remove sampling noise
 	  when estimating sample covariance matrices.
-      </li>
-      <li> The <pkg>schwartz97</pkg> package can be used to model the
-	  Schwartz (1997) two-factor model for commodities markets.
       </li>
       <li> The <pkg>opefimor</pkg> package by contains material to
           accompany the Iacus (2011) book entitled "Option Pricing and
@@ -491,7 +488,6 @@
     <pkg>rugarch</pkg> 
     <pkg>rwt</pkg> 
     <pkg>sandwich</pkg>
-    <pkg>schwartz97</pkg>
     <pkg>sde</pkg>
     <pkg>SharpeR</pkg>
     <pkg>SmithWilsonYieldCurve</pkg>
