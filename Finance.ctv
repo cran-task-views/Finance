@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2014-01-31</version>
+  <version>2014-02-12</version>
   
   <info>
     <p>
@@ -268,6 +268,10 @@
 	The <pkg>tvm</pkg> package models provides functions for time
 	value of money such as cashflows and yield curves.
       </li>
+      <li>
+	The <pkg>MarkowithR</pkg> package provides functions to test
+	the statistical signicance of Markowitz portfolios.
+      </li>
     </ul>
 
     <p>
@@ -466,6 +470,7 @@
     <pkg>longmemo</pkg>
     <pkg>markovchain</pkg>
     <pkg>maRketSim</pkg>
+    <pkg>MarkowithR</pkg>
     <pkg>MSBVAR</pkg>
     <pkg>mvtnorm</pkg>
     <pkg>nlme</pkg>
