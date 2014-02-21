@@ -269,7 +269,7 @@
 	value of money such as cashflows and yield curves.
       </li>
       <li>
-	The <pkg>MarkowithR</pkg> package provides functions to test
+	The <pkg>MarkowitzR</pkg> package provides functions to test
 	the statistical signicance of Markowitz portfolios.
       </li>
     </ul>
@@ -470,7 +470,7 @@
     <pkg>longmemo</pkg>
     <pkg>markovchain</pkg>
     <pkg>maRketSim</pkg>
-    <pkg>MarkowithR</pkg>
+    <pkg>MarkowitzR</pkg>
     <pkg>MSBVAR</pkg>
     <pkg>mvtnorm</pkg>
     <pkg>nlme</pkg>
