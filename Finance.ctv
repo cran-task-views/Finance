@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2014-02-28</version>
+  <version>2014-03-17</version>
   
   <info>
     <p>
@@ -89,7 +89,10 @@
           generalized orthogonal GARCH models.  The
           <pkg>AutoSEARCH</pkg> package provides automated
           general-to-specific model selection of the mean and
-          log-volatility of a log-ARCH-X model.
+          log-volatility of a log-ARCH-X model. The <pkg>GEVStableGarch</pkg>
+          package can fit  ARMA-GARCH or ARMA-APARCH models with GEV and 
+          stable conditional distributions. The <pkg>lgarch</pkg> package 
+          can estimate and fir log-Garch models. 
       </li>
       <li>Unit root and cointegration tests are provided by <pkg>tseries</pkg>,
     	  and <pkg>urca</pkg>.
@@ -455,6 +458,7 @@
     <pkg>forecast</pkg>
     <pkg>fracdiff</pkg>
     <pkg>frmqa</pkg>
+    <pkg>GEVStableGarch</pkg>
     <pkg>ghyp</pkg>
     <pkg>gmm</pkg>
     <pkg>gogarch</pkg>
@@ -463,6 +467,7 @@
     <pkg>IBrokers</pkg>
     <pkg>ismev</pkg>
     <pkg>its</pkg>    
+    <pkg>lgarch</pkg>
     <pkg>lifecontingencies</pkg>
     <pkg>lmtest</pkg>
     <pkg>LSMonteCarlo</pkg>
