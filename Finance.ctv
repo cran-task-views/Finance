@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2014-03-17</version>
+  <version>2014-03-30</version>
   
   <info>
     <p>
@@ -274,6 +274,11 @@
 	The <pkg>MarkowitzR</pkg> package provides functions to test
 	the statistical signicance of Markowitz portfolios.
       </li>
+      <li>
+	The <pkg>egcm</pkg> package implements the Engle-Granger
+	two-stage cointegration modeling procedure with a particular
+	focus on pairs trading.
+      </li>
     </ul>
 
     <p>
@@ -429,6 +434,7 @@
     <pkg>dse</pkg>
     <pkg>dyn</pkg>
     <pkg>dynlm</pkg>
+    <pkg>egcm</pkg>
     <pkg>ESG</pkg>
     <pkg>evd</pkg>
     <pkg>evdbayes</pkg>
