@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2014-03-30</version>
+  <version>2014-04-02</version>
   
   <info>
     <p>
@@ -408,6 +408,10 @@
       	  'import' where cleaning and aggregation are performed
       	  according to Brownlees and Gallo (2006).
       </li>
+      <li>
+      	  The <pkg>bizdays</pkg> package compute business days if
+      	  provided a list of holidays.
+      </li>
     </ul>
 
   </info>
@@ -420,6 +424,7 @@
     <pkg>bayesGARCH</pkg>
     <pkg>BenfordTests</pkg>
     <pkg>betategarch</pkg>
+    <pkg>bizdays</pkg>
     <pkg>BurStFin</pkg>
     <pkg>BurStMisc</pkg>
     <pkg>CADFtest</pkg>
