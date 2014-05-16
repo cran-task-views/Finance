@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2014-05-14</version>
+  <version>2014-05-16</version>
   
   <info>
     <p>
@@ -102,8 +102,7 @@
 	  The <pkg>CADFtest</pkg> package implements the Hansen unit root test.
       </li>
       <li>
-	  <pkg>MSBVAR</pkg> provides
-	  Bayesian estimation of vector autoregressive models. The  <pkg>dlm</pkg> package  provides
+	  The  <pkg>dlm</pkg> package  provides
 	  Bayesian and likelihood analysis of dynamic linear models (ie
 	  linear Gaussian state space models). 
       </li>
@@ -490,7 +489,6 @@
     <pkg>markovchain</pkg>
     <pkg>maRketSim</pkg>
     <pkg>MarkowitzR</pkg>
-    <pkg>MSBVAR</pkg>
     <pkg>mvtnorm</pkg>
     <pkg>nlme</pkg>
     <pkg>NMOF</pkg>
