@@ -278,6 +278,11 @@
 	two-stage cointegration modeling procedure with a particular
 	focus on pairs trading.
       </li>
+      <li>
+	The <pkg>pbo</pkg> package models the probability of backtest
+        overfitting, performance degradation, probability of loss, and the
+        stochastic dominance when analysing trading strategies. 
+      </li>
     </ul>
 
     <p>
@@ -491,6 +496,7 @@
     <pkg>OptHedging</pkg>
     <pkg>pa</pkg>
     <pkg>parma</pkg>
+    <pkg>pbo</pkg> 
     <pkg>PIN</pkg>
     <pkg priority="core">PerformanceAnalytics</pkg>
     <pkg>portfolio</pkg>
