@@ -286,8 +286,7 @@
     <ul>
       <li>Several packages provide functionality for 
           Extreme Value Theory models: <pkg>evd</pkg>, <pkg>evdbayes</pkg>, 
-          <pkg>evir</pkg>, <pkg>extRemes</pkg>, <pkg>ismev</pkg>, 
-          <pkg>POT</pkg>.
+          <pkg>evir</pkg>, <pkg>extRemes</pkg>, <pkg>ismev</pkg>.
       </li>
       <li>
 	The packages <pkg>CreditMetrics</pkg> and <pkg>crp.CSFP</pkg> provide function for modelling credit risks.
@@ -496,7 +495,6 @@
     <pkg priority="core">PerformanceAnalytics</pkg>
     <pkg>portfolio</pkg>
     <pkg>portfolioSim</pkg>
-    <pkg>POT</pkg>
     <pkg>quantmod</pkg>
     <pkg>Rbitcoin</pkg>
     <pkg>Rcmdr</pkg>
