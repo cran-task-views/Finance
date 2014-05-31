@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2014-05-16</version>
+  <version>2014-05-31</version>
   
   <info>
     <p>
@@ -278,9 +278,6 @@
 	two-stage cointegration modeling procedure with a particular
 	focus on pairs trading.
       </li>
-      <li>
-	The <pkg>CDS</pkg> package models Credit Default Swaps.
-      </li>
     </ul>
 
     <p>
@@ -432,7 +429,6 @@
     <pkg>CADFtest</pkg>
     <pkg>car</pkg>
     <pkg>ccgarch</pkg>
-    <pkg>CDS</pkg>
     <pkg>ChainLadder</pkg>
     <pkg>copula</pkg>
     <pkg>CreditMetrics</pkg>
