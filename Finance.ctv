@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2014-05-31</version>
+  <version>2014-06-03</version>
   
   <info>
     <p>
@@ -63,7 +63,7 @@
           by the <code>arima()</code> and <code>KalmanLike()</code>commands in the
           basic R distribution.  
       </li>
-      <li>The <pkg>dse</pkg> package provides a variety of more
+      <li>The <pkg>dse</pkg> and <pkg>timsac</pkg> packages provide a variety of more
 	  advanced estimation methods; <pkg>fracdiff</pkg> can
 	  estimate fractionally integrated series; <pkg>longmemo</pkg> covers
 	  related material.
@@ -517,6 +517,7 @@
     <pkg>stockPortfolio</pkg>    
     <pkg>strucchange</pkg>
     <pkg>TAQMNGR</pkg>
+    <pkg>timsac</pkg>
     <pkg priority="core">tseries</pkg>
     <pkg>termstrc</pkg>
     <pkg>TFX</pkg>
