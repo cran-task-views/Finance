@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2014-06-03</version>
+  <version>2014-06-08</version>
   
   <info>
     <p>
@@ -121,7 +121,7 @@
 	  functionality: <pkg>rwt</pkg>, <pkg>wavelets</pkg>, 
           <pkg>waveslim</pkg>, <pkg>wavethresh</pkg>. Some methods from chaos 
           theory are provided by the package <pkg>tseriesChaos</pkg>.
-<!--          <pkg>tsDyn</pkg> adds time series analysis based on dynamical systems therory. -->
+          <pkg>tsDyn</pkg> adds time series analysis based on dynamical systems therory.
       </li>
       <li>
 	  The <pkg>forecast</pkg> package adds functions for
@@ -522,6 +522,7 @@
     <pkg>termstrc</pkg>
     <pkg>TFX</pkg>
     <pkg>TSdbi</pkg>
+    <pkg>tsDyn</pkg>
     <pkg>tseriesChaos</pkg>
     <pkg>tsfa</pkg>
     <pkg>TTR</pkg>
