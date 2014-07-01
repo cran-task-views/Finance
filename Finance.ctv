@@ -92,7 +92,7 @@
           log-volatility of a log-ARCH-X model. The <pkg>GEVStableGarch</pkg>
           package can fit  ARMA-GARCH or ARMA-APARCH models with GEV and 
           stable conditional distributions. The <pkg>lgarch</pkg> package 
-          can estimate and for log-Garch models. 
+          can estimate and fit log-Garch models. 
       </li>
       <li>Unit root and cointegration tests are provided by <pkg>tseries</pkg>,
     	  and <pkg>urca</pkg>.
