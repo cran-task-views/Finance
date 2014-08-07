@@ -142,12 +142,12 @@
     </p>
     <ul>
       <li>The Rmetrics suite of packages comprises
-          <pkg>fArma</pkg>, <pkg>fAsianOptions</pkg>, <pkg>fAssets</pkg>, 
+          <pkg>fArma</pkg>, <pkg>fAsianOptions</pkg>, 
 	  <pkg>fBasics</pkg>, <pkg>fBonds</pkg>, <pkg>timeDate</pkg> (formerly: fCalendar), 
 	  <pkg>fExoticOptions</pkg>, 
 	  <pkg>fExtremes</pkg>, <pkg>fGarch</pkg>, <pkg>fImport</pkg>, 
-	  <pkg>fMultivar</pkg>, <pkg>fNonlinear</pkg>, <pkg>fOptions</pkg>, 
-	  <pkg>fPortfolio</pkg>, <pkg>fRegression</pkg>, <pkg>timeSeries</pkg> (formerly: fSeries), 
+	  <pkg>fNonlinear</pkg>, <pkg>fOptions</pkg>, 
+	  <pkg>fPortfolio</pkg>, <pkg>timeSeries</pkg> (formerly: fSeries), 
 	  <pkg>fTrading</pkg>, <pkg>fUnitRoots</pkg>
 	  and contains a very large number of relevant functions for different aspect of empirical
 	  and computational finance.
@@ -451,7 +451,6 @@
     <pkg>fgac</pkg>
     <pkg priority="core">fArma</pkg>
     <pkg priority="core">fAsianOptions</pkg>
-    <pkg priority="core">fAssets</pkg>
     <pkg priority="core">fBasics</pkg>
     <pkg priority="core">fBonds</pkg>
     <pkg priority="core">fExoticOptions</pkg>
@@ -460,11 +459,9 @@
     <pkg priority="core">fImport</pkg>
     <pkg>FinAsym</pkg>
     <pkg>FinTS</pkg>
-    <pkg priority="core">fMultivar</pkg>
     <pkg priority="core">fNonlinear</pkg>
     <pkg priority="core">fOptions</pkg>
     <pkg priority="core">fPortfolio</pkg>
-    <pkg priority="core">fRegression</pkg>
     <pkg priority="core">fTrading</pkg>
     <pkg priority="core">fUnitRoots</pkg>
     <pkg>forecast</pkg>
