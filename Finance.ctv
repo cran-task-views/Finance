@@ -147,7 +147,7 @@
 	  <pkg>fExoticOptions</pkg>, 
 	  <pkg>fExtremes</pkg>, <pkg>fGarch</pkg>, <pkg>fImport</pkg>, 
 	  <pkg>fNonlinear</pkg>, <pkg>fOptions</pkg>, 
-	  <pkg>fPortfolio</pkg>, <pkg>timeSeries</pkg> (formerly: fSeries), 
+	  <pkg>timeSeries</pkg> (formerly: fSeries), 
 	  <pkg>fTrading</pkg>, <pkg>fUnitRoots</pkg>
 	  and contains a very large number of relevant functions for different aspect of empirical
 	  and computational finance.
@@ -300,7 +300,7 @@
           package provides code for multivariate Normal and t-distributions.
       </li>
       <li>
-          The Rmetrics packages <pkg>fPortfolio</pkg> and 
+          The Rmetrics package
           <pkg>fExtremes</pkg> also contain a number of relevant functions.
       </li>
       <li>
@@ -461,7 +461,6 @@
     <pkg>FinTS</pkg>
     <pkg priority="core">fNonlinear</pkg>
     <pkg priority="core">fOptions</pkg>
-    <pkg priority="core">fPortfolio</pkg>
     <pkg priority="core">fTrading</pkg>
     <pkg priority="core">fUnitRoots</pkg>
     <pkg>forecast</pkg>
