@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2014-08-08</version>
+  <version>2014-09-19</version>
   
   <info>
     <p>
@@ -371,10 +371,6 @@
 	  provide a database table design.
       </li>
       <li>
-	  The <pkg>IBrokers</pkg> package provides access to the Interactive Brokers
-	  API for data access (but requires an account to access the service).
-      </li>
-      <li>
 	  The <pkg>data.table</pkg> package provides very efficient and fast
 	  access to in-memory data sets such as asset prices.
       </li>
@@ -472,7 +468,6 @@
     <pkg>gogarch</pkg>
     <pkg>GUIDE</pkg>
     <pkg>highfrequency</pkg>
-    <pkg>IBrokers</pkg>
     <pkg>ismev</pkg>
     <pkg>its</pkg>    
     <pkg>lgarch</pkg>
