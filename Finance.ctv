@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2014-09-19</version>
+  <version>2014-10-02</version>
   
   <info>
     <p>
@@ -388,13 +388,6 @@
 	  rates at the millisecond resolution.
       </li>
       <li>
-	  The package <pkg>highfrequency</pkg> contains functionality
-	  to manage, clean and match highfrequency trades and quotes
-	  data and enables users to calculate various liquidity
-	  measures, estimate and forecast volatility, and investigate
-	  microstructure noise and intraday periodicity.
-      </li>
-      <li>
           The <pkg>Rbitcoin</pkg> package offers access to Bitcoin
           exchange APIs (mtgox, bitstamp, btce, kraken) via public and
           private API calls and integration of data structures for all
@@ -467,7 +460,6 @@
     <pkg>gmm</pkg>
     <pkg>gogarch</pkg>
     <pkg>GUIDE</pkg>
-    <pkg>highfrequency</pkg>
     <pkg>ismev</pkg>
     <pkg>its</pkg>    
     <pkg>lgarch</pkg>
