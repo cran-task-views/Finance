@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2014-10-02</version>
+  <version>2014-10-03</version>
   
   <info>
     <p>
@@ -229,10 +229,6 @@
 	<em>DE</em>rivatives and contains numerous pricer examples as
 	well as interactive 2d and 3d plots to study these pricing
 	functions.
-      </li>
-      <li>
-	The <pkg>PIN</pkg> package estimates the probability of
-	informed trading using microstructure data. 
       </li>
       <li>
 	The <pkg>SharpeR</pkg> package contains a collection of tools
@@ -478,7 +474,6 @@
     <pkg>pa</pkg>
     <pkg>parma</pkg>
     <pkg>pbo</pkg> 
-    <pkg>PIN</pkg>
     <pkg priority="core">PerformanceAnalytics</pkg>
     <pkg>portfolio</pkg>
     <pkg>portfolioSim</pkg>
