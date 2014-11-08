@@ -444,6 +444,7 @@
     <pkg priority="core">fImport</pkg>
     <pkg>FinAsym</pkg>
     <pkg>FinTS</pkg>
+    <pkg priority="core">fMultivar</pkg>
     <pkg priority="core">fNonlinear</pkg>
     <pkg priority="core">fOptions</pkg>
     <pkg priority="core">fTrading</pkg>
