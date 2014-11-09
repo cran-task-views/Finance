@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2014-10-03</version>
+  <version>2014-11-09</version>
   
   <info>
     <p>
@@ -278,6 +278,11 @@
         overfitting, performance degradation, probability of loss, and the
         stochastic dominance when analysing trading strategies. 
       </li>
+      <li>
+	The <pkg>OptionPricing</pkg> package implements 
+        rfficient Monte Carlo algorithms for the price and the sensitivities
+        of Asian and European Options under Geometric Brownian Motion. 
+      </li>
     </ul>
 
     <p>
@@ -322,6 +327,12 @@
       </li>
       <li>
 	  The <pkg>ESG</pkg> package can be used to model for asset projection, a scenario-based simulation approach.
+      </li>
+      <li>
+	  The <pkg>riskSimul</pkg> package provides efficient simulation
+          procedures to estimate tail loss probabilities and conditional
+          excess for a stock portfolios where log-returns are assumed to
+          follow a t-copula model with generalized hyperbolic or t marginals.  
       </li>
     </ul>
 
@@ -472,6 +483,7 @@
     <pkg>NMOF</pkg>
     <pkg>opefimor</pkg>
     <pkg>OptHedging</pkg>
+    <pkg>OptionPricing</pkg>
     <pkg>pa</pkg>
     <pkg>parma</pkg>
     <pkg>pbo</pkg> 
@@ -481,6 +493,7 @@
     <pkg>quantmod</pkg>
     <pkg>Rbitcoin</pkg>
     <pkg>Rcmdr</pkg>
+    <pkg>riskSimul</pkg>
     <pkg>rmgarch</pkg> 
     <pkg>RND</pkg>
     <pkg>RQuantLib</pkg>
