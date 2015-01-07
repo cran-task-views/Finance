@@ -572,7 +572,7 @@
     <a href="http://findata.org/rbloomberg/">Access data from a Bloomberg installation in R</a>
     <a href="https://www.stat.math.ethz.ch/mailman/listinfo/R-SIG-Finance/">Mailing list: R Special Interest Group Finance</a>
     <!-- <a href="http://www.russell.com/US/Indexes/US/index_values.asp">Russell indexes data</a> -->
-    <a href="http://www.msci.com/us/indexperf/index.html">MSCI indexes data</a>
+    <a href="http://www.msci.com/">MSCI indexes data</a>
     <a href="http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html">French/Fama data</a>
     <a href="http://www.wilshire.com/Indexes/calculator/">Wilshire indexes data</a>
     <!-- <a href="http://www.barra.com/Research/DownloadMonthlyReturns.aspx">Barra indexes data</a> -->
