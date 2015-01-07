@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2014-12-22</version>
+  <version>2015-01-07</version>
   
   <info>
     <p>
@@ -90,8 +90,8 @@
           (multivariate) Conditional Correlation GARCH models whereas
           the <pkg>gogarch</pkg> package provides functions for
           generalized orthogonal GARCH models.  The
-          <pkg>AutoSEARCH</pkg> package provides automated
-          general-to-specific model selection of the mean and
+          <pkg>gets</pkg> package (which was preceded by a related package
+          AutoSEARCH) provides automated general-to-specific model selection of the mean and
           log-volatility of a log-ARCH-X model. The <pkg>GEVStableGarch</pkg>
           package can fit  ARMA-GARCH or ARMA-APARCH models with GEV and 
           stable conditional distributions. The <pkg>lgarch</pkg> package 
@@ -433,7 +433,6 @@
   <packagelist>
     <pkg>actuar</pkg>
     <pkg>AmericanCallOpt</pkg>
-    <pkg>AutoSEARCH</pkg>
     <pkg>backtest</pkg>
     <pkg>bayesGARCH</pkg>
     <pkg>BenfordTests</pkg>
@@ -487,6 +486,7 @@
     <pkg>frmqa</pkg>
     <pkg>GCPM</pkg> 
     <pkg>GEVStableGarch</pkg>
+    <pkg>gets</pkg>
     <pkg>ghyp</pkg>
     <pkg>gmm</pkg>
     <pkg>gogarch</pkg>
@@ -570,15 +570,15 @@
     <a href="http://www.rmetrics.org">Rmetrics contains a wealth of R code for Finance</a>
     <a href="http://www.quantlib.org">Quantlib is a C++ library for quantitative finance</a>
     <a href="http://findata.org/rbloomberg/">Access data from a Bloomberg installation in R</a>
-    <a href="https://stat.ethz.ch/mailman/listinfo/R-SIG-Finance/">Mailing list: R Special Interest Group Finance</a>
+    <a href="https://www.stat.math.ethz.ch/mailman/listinfo/R-SIG-Finance/">Mailing list: R Special Interest Group Finance</a>
     <!-- <a href="http://www.russell.com/US/Indexes/US/index_values.asp">Russell indexes data</a> -->
-    <a href="http://www.msci.com/">MSCI indexes data</a>
+    <a href="http://www.msci.com/us/indexperf/index.html">MSCI indexes data</a>
     <a href="http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html">French/Fama data</a>
     <a href="http://www.wilshire.com/Indexes/calculator/">Wilshire indexes data</a>
     <!-- <a href="http://www.barra.com/Research/DownloadMonthlyReturns.aspx">Barra indexes data</a> -->
     <a href="http://orfe.princeton.edu/~rcarmona/maindownload.html">Rene Carmona</a>
     <a href="http://faculty.washington.edu/ezivot/splus.htm">Eric Zivot</a>
-    <a href="http://faculty.tamucc.edu/ljin1/financeR/stat689-R.htm">R Code for Ruppert's 'Statistics and Finance'</a>
+    <a href="http://www.stat.tamu.edu/~ljin/Finance/stat689-R.htm">R Code for Ruppert's 'Statistics and Finance'</a>
     <!-- <a href="http://www.decisionsynergy.com/showPackageDownload.html">FinancePack and FractalPack</a> -->
     <a href="http://www.r-programming.org/papers">Guy Yollin</a>
     <a href="https://github.com/eddelbuettel/ctv-finance">GitHub repository for this Task View</a>
