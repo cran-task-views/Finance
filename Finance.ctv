@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2015-01-07</version>
+  <version>2015-04-11</version>
   
   <info>
     <p>
@@ -516,6 +516,7 @@
     <pkg>markovchain</pkg>
     <pkg>maRketSim</pkg>
     <pkg>MarkowitzR</pkg>
+    <pkg>matchingMarkets</pkg>
     <pkg>MSBVAR</pkg>
     <pkg>mvtnorm</pkg>
     <pkg>nlme</pkg>
