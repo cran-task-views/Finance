@@ -371,10 +371,6 @@
           fat tails.
       </li>
       <li>
-        The <pkg>Dowd</pkg> package contains functions ported from the 'MMR2'
-        toolbox offered in Kevin Dowd's book "Measuring Market Risk".
-      </li>
-      <li>
         The <pkg>PortRisk</pkg> computes portfolio risk attribution.
       </li>
 
@@ -501,7 +497,6 @@
     <pkg>crp.CSFP</pkg>
     <pkg>data.table</pkg>
     <pkg>dlm</pkg>
-    <pkg>Dowd</pkg>    
     <pkg>dse</pkg>
     <pkg>dyn</pkg>
     <pkg>dynlm</pkg>
