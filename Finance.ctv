@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2016-05-09</version>
+  <version>2016-08-18</version>
   
   <info>
     <p>
@@ -315,8 +315,10 @@
       <li> The <pkg>derivmkts</pkg> package adds a set of pricing and
       expository functions useful in teaching derivatives markets..
       </li>
-      
-      
+      <li> The <pkg>PortfolioEffectHFT</pkg> package provides portfolio
+      analysis suitable for intra-day and high-frequency data, and also interfaces the
+      PortfolioEffect service.
+      </li>
     </ul>
 
     <p>
@@ -376,6 +378,10 @@
           The <pkg>FatTailsR</pkg> package provides a family of four
           distributions tailored to distribution with symmetric and asymmetric
           fat tails.
+      </li>
+      <li>
+        The <pkg>Dowd</pkg> package contains functions ported from the 'MMR2'
+        toolbox offered in Kevin Dowd's book "Measuring Market Risk".
       </li>
       <li>
         The <pkg>PortRisk</pkg> computes portfolio risk attribution.
@@ -511,6 +517,7 @@
     <pkg>data.table</pkg>
     <pkg>derivmkts</pkg>    
     <pkg>dlm</pkg>
+    <pkg>Dowd</pkg>    
     <pkg>dse</pkg>
     <pkg>dyn</pkg>
     <pkg>dynlm</pkg>
@@ -582,6 +589,7 @@
     <pkg>pbo</pkg> 
     <pkg priority="core">PerformanceAnalytics</pkg>
     <pkg>portfolio</pkg>
+    <pkg>PortfolioEffectHFT</pkg>
     <pkg>portfolioSim</pkg>
     <pkg>PortRisk</pkg>
     <pkg>quantmod</pkg>
