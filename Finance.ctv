@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2016-08-18</version>
+  <version>2016-08-25</version>
   
   <info>
     <p>
@@ -490,6 +490,15 @@
           package for parsing these reports.
       </li>
 
+      <li>
+          The <pkg>GetTDData</pkg> package imports Brazilian government
+          bonds data (such as LTN, NTN-B and LFT ) from the Tesouro Direto website.
+          The <pkg>GetHFData</pkg> package downloads and aggregates tick-by-tick
+          trade data for equity and derivatives markets in Brazil.
+      </li>
+
+
+      
     </ul>
 
   </info>
@@ -557,8 +566,10 @@
     <pkg>FRAPO</pkg>
     <pkg>frmqa</pkg>
     <pkg>GCPM</pkg> 
-    <pkg>GEVStableGarch</pkg>
+    <pkg>GetHFData</pkg>
     <pkg>gets</pkg>
+    <pkg>GetTDData</pkg>
+    <pkg>GEVStableGarch</pkg>
     <pkg>ghyp</pkg>
     <pkg>gmm</pkg>
     <pkg>gogarch</pkg>
