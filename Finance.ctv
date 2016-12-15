@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2016-10-25</version>
+  <version>2016-12-15</version>
   
   <info>
     <p>
@@ -429,7 +429,7 @@
     <strong>Data and date management</strong>
     </p>
     <ul>
-      <li>The <pkg>its</pkg>, <pkg>zoo</pkg> and
+      <li>The <pkg>zoo</pkg> and
           <pkg>timeDate</pkg> (part of Rmetrics) packages provide support for
           irregularly-spaced time series. The <pkg>xts</pkg> package extends 
           <pkg>zoo</pkg> specifically for financial time series. See the
@@ -589,7 +589,6 @@
     <pkg>GUIDE</pkg>
     <pkg>highfrequency</pkg>
     <pkg>IBrokers</pkg>
-    <pkg>its</pkg>    
     <pkg>lgarch</pkg>
     <pkg>lifecontingencies</pkg>
     <pkg>lmtest</pkg>
