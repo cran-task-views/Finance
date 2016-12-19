@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2016-12-15</version>
+  <version>2016-12-19</version>
   
   <info>
     <p>
@@ -336,6 +336,10 @@
       <li> The <pkg>pinbasic</pkg> package estimates the Probability of
         Informed Trading (PIN) by Easley et al.
       </li>
+      <li> The <pkg>FinancialMath</pkg> contains financial math and derivatives pricing functions
+        as required by the actuarial exams by the Society of Actuaries and Casualty Actuarial Society
+        'Financial Mathematics' exam.
+      </li>
     </ul>
 
     <p>
@@ -362,7 +366,7 @@
       </li>
       <li>
 	  The <pkg>actuar</pkg> package provides an actuarial
-	  perspective to risk management.
+	  perspective to risk management. 
       </li>
       <li>
 	  The <pkg>ghyp</pkg> package provides generalized hyberbolic distribution
@@ -564,6 +568,7 @@
     <pkg priority="core">fExtremes</pkg>
     <pkg priority="core">fGarch</pkg>
     <pkg priority="core">fImport</pkg>
+    <pkg>FinancialMath</pkg>
     <pkg>FinAsym</pkg>
     <pkg>FinTS</pkg>
     <pkg priority="core">fMultivar</pkg>
