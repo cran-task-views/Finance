@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2017-03-07</version>
+  <version>2017-03-18</version>
   
   <info>
     <p>
@@ -20,6 +20,13 @@
       packages, in particular the <view>Econometrics</view> ,
       <view>Multivariate</view>, <view>Optimization</view>, <view>Robust</view>, 
       <view>SocialSciences</view> and <view>TimeSeries</view> Task Views.
+    </p>
+    <p>
+      The <code>ctv</code> package supports these Task Views. Its functions
+      <code>install.views</code> and <code>update.views</code> allow,
+      respectively, installation or update of packages from a given Task View;
+      the option <code>coreOnly</code> can restrict operations to packages labeled as
+      <em>core</em> below.
     </p>
     <p> 
       Contributions are always welcome, and encouraged. Since the start of
@@ -353,7 +360,11 @@
           The <pkg>Sim.DiffProc</pkg> package provides functions to simulate
           and analyse multidimensional Itô and Stratonovitch stochastic calculus for 
           continuous-time models.
-      </li>          
+      </li>
+      <li>
+          The <pkg>rpgm</pkg> package offers fast simulation of normal and
+          exponential random variables and stochastic differential equations.
+      </li>
     </ul>
 
     <p>
@@ -658,6 +669,7 @@
     <pkg>riskSimul</pkg>
     <pkg>rmgarch</pkg> 
     <pkg>RND</pkg>
+    <pkg>rpgm</pkg>    
     <pkg>RQuantLib</pkg>
     <pkg priority="core">rugarch</pkg> 
     <pkg>rwt</pkg> 
