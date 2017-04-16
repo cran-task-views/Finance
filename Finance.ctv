@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2017-03-30</version>
+  <version>2017-04-17</version>
   
   <info>
     <p>
@@ -321,9 +321,6 @@
       <li> The <pkg>obAnalytics</pkg> package analyses and visualizes
         information from events in limit order book data.
       </li>
-      <li> The <pkg>bootTimeInference</pkg> package performs robust
-        resampling tests for the difference in Sharpe ratios.
-      </li>
       <li> The <pkg>derivmkts</pkg> package adds a set of pricing and
       expository functions useful in teaching derivatives markets..
       </li>
@@ -571,7 +568,6 @@
     <pkg>BenfordTests</pkg>
     <pkg>betategarch</pkg>
     <pkg>bizdays</pkg>
-    <pkg>bootTimeInference</pkg>    
     <pkg>BLModel</pkg>
     <pkg>BurStFin</pkg>
     <pkg>BurStMisc</pkg>
