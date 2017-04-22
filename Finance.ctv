@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2017-04-17</version>
+  <version>2017-04-21</version>
   
   <info>
     <p>
@@ -170,7 +170,9 @@
       </li>
       <li>The <pkg>RQuantLib</pkg> package provides several option-pricing
           functions as well as some fixed-income functionality from the
-          QuantLib project to R.  
+          QuantLib project to R.  The <pkg>RcppQuantuccia</pkg> provides a
+          smaller subset of QuantLib functionality as a header-only library;
+          at current only some calendaring functionality is exposed.
       </li>
       <li>The <pkg>quantmod</pkg> package offers a number of functions for
           quantitative modelling in finance as well as data acqusition, plotting
@@ -366,6 +368,12 @@
           The <pkg>BLModel</pkg> package computes the posterior distribution
           in a Black-Litterman model from a prior distribution given by asset
           returns and continuous distribution of views given by an external function.
+      </li>
+      <li> The <pkg>rpatrec</pkg> package aims to recognise charting patterns
+          in (financial) time series data.
+      </li>
+      <li>The <pkg>PortfolioOptim</pkg> can solve both small and large
+          sample portfolio optimization.
       </li>
     </ul>
 
@@ -659,6 +667,7 @@
     <pkg>pinbasic</pkg> 
     <pkg>portfolio</pkg>
     <pkg>PortfolioEffectHFT</pkg>
+    <pkg>PortfolioOptim</pkg>
     <pkg>portfolioSim</pkg>
     <pkg>PortRisk</pkg>
     <pkg>quantmod</pkg>
@@ -667,10 +676,12 @@
     <pkg>Rbitcoin</pkg>
     <pkg>Rblpapi</pkg>
     <pkg>Rcmdr</pkg>
+    <pkg>RcppQuantuccia</pkg>    
     <pkg>restimizeapi</pkg>
     <pkg>riskSimul</pkg>
     <pkg>rmgarch</pkg> 
     <pkg>RND</pkg>
+    <pkg>rpatrec</pkg>    
     <pkg>rpgm</pkg>    
     <pkg>RQuantLib</pkg>
     <pkg priority="core">rugarch</pkg> 
