@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2017-07-31</version>
+  <version>2017-09-02</version>
   
   <info>
     <p>
@@ -183,8 +183,6 @@
           <pkg>portfolioSim</pkg> builds a related simulation framework. 
           The <pkg>backtest</pkg> offers tools to  
 	  explore portfolio-based hypotheses about financial instruments.
-	  The <pkg>stockPortfolio</pkg> package provides functions for
-	  single index, constant correlation and multigroup models.
 	  The <pkg>pa</pkg> package offers performance attribution
 	  functionality for equity portfolios.
       </li>
@@ -686,7 +684,6 @@
     <pkg>Sim.DiffProc</pkg>    
     <pkg>SmithWilsonYieldCurve</pkg>
     <pkg>stochvol</pkg>
-    <pkg>stockPortfolio</pkg>    
     <pkg>strucchange</pkg>
     <pkg>TAQMNGR</pkg>
     <pkg>timsac</pkg>
