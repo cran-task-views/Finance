@@ -158,7 +158,7 @@
     </p>
     <ul>
       <li>The Rmetrics suite of packages comprises
-          <pkg>fArma</pkg>, <pkg>fAsianOptions</pkg>, <pkg>fAssets</pkg>, 
+	  <pkg>fAssets</pkg>, 
 	  <pkg>fBasics</pkg>, <pkg>fBonds</pkg>, <pkg>timeDate</pkg> (formerly: fCalendar), 
 	  <pkg>fCopulae</pkg>, <pkg>fExoticOptions</pkg>, 
 	  <pkg>fExtremes</pkg>, <pkg>fGarch</pkg>, <pkg>fImport</pkg>, 
@@ -589,8 +589,6 @@
     <pkg>FatTailsR</pkg>
     <pkg>fgac</pkg>
     <pkg>financial</pkg>
-    <pkg priority="core">fArma</pkg>
-    <pkg priority="core">fAsianOptions</pkg>
     <pkg priority="core">fAssets</pkg>
     <pkg priority="core">fBasics</pkg>
     <pkg priority="core">fBonds</pkg>
