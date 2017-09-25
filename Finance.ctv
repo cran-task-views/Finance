@@ -132,7 +132,7 @@
 	  functionality: <pkg>rwt</pkg>, <pkg>wavelets</pkg>, 
           <pkg>waveslim</pkg>, <pkg>wavethresh</pkg>. Some methods from chaos 
           theory are provided by the package <pkg>tseriesChaos</pkg>.
-          <pkg>tsDyn</pkg> adds time series analysis based on dynamical systems therory.
+          <pkg>tsDyn</pkg> adds time series analysis based on dynamical systems theory.
       </li>
       <li>
 	  The <pkg>forecast</pkg> package adds functions for
@@ -175,7 +175,7 @@
           at current only some calendaring functionality is exposed.
       </li>
       <li>The <pkg>quantmod</pkg> package offers a number of functions for
-          quantitative modelling in finance as well as data acqusition, plotting
+          quantitative modelling in finance as well as data acquisition, plotting
           and other utilities.
       </li>
       <li>The <pkg>portfolio</pkg> package contains
@@ -285,7 +285,7 @@
       </li>
       <li>
 	The <pkg>MarkowitzR</pkg> package provides functions to test
-	the statistical signicance of Markowitz portfolios.
+	the statistical significance of Markowitz portfolios.
       </li>
       <li>
 	The <pkg>pbo</pkg> package models the probability of backtest
@@ -345,7 +345,7 @@
         several other key packages for use in the so-called tidyverse. 
       </li>
       <li> The <pkg>BCC1997</pkg> prices European options under the Bakshi,
-        Cao anc Chen (1997) model for stochastic volatility, stochastuc rates
+        Cao anc Chen (1997) model for stochastic volatility, stochastic rates
         and random jumps.
       </li>
       <li>
@@ -419,7 +419,7 @@
           follow a t-copula model with generalized hyperbolic or t marginals.  
       </li>
       <li>
-	  The <pkg>GCPM</pkg> package anlyzes the default risk of credit
+	  The <pkg>GCPM</pkg> package analyzes the default risk of credit
           portfolio using both analytical and simulation approaches.
       </li>
       <li>
