@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2018-01-06</version>
+  <version>2018-01-24</version>
   
   <info>
     <p>
@@ -217,10 +217,6 @@
       <li> The <pkg>tawny</pkg> package contains estimator based on random
 	  matrix theory as well as shrinkage methods to remove sampling noise
 	  when estimating sample covariance matrices.
-      </li>
-      <li> The <pkg>opefimor</pkg> package by contains material to
-          accompany the Iacus (2011) book entitled "Option Pricing and
-          Estimation of Financial Models in R".
       </li>
       <li> The <pkg>maRketSim</pkg> package provides a market simulator, 
           initially designed around the bond market.
@@ -647,7 +643,6 @@
     <pkg>nlme</pkg>
     <pkg>NMOF</pkg>
     <pkg>obAnalytics</pkg>
-    <pkg>opefimor</pkg>
     <pkg>OptHedging</pkg>
     <pkg>OptionPricing</pkg>
     <pkg>pa</pkg>
