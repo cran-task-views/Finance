@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2018-01-24</version>
+  <version>2018-02-22</version>
   
   <info>
     <p>
@@ -364,6 +364,9 @@
       <li>The <pkg>PortfolioOptim</pkg> can solve both small and large
           sample portfolio optimization.
       </li>
+      <li>The <pkg>estudy2</pkg> package implements most commonly used
+          parametric and nonparametric event-study methodology tests.
+      </li>
     </ul>
 
     <p>
@@ -587,6 +590,7 @@
     <pkg>dyn</pkg>
     <pkg>dynlm</pkg>
     <pkg>ESG</pkg>
+    <pkg>estudy2</pkg>
     <pkg>factorstochvol</pkg>    
     <pkg>fame</pkg>
     <pkg>FatTailsR</pkg>
