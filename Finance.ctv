@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2018-04-09</version>
+  <version>2018-05-02</version>
   
   <info>
     <p>
@@ -306,9 +306,6 @@
       <li> The <pkg>credule</pkg> package is another pricer for credit
       default swaps.
       </li>
-      <li> The <pkg>covmat</pkg> package provides several different methods
-        for computing covariance matrices.
-      </li>
       <li> The <pkg>obAnalytics</pkg> package analyses and visualizes
         information from events in limit order book data.
       </li>
@@ -587,7 +584,6 @@
     <pkg>ccgarch</pkg>
     <pkg>ChainLadder</pkg>
     <pkg>copula</pkg>
-    <pkg>covmat</pkg>
     <pkg>CreditMetrics</pkg>
     <pkg>credule</pkg>
     <pkg>crp.CSFP</pkg>
