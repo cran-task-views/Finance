@@ -364,6 +364,9 @@
       <li>The <pkg>estudy2</pkg> package implements most commonly used
           parametric and nonparametric event-study methodology tests.
       </li>
+      <li>The <pkg>DtD</pkg> package computes the <em>distance to
+          default</em> per Merton's model.
+      </li>
     </ul>
 
     <p>
@@ -593,6 +596,7 @@
     <pkg>dlm</pkg>
     <pkg>Dowd</pkg>    
     <pkg>dse</pkg>
+    <pkg>DtD</pkg>
     <pkg>dyn</pkg>
     <pkg>dynlm</pkg>
     <pkg>ESG</pkg>
