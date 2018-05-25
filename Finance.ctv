@@ -649,7 +649,6 @@
     <pkg>maRketSim</pkg>
     <pkg>MarkowitzR</pkg>
     <pkg>matchingMarkets</pkg>
-    <pkg>MSBVAR</pkg>
     <pkg>MSGARCH</pkg>
     <pkg>mvtnorm</pkg>
     <pkg>NetworkRiskMeasures</pkg>
