@@ -191,9 +191,6 @@
       <li>The <pkg>TTR</pkg> contains functions to construct technical
           trading rules in R.
       </li>
-      <li>The <pkg>financial</pkg> package can compute present values, cash
-	  flows and other simple finance calculations.
-      </li>
       <li>The <pkg>sde</pkg> package provides simulation and inference functionality
           for stochastic differential equations.
       </li>
@@ -604,7 +601,6 @@
     <pkg>fame</pkg>
     <pkg>FatTailsR</pkg>
     <pkg>fgac</pkg>
-    <pkg>financial</pkg>
     <pkg priority="core">fAssets</pkg>
     <pkg priority="core">fBasics</pkg>
     <pkg priority="core">fBonds</pkg>
