@@ -347,10 +347,6 @@
           continuous-time models.
       </li>
       <li>
-          The <pkg>rpgm</pkg> package offers fast simulation of normal and
-          exponential random variables and stochastic differential equations.
-      </li>
-      <li>
           The <pkg>BLModel</pkg> package computes the posterior distribution
           in a Black-Litterman model from a prior distribution given by asset
           returns and continuous distribution of views given by an external function.
@@ -695,7 +691,6 @@
     <pkg>rmgarch</pkg> 
     <pkg>RND</pkg>
     <pkg>rpatrec</pkg>    
-    <pkg>rpgm</pkg>    
     <pkg>RQuantLib</pkg>
     <pkg priority="core">rugarch</pkg> 
     <pkg>rwt</pkg> 
