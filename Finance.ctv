@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2020-03-01</version>
+  <version>2020-03-25</version>
 
   <info>
     <p>
@@ -56,7 +56,7 @@
       <li>For the linear model, a variety of regression diagnostic tests
         are provided by the <pkg>car</pkg>, <pkg>lmtest</pkg>,
         <pkg>strucchange</pkg>, <pkg>urca</pkg>, and <pkg>sandwich</pkg> packages.
-	The <pkg>Rcmdr</pkg> and <pkg>Zelig</pkg> packages provide user
+	The <pkg>Rcmdr</pkg> package provide user
 	interfaces that may be of interest as well.
       </li>
     </ul>
@@ -736,7 +736,6 @@
     <pkg>YieldCurve</pkg>
     <pkg>XBRL</pkg>
     <pkg priority="core">xts</pkg>
-    <pkg>Zelig</pkg>
     <pkg priority="core">zoo</pkg>
   </packagelist>
 
