@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2020-03-26</version>
+  <version>2020-04-14</version>
 
   <info>
     <p>
@@ -211,10 +211,6 @@
 	  (GMM) estimations function that are often used when estimating the
 	  parameters of the moment conditions implied by an asset pricing
 	  model.
-      </li>
-      <li> The <pkg>tawny</pkg> package contains estimator based on random
-	  matrix theory as well as shrinkage methods to remove sampling noise
-	  when estimating sample covariance matrices.
       </li>
       <li> The <pkg>BurStFin</pkg> and <pkg>BurStMisc</pkg> package has a collection of
           function for Finance including the estimation of covariance
@@ -718,7 +714,6 @@
     <pkg>tseriesChaos</pkg>
     <pkg>tsfa</pkg>
     <pkg>TTR</pkg>
-    <pkg>tawny</pkg>
     <pkg>tidyquant</pkg>
     <pkg priority="core">timeDate</pkg>
     <pkg priority="core">timeSeries</pkg>
