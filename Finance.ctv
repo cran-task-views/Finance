@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2020-07-02</version>
+  <version>2020-07-17</version>
 
   <info>
     <p>
@@ -179,8 +179,7 @@
           and other utilities.
       </li>
       <li>The <pkg>portfolio</pkg> package contains
-          classes for equity portfolio management; the
-          <pkg>portfolioSim</pkg> builds a related simulation framework.
+          classes for equity portfolio management.
           The <pkg>backtest</pkg> offers tools to
 	  explore portfolio-based hypotheses about financial instruments.
 	  The <pkg>pa</pkg> package offers performance attribution
@@ -668,7 +667,6 @@
     <pkg>portfolio</pkg>
     <pkg>PortfolioEffectHFT</pkg>
     <pkg>PortfolioOptim</pkg>
-    <pkg>portfolioSim</pkg>
     <pkg>PortRisk</pkg>
     <pkg>qrmdata</pkg>
     <pkg>qrmtools</pkg>
