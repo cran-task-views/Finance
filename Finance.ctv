@@ -178,9 +178,7 @@
           quantitative modelling in finance as well as data acquisition, plotting
           and other utilities.
       </li>
-      <li>The <pkg>portfolio</pkg> package contains
-          classes for equity portfolio management.
-          The <pkg>backtest</pkg> offers tools to
+      <li>The <pkg>backtest</pkg> offers tools to
 	  explore portfolio-based hypotheses about financial instruments.
 	  The <pkg>pa</pkg> package offers performance attribution
 	  functionality for equity portfolios.
@@ -664,7 +662,6 @@
     <pkg>pbo</pkg>
     <pkg priority="core">PerformanceAnalytics</pkg>
     <pkg>pinbasic</pkg>
-    <pkg>portfolio</pkg>
     <pkg>PortfolioEffectHFT</pkg>
     <pkg>PortfolioOptim</pkg>
     <pkg>PortRisk</pkg>
