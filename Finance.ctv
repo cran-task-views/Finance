@@ -4,7 +4,7 @@
   <name>Finance</name>
   <topic>Empirical Finance</topic>
   <maintainer email="Dirk.Eddelbuettel@R-project.org">Dirk Eddelbuettel</maintainer>
-  <version>2021-06-06</version>
+  <version>2021-07-22</version>
 
   <info>
     <p>
@@ -371,6 +371,10 @@
       <li>
         The <pkg>AssetCorr</pkg> package estimates intra- and inter-cohort correlations from default data in a Vasicek credit portfolio model. 
       </li>
+      <li>The <pkg>ichimoku</pkg> package provides tools for creating and visualising Ichimoku Kinko Hyo strategies.
+	  Additionally provides an interface to the OANDA fxTrade API for retrieving historical and live streaming price data for
+	  major currencies, metals, commodities, government bonds and stock indices (free but requires registration).
+      </li>
     </ul> 
 
     <p>
@@ -662,6 +666,7 @@
     <pkg>GUIDE</pkg>
     <pkg>highfrequency</pkg>
     <pkg>IBrokers</pkg>
+    <pkg>ichimoku</pkg>
     <pkg>InfoTrad</pkg>
     <pkg>lgarch</pkg>
     <pkg>lifecontingencies</pkg>
