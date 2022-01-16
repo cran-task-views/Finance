@@ -85,6 +85,8 @@ submitting an issue or pull request in the GitHub repository linked above.
     simulate, and forecast various Markov-Switching GARCH processes.
 -   The `r pkg("DriftBurstHypothesis")` package estimates a t-test statistics for the explosive
     drift burst hypothesis (Christensen, Oomen and Reno, 2018).
+-   Package `r pkg("lmForc")` various in-sample, out-of-sample, pseudo-out-of-sample and benchmark
+    linear model forecast tests.
 
 ### Finance
 
@@ -275,6 +277,9 @@ submitting an issue or pull request in the GitHub repository linked above.
     rating models (PD, LGD, EAD) development.
 -   The `r pkg("etrm")` package contains a collection of functions to perform core tasks within
     energy trading and risk management (ETRM).
+-   Package `r pkg("ufRisk")` offers multiple Value at Risk and Expected Shortfall measures from both
+    parametric and semiparametrics models.
+
 
 ### Books
 
