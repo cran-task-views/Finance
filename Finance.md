@@ -12,16 +12,20 @@ topic.
 
 Besides these packages, a very wide variety of functions suitable for empirical work in Finance is
 provided by both the basic R system (and its set of recommended core packages), and a number of
-other packages on the Comprehensive R Archive Network (CRAN). Consequently, several of the other
-CRAN Task Views may contain suitable packages, in particular the `r view("Econometrics")`, `r
-view("Optimization")`, `r view("Robust")`, and `r view("TimeSeries")` Task Views.
+other packages on the [Comprehensive R Archive Network
+(CRAN)](https://cran.r-project.org). Consequently, several of the other CRAN Task Views may contain
+suitable packages, in particular the `r view("Econometrics")`, `r view("Optimization")`, `r
+view("Robust")`, and `r view("TimeSeries")` Task Views.
 
 The `ctv` package supports these Task Views. Its functions `install.views` and `update.views` allow,
 respectively, installation or update of packages from a given Task View; the option `coreOnly` can
 restrict operations to packages labeled as *core* below.
 
-Contributions are always welcome and encouraged, either via e-mail to the maintainer or by
-submitting an issue or pull request in the GitHub repository linked above.
+Contributions are always welcome and encouraged, either via [e-mail to the
+maintainer](mailto:dirk.eddelbuettel@r-project.org) or by submitting an issue or pull request in the
+GitHub repository linked above. See the [Contributing
+page](https://github.com/cran-task-views/ctv/blob/main/Contributing.md) in the [CRAN Task
+Views](https://github.com/cran-task-views) repo for details.
 
 ### Standard regression models
 
