@@ -3,7 +3,7 @@ name: Finance
 topic: Empirical Finance
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2022-01-16
+version: 2022-03-07
 source: https://github.com/cran-task-views/Finance/
 ---
 
@@ -235,7 +235,6 @@ Views](https://github.com/cran-task-views) repo for details.
     (2005, 2015, "Quantitative Risk Management: Concepts, Techniques,
     Tools")](https://press.princeton.edu/books/hardcover/9780691166278/quantitative-risk-management).
 -   The Task View `r view("ExtremeValue")` regroups a number of relevant packages.
--   The packages `r pkg("CreditMetrics")` provides function for modelling credit risks.
 -   The `r pkg("mvtnorm")` package provides code for multivariate Normal and t-distributions.
 -   The package `r pkg("nvmix")` provides functionality for multivariate normal variance mixtures
     (including normal and t for non-integer degrees of freedom).
