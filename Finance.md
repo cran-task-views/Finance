@@ -327,7 +327,6 @@ Views](https://github.com/cran-task-views) repo for details.
 ### Links
 -   [Rmetrics contains a wealth of R code for Finance](http://www.rmetrics.org)
 -   [Quantlib is a C++ library for quantitative finance](http://www.quantlib.org)
--   [Open-source textbook "Tidy Finance with R" provides a codebase for many applications in empirical finance](http://www.tidy-finance.org//)
 -   [Documentation for the Bloomberg API accessed by Rblpapi](http://www.bloomberglabs.com//)
 -   [Mailing list: R Special Interest Group Finance](https://stat.ethz.ch/mailman/listinfo/R-SIG-Finance/)
 -   [MSCI indexes data](http://www.msci.com/)
@@ -337,3 +336,4 @@ Views](https://github.com/cran-task-views) repo for details.
 -   [Eric Zivot](http://faculty.washington.edu/ezivot/splus.htm)
 -   [R Code for Ruppert's 'Statistics and Finance'](http://christopherggreen.github.io/RuppertStatisticsFinance2004/)
 -   [Guy Yollin](http://www.r-programming.org/papers)
+-   [Textbook "Tidy Finance with R" with many empirical finance applications](http://www.tidy-finance.org//)
