@@ -3,7 +3,7 @@ name: Finance
 topic: Empirical Finance
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2023-04-07
+version: 2023-04-18
 source: https://github.com/cran-task-views/Finance/
 ---
 
@@ -146,8 +146,6 @@ Views](https://github.com/cran-task-views) repo for details.
     hedging strategy.
 -   The `r pkg("markovchain")` package provides functionality to easily handle and analyse discrete
     Markov chains.
--   The `r pkg("fHMM")` package implements hidden Markov models and their hierarchical extension
-    for the detection and characterization of financial market regimes.
 -   The `r pkg("tvm")` package models provides functions for time value of money such as cashflows
     and yield curves.
 -   The `r pkg("MarkowitzR")` package provides functions to test the statistical significance of
@@ -217,6 +215,8 @@ Views](https://github.com/cran-task-views) repo for details.
     minimum variance portfolio.
 -   The `r pkg("SVDNF")` package implements a discrete nonlinear filter to find filtering distribution
     and maximum likelihood parameter estimates for stochastic volatility models with jumps.
+-   The `r pkg("fHMM")` package implements hidden Markov models and their hierarchical extension
+    for the detection and characterization of financial market regimes.
 
 
 ### Risk management
