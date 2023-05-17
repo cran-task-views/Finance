@@ -3,7 +3,7 @@ name: Finance
 topic: Empirical Finance
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2023-05-02
+version: 2023-05-16
 source: https://github.com/cran-task-views/Finance/
 ---
 
@@ -314,7 +314,7 @@ Views](https://github.com/cran-task-views) repo for details.
     schedules, and can check for business in different locales.
 -   Data from Kenneth French's website can be downloaded with package `r pkg("frenchdata")`. 
     Individual datasets can also be downloaded with function `French` in package `r pkg("NMOF")`.
-
+-   Exchange data can be accessed (with a free API subscription) via package `r pkg("freecurrencyapi")`.
 
 
 ### Links
