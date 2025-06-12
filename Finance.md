@@ -3,7 +3,7 @@ name: Finance
 topic: Empirical Finance
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2025-05-07
+version: 2025-06-12
 source: https://github.com/cran-task-views/Finance/
 ---
 
@@ -66,7 +66,7 @@ Views](https://github.com/cran-task-views) repo for details.
     of the mean and log-volatility of a log-ARCH-X model. The `r pkg("lgarch")` package can estimate
     and fit log-GARCH models. The `r pkg("garchx")` package estimate GARCH models with leverage and
     external covariates. The `r pkg("bmgarch")` package fits several multivariate GARCH models in a
-    Bayesian setting. 
+    Bayesian setting. The `r pkg("fEGarch")` package fits a variety of EGARCH models.
 -   Unit root and cointegration tests are provided by `r pkg("tseries")`, and `r pkg("urca")`. The
     Rmetrics packages `r pkg("timeSeries", priority = "core")` and `r pkg("fMultivar", priority =
     "core")` contain a number of estimation functions for ARMA, GARCH, long memory models, unit
@@ -157,8 +157,6 @@ Views](https://github.com/cran-task-views) repo for details.
     order book data.
 -   The `r pkg("derivmkts")` package adds a set of pricing and expository functions useful in
     teaching derivatives markets.
--   The `r pkg("ragtop")` package prices equity derivatives under an extension to Black and Scholes
-    supporting default under a power-law link price and hazard rate.
 -   The `r pkg("InfoTrad")` packages estimates PIN and extends it to different factorization and
     estimation algorithms.
 -   The `r pkg("FinancialMath")` package contains financial math and derivatives pricing functions
