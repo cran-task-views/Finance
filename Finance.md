@@ -3,7 +3,7 @@ name: Finance
 topic: Empirical Finance
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2025-09-23
+version: 2025-10-23
 source: https://github.com/cran-task-views/Finance/
 ---
 
@@ -121,6 +121,7 @@ Views](https://github.com/cran-task-views) repo for details.
 -   The `r pkg("PerformanceAnalytics", priority = "core")` package contains a large number of
     functions for portfolio performance calculations and risk management.
 -   The `r pkg("TTR")` contains functions to construct technical trading rules in R.
+-   The `r pkg("talib")` is a wrapper of TA-Lib, and provides candlestick patterns and other indicators for Technical Analysis.
 -   The `r pkg("sde")` package provides simulation and inference functionality for stochastic
     differential equations.
 -   The `r pkg("vrtest")` package contains a number of variance ratio tests for the weak-form of the
