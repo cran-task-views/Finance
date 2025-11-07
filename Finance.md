@@ -310,8 +310,6 @@ Views](https://github.com/cran-task-views) repo for details.
     LFT ) from the Tesouro Direto website.
 -   Package `r pkg("qlcal")` offers QuantLib-based exchange and business calendars for over sixty
     country or exchange settings.
--   Package `r pkg("tind")` can compute with different time indices: years, quarters, months, ISO
-    8601 weeks, dates, time of day, date-time, and arbitrary integer/numeric indices.
 -   Data from Kenneth French's website can be downloaded with package `r pkg("frenchdata")`. 
     Individual datasets can also be downloaded with function `French` in package `r pkg("NMOF")`.
 -   Exchange data can be accessed (with a free API subscription) via package `r pkg("freecurrencyapi")`.
