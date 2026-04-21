@@ -119,6 +119,7 @@ Views](https://github.com/cran-task-views) repo for details.
 -   The `r pkg("PerformanceAnalytics", priority = "core")` package contains a large number of
     functions for portfolio performance calculations and risk management.
 -   The `r pkg("TTR")` contains functions to construct technical trading rules in R.
+-   The `r pkg("talib")` package wraps TA-Lib for technical analysis and candlestick pattern recognition.
 -   The `r pkg("sde")` package provides simulation and inference functionality for stochastic
     differential equations.
 -   The `r pkg("vrtest")` package contains a number of variance ratio tests for the weak-form of the
