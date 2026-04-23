@@ -3,7 +3,7 @@ name: Finance
 topic: Empirical Finance
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2026-03-28
+version: 2026-04-23
 source: https://github.com/cran-task-views/Finance/
 ---
 
@@ -205,7 +205,11 @@ Views](https://github.com/cran-task-views) repo for details.
 -   The `r pkg("cryptoQuotes")` package provides a streamlined access to cryptocurrency OHLC-V
     market data and sentiment indicators with granularity varying from seconds to months.
 -   The `r pkg("yieldcurves")` package implements yield curve fitting, analysis, and decomposition.
-    
+-   The `r pkg("finlabR")` package offers a complete suite of tools for portfolio construction and
+    risk analytics.
+-   The `r pkg("talib")` package provides an interface to the TA-LIB library of technical analysis
+    routines. 
+
 ### Risk management
 
 -   The packages `r pkg("qrmtools")` and `r pkg("qrmdata")` provide tools and data for standard
