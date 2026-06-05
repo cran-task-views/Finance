@@ -3,7 +3,7 @@ name: Finance
 topic: Empirical Finance
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2026-05-04
+version: 2026-06-05
 source: https://github.com/cran-task-views/Finance/
 ---
 
@@ -177,7 +177,6 @@ Views](https://github.com/cran-task-views) repo for details.
     return in long-horizon events.
 -   The `r pkg("simfinapi")` package provides R access to [SimFin](https://SimFin.com) fundamental
     financial statement data (given an API key).
--   The `r pkg("NFCP")` package models commodity prices via an n-factor term structure estimation.
 -   The `r pkg("LSMRealOptions")` package uses least-squares Monte Carlo to value American and Real
     options.
 -   The `r pkg("greeks")` package calculate sensitivities of financial option prices for European
