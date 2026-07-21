@@ -3,7 +3,7 @@ name: Finance
 topic: Empirical Finance
 maintainer: Dirk Eddelbuettel
 email: Dirk.Eddelbuettel@R-project.org
-version: 2026-06-05
+version: 2026-07-21
 source: https://github.com/cran-task-views/Finance/
 ---
 
@@ -177,8 +177,6 @@ Views](https://github.com/cran-task-views) repo for details.
     return in long-horizon events.
 -   The `r pkg("simfinapi")` package provides R access to [SimFin](https://SimFin.com) fundamental
     financial statement data (given an API key).
--   The `r pkg("LSMRealOptions")` package uses least-squares Monte Carlo to value American and Real
-    options.
 -   The `r pkg("greeks")` package calculate sensitivities of financial option prices for European
     and Asian and American options in the Black Scholes model.
 -   The `r pkg("RTL")` (Risk Tool Library) package offers a collection of functions and metadata to
@@ -291,9 +289,6 @@ Views](https://github.com/cran-task-views) repo for details.
     highfrequency trades and quotes data and enables users to calculate various liquidity measures,
     estimate and forecast volatility, and investigate microstructure noise and intraday periodicity.
 -   The `r pkg("bizdays")` package compute business days if provided a list of holidays.
--   The `r pkg("TAQMNGR")` package manages tick-by-tick (equity) transaction data performing
-    'cleaning', 'aggregation' and 'import' where cleaning and aggregation are performed according to
-    Brownlees and Gallo (2006).
 -   The `r pkg("Rblpapi")` package offers efficient access to the Bloomberg API and allows `bdp`,
     `bdh`, and `bds` queries as well as data retrieval both in (regular time-)bars and ticks (albeit
     without subsecond resolution).
